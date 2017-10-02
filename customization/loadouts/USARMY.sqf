@@ -613,6 +613,7 @@
 		["ACE_packingBandage", 2, "uniform"] call FNC_AddItem;
 		["ACE_quikclot", 2, "uniform"] call FNC_AddItem;
 		["ACE_tourniquet", 1] call FNC_AddItem;
+        ["ACRE_PRC148",1] call FNC_AddItem;
 
 		["ItemMap"] call FNC_AddItem;
 		["ItemCompass"] call FNC_AddItem;
