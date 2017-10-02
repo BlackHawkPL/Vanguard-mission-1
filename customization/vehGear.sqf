@@ -24,7 +24,6 @@ switch (_type) do {
 		["rhs_mag_m18_purple", 5] call FNC_AddItemVehicle;
 		["rhs_mag_m18_yellow", 5] call FNC_AddItemVehicle;
 
-		[_vehicle,"usm_pack_m5_medic",1] call FNC_assignMedicBagCargo;
 
 	};
 
@@ -43,7 +42,6 @@ switch (_type) do {
 		["ToolKit",1] call FNC_AddItemVehicle;
 		["ACE_wirecutter",1] call FNC_AddItemVehicle;
 
-		[_vehicle,"usm_pack_m5_medic",1] call FNC_assignMedicBagCargo;
 
 	};
 
@@ -55,7 +53,6 @@ switch (_type) do {
 		["rhs_fim92_mag", 12] call FNC_AddItemVehicle;
 		["rhsusf_assault_eagleaiii_ocp", 6] call FNC_AddItemVehicle;
 
-		[_vehicle,"usm_pack_m5_medic",1] call FNC_assignMedicBagCargo;
 
 	};
 
@@ -67,7 +64,6 @@ switch (_type) do {
 		["rhs_mag_9k38_rocket", 12] call FNC_AddItemVehicle;
 		["rhs_assault_umbts", 6] call FNC_AddItemVehicle;
 
-		[_vehicle,"rhs_medic_bag",1] call FNC_assignMedicBagCargo;
 
 	};
 
@@ -80,7 +76,6 @@ switch (_type) do {
 		["UK3CB_BAF_1Rnd_60mm_Mo_Smoke_White", 25] call FNC_AddItemVehicle;
 		["rhsusf_assault_eagleaiii_ocp", 5] call FNC_AddItemVehicle;
 
-		[_vehicle,"usm_pack_m5_medic",1] call FNC_assignMedicBagCargo;
 
 	};
 
@@ -93,7 +88,6 @@ switch (_type) do {
 		["UK3CB_BAF_1Rnd_60mm_Mo_Smoke_White", 25] call FNC_AddItemVehicle;
 		["rhs_assault_umbts", 5] call FNC_AddItemVehicle;
 
-		[_vehicle,"rhs_medic_bag",1] call FNC_assignMedicBagCargo;
 
 	};
 
@@ -112,7 +106,6 @@ switch (_type) do {
 		["ToolKit",1] call FNC_AddItemVehicle;
 		["rhs_assault_umbts",2] call FNC_AddItemVehicle;
 
-		[_vehicle,"rhs_medic_bag",1] call FNC_assignMedicBagCargo;
     };
 
 	case "TANK": {
@@ -123,20 +116,17 @@ switch (_type) do {
 		["rhs_mag_an_m8hc", 10] call FNC_AddItemVehicle;
 		["rhs_assault_umbts", 3] call FNC_AddItemVehicle;
 
-		[_vehicle,"rhs_medic_bag",1] call FNC_assignMedicBagCargo;
 	};
 
 	case "RU_HELI": {
 
 		_vehicle call FNC_RemoveAllVehicleGear;
 
-		[_vehicle,"rhs_medic_bag",1] call FNC_assignMedicBagCargo;
 	};
 
 	case "US_HELI": {
 
 		_vehicle call FNC_RemoveAllVehicleGear;
 
-		[_vehicle,"usm_pack_m5_medic",1] call FNC_assignMedicBagCargo;
 	};
 };
