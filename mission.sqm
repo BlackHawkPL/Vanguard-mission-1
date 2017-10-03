@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=58;
+		nextID=62;
 	};
 	class Camera
 	{
-		pos[]={18526.178,109.64196,11803.947};
-		dir[]={-0.72873956,-0.64686173,-0.2253354};
-		up[]={-0.61801213,0.76253146,-0.19109263};
-		aside[]={-0.29544476,8.06147e-007,0.95547825};
+		pos[]={18474.801,105.06835,11795.11};
+		dir[]={-0.5555566,-0.82297289,-0.11974999};
+		up[]={-0.80445004,0.56806815,-0.17339465};
+		aside[]={-0.21073309,1.112232e-006,0.97765833};
 	};
 };
 binarizationWanted=0;
@@ -9778,26 +9778,26 @@ class Mission
 					side="East";
 					class Entities
 					{
-						items=8;
+						items=3;
 						class Item0
 						{
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={18461.289,96.703423,11789.366};
-								angles[]={6.2671809,4.3689256,0.071872659};
+								position[]={18470.707,97.743233,11792.734};
+								angles[]={0.02799508,4.3689256,0.023998277};
 							};
 							side="East";
 							flags=6;
 							class Attributes
 							{
-								rank="SERGEANT";
-								init="call{[this, ""RU_SL"", ""AKATSIYA 1""] call FNC_GearScript; [this, ""ACRE_PRC343"", 2, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
-								description="Squad Leader | BMP Commander @AKATSIYA 1";
+								rank="LIEUTENANT";
+								init="call{[this, ""RU_PL"", ""AKATSIYA 0""] call FNC_GearScript; [this, ""ACRE_PRC343"", 1, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
+								description="Platoon Leader @AKATSIYA 0";
 								isPlayable=1;
 							};
-							id=433;
-							type="rhs_msv_emr_sergeant";
+							id=378;
+							type="rhs_msv_emr_officer";
 							class CustomAttributes
 							{
 								class Attribute0
@@ -9903,20 +9903,20 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={18462.57,96.786034,11788.762};
-								angles[]={6.2671809,4.3689256,0.071872659};
+								position[]={18471.986,97.790894,11792.129};
+								angles[]={0.02799508,4.3689256,0.023998277};
 							};
 							side="East";
 							flags=4;
 							class Attributes
 							{
-								rank="CORPORAL";
-								init="call{[this, ""RU_BMPG"", ""AKATSIYA 1""] call FNC_GearScript; [this, ""ACRE_PRC343"", 2, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
-								description="BMP Gunner";
+								rank="SERGEANT";
+								init="call{[this, ""RU_PSGT"", ""AKATSIYA 0""] call FNC_GearScript; [this, ""ACRE_PRC343"", 1, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
+								description="Platoon Sergeant";
 								isPlayable=1;
 							};
-							id=436;
-							type="rhs_msv_emr_crew";
+							id=379;
+							type="rhs_msv_emr_sergeant";
 							class CustomAttributes
 							{
 								class Attribute0
@@ -9940,25 +9940,6 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"STRING"
-												};
-											};
-											value="true";
-										};
-									};
-								};
-								class Attribute2
-								{
 									property="speaker";
 									expression="_this setspeaker _value;";
 									class Value
@@ -9976,7 +9957,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute3
+								class Attribute2
 								{
 									property="pitch";
 									expression="_this setpitch _value;";
@@ -9995,10 +9976,10 @@ class Mission
 										};
 									};
 								};
-								class Attribute4
+								class Attribute3
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -10010,11 +9991,11 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
-								nAttributes=5;
+								nAttributes=4;
 							};
 						};
 						class Item2
@@ -10022,19 +10003,20 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={18461.896,96.793823,11790.645};
-								angles[]={6.2232509,4.3689256,0.071872659};
+								position[]={18471.313,97.722,11794.013};
+								angles[]={0.02799508,4.3689256,0.023998277};
 							};
 							side="East";
 							flags=4;
 							class Attributes
 							{
-								init="call{[this, ""RU_BMPD"", ""AKATSIYA 1""] call FNC_GearScript; [this, ""ACRE_PRC343"", 2, ""LEFT""] call FNC_SetRadio;}";
-								description="BMP Driver";
+								rank="CORPORAL";
+								init="call{[this, ""RU_MKS"", ""AKATSIYA 0""] call FNC_GearScript; [this, ""ACRE_PRC343"", 1, ""LEFT""] call FNC_SetRadio;}";
+								description="Platoon Marksman";
 								isPlayable=1;
 							};
-							id=437;
-							type="rhs_msv_emr_crew";
+							id=499;
+							type="rhs_msv_emr_marksman";
 							class CustomAttributes
 							{
 								class Attribute0
@@ -10135,6 +10117,417 @@ class Mission
 								nAttributes=5;
 							};
 						};
+					};
+					class Attributes
+					{
+					};
+					id=364;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="groupID";
+							expression="[_this, _value] call CBA_fnc_setCallsign";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Akatsiya 0";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="acex_headless_blacklist";
+							expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item10
+				{
+					dataType="Group";
+					side="East";
+					class Entities
+					{
+						items=8;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={18461.289,96.703423,11789.366};
+								angles[]={6.2671809,4.3689256,0.071872659};
+							};
+							side="East";
+							flags=6;
+							class Attributes
+							{
+								rank="SERGEANT";
+								init="call{[this, ""RU_SL"", ""AKATSIYA 1""] call FNC_GearScript; [this, ""ACRE_PRC343"", 2, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
+								description="Squad Leader | BMP Commander @AKATSIYA 1";
+								isPlayable=1;
+							};
+							id=433;
+							type="rhs_msv_emr_sergeant";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="acex_headless_blacklist";
+									expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=0;
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="true";
+										};
+									};
+								};
+								class Attribute2
+								{
+									property="speaker";
+									expression="_this setspeaker _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="Male01PER";
+										};
+									};
+								};
+								class Attribute3
+								{
+									property="pitch";
+									expression="_this setpitch _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=0.99000001;
+										};
+									};
+								};
+								class Attribute4
+								{
+									property="face";
+									expression="_this setface _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+								};
+								nAttributes=5;
+							};
+						};
+						class Item1
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={18462.57,96.786034,11788.762};
+								angles[]={6.2671809,4.3689256,0.071872659};
+							};
+							side="East";
+							flags=4;
+							class Attributes
+							{
+								rank="CORPORAL";
+								init="call{[this, ""RU_BMPG"", ""AKATSIYA 1""] call FNC_GearScript; [this, ""ACRE_PRC343"", 2, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
+								description="BMP Gunner";
+								isPlayable=1;
+							};
+							id=436;
+							type="rhs_msv_emr_crew";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="acex_headless_blacklist";
+									expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=0;
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="face";
+									expression="_this setface _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+								};
+								class Attribute2
+								{
+									property="speaker";
+									expression="_this setspeaker _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="Male01PER";
+										};
+									};
+								};
+								class Attribute3
+								{
+									property="pitch";
+									expression="_this setpitch _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=1.01;
+										};
+									};
+								};
+								class Attribute4
+								{
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="true";
+										};
+									};
+								};
+								nAttributes=5;
+							};
+						};
+						class Item2
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={18461.896,96.793823,11790.645};
+								angles[]={6.2232509,4.3689256,0.071872659};
+							};
+							side="East";
+							flags=4;
+							class Attributes
+							{
+								init="call{[this, ""RU_BMPD"", ""AKATSIYA 1""] call FNC_GearScript; [this, ""ACRE_PRC343"", 2, ""LEFT""] call FNC_SetRadio;}";
+								description="BMP Driver";
+								isPlayable=1;
+							};
+							id=437;
+							type="rhs_msv_emr_crew";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="acex_headless_blacklist";
+									expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=0;
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="face";
+									expression="_this setface _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+								};
+								class Attribute2
+								{
+									property="speaker";
+									expression="_this setspeaker _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="Male01PER";
+										};
+									};
+								};
+								class Attribute3
+								{
+									property="pitch";
+									expression="_this setpitch _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=0.94999999;
+										};
+									};
+								};
+								class Attribute4
+								{
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="true";
+										};
+									};
+								};
+								nAttributes=5;
+							};
+						};
 						class Item3
 						{
 							dataType="Object";
@@ -10147,6 +10540,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								rank="CORPORAL";
 								init="call{[this, ""RU_EFR"", ""AKATSIYA 1""] call FNC_GearScript; [this, ""ACRE_PRC343"", 2, ""LEFT""] call FNC_SetRadio;}";
 								description="Senior Rifleman";
 								isPlayable=1;
@@ -10176,8 +10570,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -10189,7 +10583,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -10233,8 +10627,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -10246,7 +10640,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -10266,7 +10660,7 @@ class Mission
 							class Attributes
 							{
 								init="call{[this, ""RU_RPG"", ""AKATSIYA 1""] call FNC_GearScript; [this, ""ACRE_PRC343"", 2, ""LEFT""] call FNC_SetRadio;}";
-								description="RPG gunner";
+								description="RPG Gunner";
 								isPlayable=1;
 							};
 							id=488;
@@ -10294,8 +10688,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -10307,7 +10701,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -10351,8 +10745,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -10364,7 +10758,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -10384,7 +10778,7 @@ class Mission
 							class Attributes
 							{
 								init="call{[this, ""RU_RPGASST"", ""AKATSIYA 1""] call FNC_GearScript; [this, ""ACRE_PRC343"", 2, ""LEFT""] call FNC_SetRadio;}";
-								description="RPG assistant";
+								description="RPG Assistant";
 								isPlayable=1;
 							};
 							id=490;
@@ -10412,8 +10806,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -10425,7 +10819,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -10469,8 +10863,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -10482,7 +10876,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -10502,7 +10896,7 @@ class Mission
 							class Attributes
 							{
 								init="call{[this, ""RU_PKP"", ""AKATSIYA 1""] call FNC_GearScript; [this, ""ACRE_PRC343"", 2, ""LEFT""] call FNC_SetRadio;}";
-								description="PKP gunner";
+								description="Machinegunner";
 								isPlayable=1;
 							};
 							id=489;
@@ -10530,8 +10924,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -10543,7 +10937,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -10587,8 +10981,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -10600,7 +10994,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -10754,261 +11148,6 @@ class Mission
 						nAttributes=2;
 					};
 				};
-				class Item10
-				{
-					dataType="Group";
-					side="East";
-					class Entities
-					{
-						items=2;
-						class Item0
-						{
-							dataType="Object";
-							class PositionInfo
-							{
-								position[]={14764.217,17.911438,16678.652};
-								angles[]={0,2.2021341,0};
-							};
-							side="East";
-							flags=6;
-							class Attributes
-							{
-								rank="LIEUTENANT";
-								init="call{[this, ""RU_HELIPILOT"", ""AKULA 1""] call FNC_GearScript; [this, ""ACRE_PRC148"", 1, ""LEFT""] call FNC_SetRadio;}";
-								description="Pilot @AKULA 1";
-								isPlayable=1;
-							};
-							id=465;
-							type="rhs_pilot_combat_heli";
-							class CustomAttributes
-							{
-								class Attribute0
-								{
-									property="acex_headless_blacklist";
-									expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"BOOL"
-												};
-											};
-											value=0;
-										};
-									};
-								};
-								class Attribute1
-								{
-									property="speaker";
-									expression="_this setspeaker _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"STRING"
-												};
-											};
-											value="Male01PER";
-										};
-									};
-								};
-								class Attribute2
-								{
-									property="pitch";
-									expression="_this setpitch _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"SCALAR"
-												};
-											};
-											value=0.99000001;
-										};
-									};
-								};
-								class Attribute3
-								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"STRING"
-												};
-											};
-											value="true";
-										};
-									};
-								};
-								nAttributes=4;
-							};
-						};
-						class Item1
-						{
-							dataType="Object";
-							class PositionInfo
-							{
-								position[]={14763.193,17.911438,16680.641};
-								angles[]={0,2.2021341,0};
-							};
-							side="East";
-							flags=4;
-							class Attributes
-							{
-								rank="CORPORAL";
-								init="call{[this, ""RU_HELIPILOT"", ""AKULA 1""] call FNC_GearScript; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
-								description="Gunner";
-								isPlayable=1;
-							};
-							id=466;
-							type="rhs_pilot_combat_heli";
-							class CustomAttributes
-							{
-								class Attribute0
-								{
-									property="acex_headless_blacklist";
-									expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"BOOL"
-												};
-											};
-											value=0;
-										};
-									};
-								};
-								class Attribute1
-								{
-									property="speaker";
-									expression="_this setspeaker _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"STRING"
-												};
-											};
-											value="Male01PER";
-										};
-									};
-								};
-								class Attribute2
-								{
-									property="pitch";
-									expression="_this setpitch _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"SCALAR"
-												};
-											};
-											value=1.01;
-										};
-									};
-								};
-								class Attribute3
-								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"STRING"
-												};
-											};
-											value="true";
-										};
-									};
-								};
-								nAttributes=4;
-							};
-						};
-					};
-					class Attributes
-					{
-					};
-					id=269;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="groupID";
-							expression="[_this, _value] call CBA_fnc_setCallsign";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="Akula 1";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="acex_headless_blacklist";
-							expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
 				class Item11
 				{
 					dataType="Group";
@@ -11058,8 +11197,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -11071,7 +11210,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -11115,8 +11254,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -11128,7 +11267,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -11177,8 +11316,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -11190,7 +11329,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -11234,8 +11373,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -11247,7 +11386,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -11296,8 +11435,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -11309,7 +11448,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -11353,8 +11492,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -11366,7 +11505,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -11415,8 +11554,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -11428,7 +11567,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -11472,8 +11611,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -11485,7 +11624,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -11505,7 +11644,7 @@ class Mission
 							class Attributes
 							{
 								init="call{[this, ""RU_RPG"", ""AKATSIYA 2""] call FNC_GearScript; [this, ""ACRE_PRC343"", 3, ""LEFT""] call FNC_SetRadio;}";
-								description="RPG gunner";
+								description="RPG Gunner";
 								isPlayable=1;
 							};
 							id=491;
@@ -11533,8 +11672,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -11546,7 +11685,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -11590,8 +11729,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -11603,7 +11742,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -11623,7 +11762,7 @@ class Mission
 							class Attributes
 							{
 								init="call{[this, ""RU_RPGASST"", ""AKATSIYA 2""] call FNC_GearScript; [this, ""ACRE_PRC343"", 3, ""LEFT""] call FNC_SetRadio;}";
-								description="RPG assistant";
+								description="RPG Assistant";
 								isPlayable=1;
 							};
 							id=492;
@@ -11722,7 +11861,7 @@ class Mission
 							class Attributes
 							{
 								init="call{[this, ""RU_PKP"", ""AKATSIYA 2""] call FNC_GearScript; [this, ""ACRE_PRC343"", 3, ""LEFT""] call FNC_SetRadio;}";
-								description="PKP gunner";
+								description="Machinegunner";
 								isPlayable=1;
 							};
 							id=493;
@@ -11750,8 +11889,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -11763,7 +11902,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -11807,8 +11946,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -11820,7 +11959,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -11868,8 +12007,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -11881,7 +12020,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -11925,8 +12064,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -11938,7 +12077,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -12042,8 +12181,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -12055,7 +12194,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -12099,8 +12238,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -12112,7 +12251,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -12161,8 +12300,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -12174,7 +12313,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -12218,8 +12357,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -12231,7 +12370,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -12279,8 +12418,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -12292,7 +12431,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -12336,8 +12475,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -12349,7 +12488,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -12368,6 +12507,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								rank="CORPORAL";
 								init="call{[this, ""RU_EFR"", ""AKATSIYA 3""] call FNC_GearScript; [this, ""ACRE_PRC343"", 4, ""LEFT""] call FNC_SetRadio;}";
 								description="Senior Rifleman";
 								isPlayable=1;
@@ -12397,8 +12537,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -12410,7 +12550,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -12454,8 +12594,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -12467,7 +12607,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -12487,7 +12627,7 @@ class Mission
 							class Attributes
 							{
 								init="call{[this, ""RU_RPG"", ""AKATSIYA 3""] call FNC_GearScript; [this, ""ACRE_PRC343"", 4, ""LEFT""] call FNC_SetRadio;}";
-								description="RPG gunner";
+								description="RPG Gunner";
 								isPlayable=1;
 							};
 							id=496;
@@ -12515,8 +12655,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -12528,7 +12668,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -12572,8 +12712,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -12585,7 +12725,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -12605,7 +12745,7 @@ class Mission
 							class Attributes
 							{
 								init="call{[this, ""RU_RPGASST"", ""AKATSIYA 3""] call FNC_GearScript; [this, ""ACRE_PRC343"", 4, ""LEFT""] call FNC_SetRadio;}";
-								description="RPG assistant";
+								description="RPG Assistant";
 								isPlayable=1;
 							};
 							id=497;
@@ -12704,7 +12844,7 @@ class Mission
 							class Attributes
 							{
 								init="call{[this, ""RU_PKP"", ""AKATSIYA 3""] call FNC_GearScript; [this, ""ACRE_PRC343"", 4, ""LEFT""] call FNC_SetRadio;}";
-								description="PKP gunner";
+								description="Machinegunner";
 								isPlayable=1;
 							};
 							id=498;
@@ -12732,8 +12872,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -12745,7 +12885,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -12789,8 +12929,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -12802,7 +12942,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -13005,8 +13145,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -13018,7 +13158,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -13062,8 +13202,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -13075,7 +13215,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -13124,8 +13264,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -13137,7 +13277,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -13181,8 +13321,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -13194,7 +13334,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -13367,7 +13507,7 @@ class Mission
 							flags=6;
 							class Attributes
 							{
-								rank="LIEUTENANT";
+								rank="SERGEANT";
 								init="call{[this, ""RU_TC"", ""AKATSIYA 5""] call FNC_GearScript; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
 								description="Tank Commander @AKATSIYA 5";
 								isPlayer=1;
@@ -13399,8 +13539,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -13412,7 +13552,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -13456,8 +13596,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -13469,7 +13609,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -13518,8 +13658,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -13531,7 +13671,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -13575,8 +13715,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -13588,7 +13728,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -13637,8 +13777,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -13650,7 +13790,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -13694,8 +13834,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -13707,7 +13847,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -13813,8 +13953,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -13826,7 +13966,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -13870,8 +14010,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -13883,7 +14023,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -13902,14 +14042,13 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								rank="LIEUTENANT";
 								init="call{[this, ""RU_AA"", ""SERPENT""] call FNC_GearScript; [this, ""ACRE_PRC343"", 6, ""LEFT""] call FNC_SetRadio;}";
 								description="Asst. Igla Gunner";
 								isPlayable=1;
 							};
 							id=452;
 							type="rhs_msv_emr_rifleman";
-							atlOffset=1.5258789e-005;
+							atlOffset=7.6293945e-006;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -13933,8 +14072,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -13946,7 +14085,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -13990,8 +14129,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -14003,7 +14142,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -14052,8 +14191,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -14065,7 +14204,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -14109,8 +14248,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -14122,7 +14261,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -14170,8 +14309,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -14183,7 +14322,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -14227,8 +14366,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -14240,7 +14379,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -14259,6 +14398,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								rank="CORPORAL";
 								init="call{[this, ""RU_AA"", ""SERPENT""] call FNC_GearScript; [this, ""ACRE_PRC343"", 6, ""LEFT""] call FNC_SetRadio;}";
 								description="Igla Gunner";
 								isPlayable=1;
@@ -14288,8 +14428,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -14301,7 +14441,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -14345,8 +14485,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -14358,7 +14498,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -14406,8 +14546,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -14419,7 +14559,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -14463,8 +14603,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -14476,7 +14616,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -14551,9 +14691,9 @@ class Mission
 							flags=6;
 							class Attributes
 							{
-								rank="LIEUTENANT";
+								rank="SERGEANT";
 								init="call{[this, ""RU_MRTR_SL"", ""BARGRETS 5""] call FNC_GearScript; [this, ""ACRE_PRC343"", 5, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
-								description="Mortar Squad Leader | BMP Commander @BARGRETS 5";
+								description="Mortar Squad Leader @BARGRETS 5";
 								isPlayable=1;
 							};
 							id=459;
@@ -14581,8 +14721,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -14594,7 +14734,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -14638,8 +14778,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -14651,7 +14791,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -14701,8 +14841,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -14714,7 +14854,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -14758,8 +14898,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -14771,7 +14911,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -14819,8 +14959,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -14832,7 +14972,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -14876,8 +15016,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -14889,7 +15029,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -14939,8 +15079,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -14952,7 +15092,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -14996,8 +15136,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -15009,7 +15149,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -15057,8 +15197,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -15070,7 +15210,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -15114,8 +15254,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -15127,7 +15267,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -15183,829 +15323,6 @@ class Mission
 					};
 				};
 				class Item17
-				{
-					dataType="Group";
-					side="East";
-					class Entities
-					{
-						items=2;
-						class Item0
-						{
-							dataType="Object";
-							class PositionInfo
-							{
-								position[]={14730.217,17.911438,16645.652};
-								angles[]={0,2.2021341,0};
-							};
-							side="East";
-							flags=6;
-							class Attributes
-							{
-								rank="LIEUTENANT";
-								init="call{[this, ""RU_HELIPILOT"", ""AKULA 2""] call FNC_GearScript; [this, ""ACRE_PRC148"", 1, ""LEFT""] call FNC_SetRadio;}";
-								description="Pilot @AKULA 2";
-								isPlayable=1;
-							};
-							id=463;
-							type="rhs_pilot_combat_heli";
-							class CustomAttributes
-							{
-								class Attribute0
-								{
-									property="acex_headless_blacklist";
-									expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"BOOL"
-												};
-											};
-											value=0;
-										};
-									};
-								};
-								class Attribute1
-								{
-									property="speaker";
-									expression="_this setspeaker _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"STRING"
-												};
-											};
-											value="Male01PER";
-										};
-									};
-								};
-								class Attribute2
-								{
-									property="pitch";
-									expression="_this setpitch _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"SCALAR"
-												};
-											};
-											value=0.99000001;
-										};
-									};
-								};
-								class Attribute3
-								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"STRING"
-												};
-											};
-											value="true";
-										};
-									};
-								};
-								nAttributes=4;
-							};
-						};
-						class Item1
-						{
-							dataType="Object";
-							class PositionInfo
-							{
-								position[]={14730,17.911438,16647.051};
-								angles[]={0,2.2021341,0};
-							};
-							side="East";
-							flags=4;
-							class Attributes
-							{
-								rank="CORPORAL";
-								init="call{[this, ""RU_HELIPILOT"", ""AKULA 2""] call FNC_GearScript; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
-								description="Gunner";
-								isPlayable=1;
-							};
-							id=464;
-							type="rhs_pilot_combat_heli";
-							class CustomAttributes
-							{
-								class Attribute0
-								{
-									property="acex_headless_blacklist";
-									expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"BOOL"
-												};
-											};
-											value=0;
-										};
-									};
-								};
-								class Attribute1
-								{
-									property="speaker";
-									expression="_this setspeaker _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"STRING"
-												};
-											};
-											value="Male01PER";
-										};
-									};
-								};
-								class Attribute2
-								{
-									property="pitch";
-									expression="_this setpitch _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"SCALAR"
-												};
-											};
-											value=1.01;
-										};
-									};
-								};
-								class Attribute3
-								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"STRING"
-												};
-											};
-											value="true";
-										};
-									};
-								};
-								nAttributes=4;
-							};
-						};
-					};
-					class Attributes
-					{
-					};
-					id=277;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="groupID";
-							expression="[_this, _value] call CBA_fnc_setCallsign";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="Akula 2";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="acex_headless_blacklist";
-							expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-				class Item18
-				{
-					dataType="Group";
-					side="East";
-					class Entities
-					{
-						items=3;
-						class Item0
-						{
-							dataType="Object";
-							class PositionInfo
-							{
-								position[]={18470.707,97.743233,11792.734};
-								angles[]={0.02799508,4.3689256,0.023998277};
-							};
-							side="East";
-							flags=6;
-							class Attributes
-							{
-								rank="LIEUTENANT";
-								init="call{[this, ""RU_PL"", ""AKATSIYA 0""] call FNC_GearScript; [this, ""ACRE_PRC343"", 1, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
-								description="Platoon Leader @AKATSIYA 0";
-								isPlayable=1;
-							};
-							id=378;
-							type="rhs_msv_emr_officer";
-							class CustomAttributes
-							{
-								class Attribute0
-								{
-									property="acex_headless_blacklist";
-									expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"BOOL"
-												};
-											};
-											value=0;
-										};
-									};
-								};
-								class Attribute1
-								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"STRING"
-												};
-											};
-											value="true";
-										};
-									};
-								};
-								class Attribute2
-								{
-									property="speaker";
-									expression="_this setspeaker _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"STRING"
-												};
-											};
-											value="Male01PER";
-										};
-									};
-								};
-								class Attribute3
-								{
-									property="pitch";
-									expression="_this setpitch _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"SCALAR"
-												};
-											};
-											value=0.99000001;
-										};
-									};
-								};
-								class Attribute4
-								{
-									property="face";
-									expression="_this setface _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"STRING"
-												};
-											};
-											value="";
-										};
-									};
-								};
-								nAttributes=5;
-							};
-						};
-						class Item1
-						{
-							dataType="Object";
-							class PositionInfo
-							{
-								position[]={18471.986,97.790894,11792.129};
-								angles[]={0.02799508,4.3689256,0.023998277};
-							};
-							side="East";
-							flags=4;
-							class Attributes
-							{
-								rank="CORPORAL";
-								init="call{[this, ""RU_PSGT"", ""AKATSIYA 0""] call FNC_GearScript; [this, ""ACRE_PRC343"", 1, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
-								description="Platoon Sergeant";
-								isPlayable=1;
-							};
-							id=379;
-							type="rhs_msv_emr_sergeant";
-							class CustomAttributes
-							{
-								class Attribute0
-								{
-									property="acex_headless_blacklist";
-									expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"BOOL"
-												};
-											};
-											value=0;
-										};
-									};
-								};
-								class Attribute1
-								{
-									property="speaker";
-									expression="_this setspeaker _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"STRING"
-												};
-											};
-											value="Male01PER";
-										};
-									};
-								};
-								class Attribute2
-								{
-									property="pitch";
-									expression="_this setpitch _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"SCALAR"
-												};
-											};
-											value=1.01;
-										};
-									};
-								};
-								class Attribute3
-								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"STRING"
-												};
-											};
-											value="true";
-										};
-									};
-								};
-								nAttributes=4;
-							};
-						};
-						class Item2
-						{
-							dataType="Object";
-							class PositionInfo
-							{
-								position[]={18471.313,97.722,11794.013};
-								angles[]={0.02799508,4.3689256,0.023998277};
-							};
-							side="East";
-							flags=4;
-							class Attributes
-							{
-								init="call{[this, ""RU_MKS"", ""AKATSIYA 0""] call FNC_GearScript; [this, ""ACRE_PRC343"", 1, ""LEFT""] call FNC_SetRadio;}";
-								description="BMP Driver";
-								isPlayable=1;
-							};
-							id=499;
-							type="rhs_msv_emr_marksman";
-							class CustomAttributes
-							{
-								class Attribute0
-								{
-									property="acex_headless_blacklist";
-									expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"BOOL"
-												};
-											};
-											value=0;
-										};
-									};
-								};
-								class Attribute1
-								{
-									property="face";
-									expression="_this setface _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"STRING"
-												};
-											};
-											value="";
-										};
-									};
-								};
-								class Attribute2
-								{
-									property="speaker";
-									expression="_this setspeaker _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"STRING"
-												};
-											};
-											value="Male01PER";
-										};
-									};
-								};
-								class Attribute3
-								{
-									property="pitch";
-									expression="_this setpitch _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"SCALAR"
-												};
-											};
-											value=0.94999999;
-										};
-									};
-								};
-								class Attribute4
-								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"STRING"
-												};
-											};
-											value="true";
-										};
-									};
-								};
-								nAttributes=5;
-							};
-						};
-					};
-					class Attributes
-					{
-					};
-					id=364;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="groupID";
-							expression="[_this, _value] call CBA_fnc_setCallsign";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="Akatsiya 0";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="acex_headless_blacklist";
-							expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-				class Item19
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18515.438,102.93195,11801.246};
-						angles[]={0,4.3689256,0.062587507};
-					};
-					side="Empty";
-					flags=4;
-					class Attributes
-					{
-						lock="UNLOCKED";
-						init="call{[this, ""MRTR_TIGR""] call FNC_VehicleGearScript;}";
-						name="IFV_RECCE_MTR_1";
-					};
-					id=371;
-					type="rhs_tigr_msv";
-					atlOffset=-0.0039978027;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="rhs_decalNumber_type";
-							expression="_this setVariable ['rhs_decalNumber_type', _value];[_this,[['Number', cDecalsTigr4NumberPlaces, _value]]] call rhs_fnc_decalsInit";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="DefaultRed";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="uo_unitDescription";
-							expression="_this setVariable ['uo_unitDescription', _value];";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="true";
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="rhs_decalPlatoon_type";
-							expression="_this setVariable ['rhs_decalPlatoon_type', _value];";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="Platoon";
-								};
-							};
-						};
-						class Attribute3
-						{
-							property="ammoBox";
-							expression="[_this,_value] call bis_fnc_initAmmoBox;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="[[[[""rhs_weap_igla"",""FirstAidKit"",""Medikit""],[1,4,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_mag_9k38_rocket""],[30,3,5,9,20,5,5,2]],[[],[]],[[""rhs_sidor""],[2]]],false]";
-								};
-							};
-						};
-						class Attribute4
-						{
-							property="rhs_decalArmy_type";
-							expression="_this setVariable ['rhs_decalArmy_type', _value];";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="Army";
-								};
-							};
-						};
-						class Attribute5
-						{
-							property="rhs_decalArmy";
-							expression="if(parseNumber _value >= 0)then{ [_this, [ [ 'Label', cDecalsTigrRightArmyPlaces,  _this getVariable ['rhs_decalArmy_type','Army'],call compile _value] ] ] call rhs_fnc_decalsInit};";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="-1";
-								};
-							};
-						};
-						class Attribute6
-						{
-							property="rhs_decalPlatoon";
-							expression="if(parseNumber _value >= 0)then{ [_this, [ [ 'Label', cDecalsTigrRightPlatoonPlaces,  _this getVariable ['rhs_decalPlatoon_type','Army'],call compile _value] ] ] call rhs_fnc_decalsInit};";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="-1";
-								};
-							};
-						};
-						class Attribute7
-						{
-							property="ace_cookoff_enable";
-							expression="if !(_value) then {_this setVariable ['ace_cookoff_enable',_value,true];};";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						nAttributes=8;
-					};
-				};
-				class Item20
 				{
 					dataType="Group";
 					side="East";
@@ -16074,8 +15391,8 @@ class Mission
 								};
 								class Attribute2
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -16087,7 +15404,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -16131,8 +15448,8 @@ class Mission
 								};
 								class Attribute5
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -16144,7 +15461,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -16320,9 +15637,695 @@ class Mission
 						nAttributes=2;
 					};
 				};
+				class Item18
+				{
+					dataType="Group";
+					side="East";
+					class Entities
+					{
+						items=2;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={14764.217,17.911438,16678.652};
+								angles[]={0,2.2021341,0};
+							};
+							side="East";
+							flags=6;
+							class Attributes
+							{
+								rank="CAPTAIN";
+								init="call{[this, ""RU_HELIPILOT"", ""AKULA 1""] call FNC_GearScript; [this, ""ACRE_PRC148"", 1, ""LEFT""] call FNC_SetRadio;}";
+								description="Pilot @AKULA 1";
+								isPlayable=1;
+							};
+							id=465;
+							type="rhs_pilot_combat_heli";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="acex_headless_blacklist";
+									expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=0;
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="speaker";
+									expression="_this setspeaker _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="Male01PER";
+										};
+									};
+								};
+								class Attribute2
+								{
+									property="pitch";
+									expression="_this setpitch _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=0.99000001;
+										};
+									};
+								};
+								class Attribute3
+								{
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="true";
+										};
+									};
+								};
+								nAttributes=4;
+							};
+						};
+						class Item1
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={14763.193,17.911438,16680.641};
+								angles[]={0,2.2021341,0};
+							};
+							side="East";
+							flags=4;
+							class Attributes
+							{
+								rank="LIEUTENANT";
+								init="call{[this, ""RU_HELIPILOT"", ""AKULA 1""] call FNC_GearScript; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
+								description="Gunner";
+								isPlayable=1;
+							};
+							id=466;
+							type="rhs_pilot_combat_heli";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="acex_headless_blacklist";
+									expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=0;
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="speaker";
+									expression="_this setspeaker _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="Male01PER";
+										};
+									};
+								};
+								class Attribute2
+								{
+									property="pitch";
+									expression="_this setpitch _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=1.01;
+										};
+									};
+								};
+								class Attribute3
+								{
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="true";
+										};
+									};
+								};
+								nAttributes=4;
+							};
+						};
+					};
+					class Attributes
+					{
+					};
+					id=269;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="groupID";
+							expression="[_this, _value] call CBA_fnc_setCallsign";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Akula 1";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="acex_headless_blacklist";
+							expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item19
+				{
+					dataType="Group";
+					side="East";
+					class Entities
+					{
+						items=2;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={14730.217,17.911438,16645.652};
+								angles[]={0,2.2021341,0};
+							};
+							side="East";
+							flags=6;
+							class Attributes
+							{
+								rank="CAPTAIN";
+								init="call{[this, ""RU_HELIPILOT"", ""AKULA 2""] call FNC_GearScript; [this, ""ACRE_PRC148"", 1, ""LEFT""] call FNC_SetRadio;}";
+								description="Pilot @AKULA 2";
+								isPlayable=1;
+							};
+							id=463;
+							type="rhs_pilot_combat_heli";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="acex_headless_blacklist";
+									expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=0;
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="speaker";
+									expression="_this setspeaker _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="Male01PER";
+										};
+									};
+								};
+								class Attribute2
+								{
+									property="pitch";
+									expression="_this setpitch _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=0.99000001;
+										};
+									};
+								};
+								class Attribute3
+								{
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="true";
+										};
+									};
+								};
+								nAttributes=4;
+							};
+						};
+						class Item1
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={14730,17.911438,16647.051};
+								angles[]={0,2.2021341,0};
+							};
+							side="East";
+							flags=4;
+							class Attributes
+							{
+								rank="LIEUTENANT";
+								init="call{[this, ""RU_HELIPILOT"", ""AKULA 2""] call FNC_GearScript; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
+								description="Gunner";
+								isPlayable=1;
+							};
+							id=464;
+							type="rhs_pilot_combat_heli";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="acex_headless_blacklist";
+									expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=0;
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="speaker";
+									expression="_this setspeaker _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="Male01PER";
+										};
+									};
+								};
+								class Attribute2
+								{
+									property="pitch";
+									expression="_this setpitch _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=1.01;
+										};
+									};
+								};
+								class Attribute3
+								{
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="true";
+										};
+									};
+								};
+								nAttributes=4;
+							};
+						};
+					};
+					class Attributes
+					{
+					};
+					id=277;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="groupID";
+							expression="[_this, _value] call CBA_fnc_setCallsign";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Akula 2";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="acex_headless_blacklist";
+							expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item20
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={18515.438,102.93195,11801.246};
+						angles[]={0,4.3689256,0.062587507};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						lock="UNLOCKED";
+						init="call{[this, ""MRTR_TIGR""] call FNC_VehicleGearScript;}";
+						name="IFV_RECCE_MTR_1";
+					};
+					id=371;
+					type="rhs_tigr_msv";
+					atlOffset=-0.0039978027;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="rhs_decalNumber_type";
+							expression="_this setVariable ['rhs_decalNumber_type', _value];[_this,[['Number', cDecalsTigr4NumberPlaces, _value]]] call rhs_fnc_decalsInit";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="DefaultRed";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="uo_unitDescription";
+							expression="_this setVariable ['uo_unitDescription', _value];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="true";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="rhs_decalPlatoon_type";
+							expression="_this setVariable ['rhs_decalPlatoon_type', _value];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Platoon";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="ammoBox";
+							expression="[_this,_value] call bis_fnc_initAmmoBox;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="[[[[""rhs_weap_igla"",""FirstAidKit"",""Medikit""],[1,4,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_VOG25"",""rhs_VG40OP_white"",""rhs_GRD40_White"",""rhs_mag_9k38_rocket""],[30,3,5,9,20,5,5,2]],[[],[]],[[""rhs_sidor""],[2]]],false]";
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="rhs_decalArmy_type";
+							expression="_this setVariable ['rhs_decalArmy_type', _value];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Army";
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="rhs_decalArmy";
+							expression="if(parseNumber _value >= 0)then{ [_this, [ [ 'Label', cDecalsTigrRightArmyPlaces,  _this getVariable ['rhs_decalArmy_type','Army'],call compile _value] ] ] call rhs_fnc_decalsInit};";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="-1";
+								};
+							};
+						};
+						class Attribute6
+						{
+							property="rhs_decalPlatoon";
+							expression="if(parseNumber _value >= 0)then{ [_this, [ [ 'Label', cDecalsTigrRightPlatoonPlaces,  _this getVariable ['rhs_decalPlatoon_type','Army'],call compile _value] ] ] call rhs_fnc_decalsInit};";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="-1";
+								};
+							};
+						};
+						class Attribute7
+						{
+							property="ace_cookoff_enable";
+							expression="if !(_value) then {_this setVariable ['ace_cookoff_enable',_value,true];};";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=8;
+					};
+				};
 			};
 			id=53;
-			atlOffset=-24.91481;
+			atlOffset=70.332207;
 		};
 		class Item3
 		{
