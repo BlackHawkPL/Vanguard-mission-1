@@ -2,11 +2,11 @@
 
 switch (side player) do {
 	case west: {
-		#include "briefing_blufor.cpp"
+		#include "briefing_blufor.sqf"
 	};
 
 	case east: {
-		#include "briefing_redfor.cpp"
+		#include "briefing_redfor.sqf"
 	};
 };
 
@@ -54,7 +54,7 @@ There will be a 5 minute set up timer, no elements may move more than 100m from 
 <br/>Everyone envolved in the event planing.
 <br/>Briefing by Max.
 <br/>
-<br/>  <font color='#FFA500'>Mission by Gkenny</font>
+<br/>  <font color='#FFA500'>Mission by TinfoilHate and BlackHawk</font>
 <br/>	This tab shamlessly stolen from Perfk.
 ENDTAB;
 

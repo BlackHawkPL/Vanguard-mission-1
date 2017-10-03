@@ -1,7 +1,6 @@
 case "RU_PL": {
     ["rhs_uniform_msv_emr"] call FNC_AddItem;
     ["rhs_6b23_digi_crewofficer"] call FNC_AddItem;
-    ["rhs_assault_umbts"] call FNC_AddItem;
 
     ["rhs_6b7_1m_emr"] call FNC_AddItem;
 
@@ -23,7 +22,6 @@ case "RU_PL": {
     ["rhs_mag_rgn",1,"uniform"] call FNC_AddItem;
     ["rhs_30Rnd_545x39_7N10_AK",4,"vest"] call FNC_AddItem;
     ["rhs_mag_rdg2_white",1,"vest"] call FNC_AddItem;
-    ["ACRE_PRC117F",1,"backpack"] call FNC_AddItem;
 
     ["rhs_weap_ak74m"] call FNC_AddItem;
     _unit addPrimaryWeaponItem "rhs_acc_dtk";
@@ -60,7 +58,6 @@ case "RU_PSGT": {
     ["rhs_GRD40_White",1,"vest"] call FNC_AddItem;
     ["rhs_GRD40_Green",1,"vest"] call FNC_AddItem;
     ["rhs_GRD40_Red",1,"vest"] call FNC_AddItem;
-    ["ACRE_PRC117F",1,"backpack"] call FNC_AddItem;
 
     ["rhs_weap_ak74m_gp25"] call FNC_AddItem;
     _unit addPrimaryWeaponItem "rhs_acc_dtk";
@@ -372,7 +369,6 @@ case "RU_MRTR_SL": {
     ["ACE_DAGR",1,"vest"] call FNC_AddItem;
     ["rhs_mag_rdg2_white",2,"vest"] call FNC_AddItem;
     ["rhs_30Rnd_545x39_7N10_AK",7,"vest"] call FNC_AddItem;
-    ["ACRE_PRC117F",1,"backpack"] call FNC_AddItem;
 
     ["rhs_weap_ak74m"] call FNC_AddItem;
     _unit addPrimaryWeaponItem "rhs_acc_dtk";
@@ -711,7 +707,6 @@ case "RU_AA_SL": {
     ["ACE_DAGR",1,"vest"] call FNC_AddItem;
     ["ACE_MapTools",1,"vest"] call FNC_AddItem;
     ["rhs_30Rnd_545x39_AK",7,"vest"] call FNC_AddItem;
-    ["ACRE_PRC117F",1,"backpack"] call FNC_AddItem;
 
     ["rhs_weap_ak74m"] call FNC_AddItem;
     _unit addPrimaryWeaponItem "rhs_acc_dtk";

@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={16967.887,91.778023,11736.204};
-		dir[]={-0.82542282,-0.51820672,0.22443987};
-		up[]={-0.5002616,0.85510987,0.13602732};
-		aside[]={0.26240838,1.1442316e-006,0.96504921};
+		pos[]={18490.102,104.10669,11781.286};
+		dir[]={-0.39906043,-0.4134025,0.81859118};
+		up[]={-0.18126211,0.91041356,0.37182951};
+		aside[]={0.89895815,5.1206734e-007,0.43823442};
 	};
 };
 binarizationWanted=0;
@@ -184,7 +184,7 @@ class AddonsMetaData
 randomSeed=13989647;
 class ScenarioData
 {
-	author="TinfoilHate";
+	author="UO Top Men";
 	overviewText="Mission 1 of OP Vanguard Event";
 	onLoadMission="Mission 1 of OP Vanguard Event";
 	loadScreen="core\uoLogo.jpg";
@@ -8180,7 +8180,7 @@ class Mission
 											"SCALAR"
 										};
 									};
-									value=121;
+									value=114;
 								};
 							};
 						};
@@ -8261,7 +8261,7 @@ class Mission
 					};
 					id=55;
 					type="rhs_t90a_tv";
-					atlOffset=0.0079956055;
+					atlOffset=0.0080032349;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8412,7 +8412,7 @@ class Mission
 											"SCALAR"
 										};
 									};
-									value=122;
+									value=115;
 								};
 							};
 						};
@@ -16510,7 +16510,7 @@ class Mission
 				};
 			};
 			id=348;
-			atlOffset=19.07497;
+			atlOffset=94.715263;
 		};
 		class Item4
 		{
