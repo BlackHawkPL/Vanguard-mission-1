@@ -526,17 +526,20 @@ case "RU_MEDIC": {
     ["rhs_mag_rgn",1,"uniform"] call FNC_AddItem;
     ["rhs_mag_rdg2_white",2,"vest"] call FNC_AddItem;
     ["rhs_30Rnd_545x39_7N10_AK",7,"vest"] call FNC_AddItem;
-    ["ACE_surgicalKit",1,"backpack"] call FNC_AddItem;
-    ["ACE_fieldDressing",20,"backpack"] call FNC_AddItem;
-    ["ACE_elasticBandage",20,"backpack"] call FNC_AddItem;
-    ["ACE_quikclot",20,"backpack"] call FNC_AddItem;
-    ["ACE_epinephrine",10,"backpack"] call FNC_AddItem;
-    ["ACE_morphine",10,"backpack"] call FNC_AddItem;
-    ["ACE_packingBandage",20,"backpack"] call FNC_AddItem;
+    
+    ["ACE_fieldDressing",10,"backpack"] call FNC_AddItem;
+    ["ACE_elasticBandage",15,"backpack"] call FNC_AddItem;
+    ["ACE_packingBandage",15,"backpack"] call FNC_AddItem;
+    ["ACE_quikclot",10,"backpack"] call FNC_AddItem;
+    ["ACE_tourniquet",5,"backpack"] call FNC_AddItem;
+    
+    ["ACE_epinephrine",8,"backpack"] call FNC_AddItem;
+    ["ACE_morphine",8,"backpack"] call FNC_AddItem;
+    ["ACE_atropine",12,"backpack"] call FNC_AddItem;
     ["ACE_salineIV",1,"backpack"] call FNC_AddItem;
     ["ACE_salineIV_250",3,"backpack"] call FNC_AddItem;
     ["ACE_salineIV_500",3,"backpack"] call FNC_AddItem;
-    ["ACE_tourniquet",10,"backpack"] call FNC_AddItem;
+    ["ACE_surgicalKit",2,"backpack"] call FNC_AddItem;
 
     ["rhs_weap_ak74m"] call FNC_AddItem;
     _unit addPrimaryWeaponItem "rhs_acc_dtk";

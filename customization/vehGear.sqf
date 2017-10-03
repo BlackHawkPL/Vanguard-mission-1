@@ -129,4 +129,30 @@ switch (_type) do {
 		_vehicle call FNC_RemoveAllVehicleGear;
 
 	};
+    
+    case "MEDICAL": {
+
+		_vehicle call FNC_RemoveAllVehicleGear;
+
+        ["ACE_fieldDressing",20] call FNC_AddItemVehicle;
+        ["ACE_elasticBandage",20] call FNC_AddItemVehicle;
+        ["ACE_packingBandage",20] call FNC_AddItemVehicle;
+        ["ACE_quikclot",20] call FNC_AddItemVehicle;
+        ["ACE_tourniquet",10] call FNC_AddItemVehicle;
+        
+        ["ACE_epinephrine",10] call FNC_AddItemVehicle;
+        ["ACE_morphine",10] call FNC_AddItemVehicle;
+        ["ACE_atropine",10] call FNC_AddItemVehicle;
+        
+        ["ACE_salineIV",1] call FNC_AddItemVehicle;
+        ["ACE_salineIV_250",2] call FNC_AddItemVehicle;
+        ["ACE_salineIV_500",4] call FNC_AddItemVehicle;
+        ["ACE_surgicalKit",10] call FNC_AddItemVehicle;
+        ["ACE_personalAidKit",5] call FNC_AddItemVehicle;
+        
+        ["ACE_bloodIV_500",4] call FNC_AddItemVehicle;
+        ["ACE_plasmaIV_500",4] call FNC_AddItemVehicle;
+        
+        ["ACE_bodyBag",20] call FNC_AddItemVehicle;
+	};
 };
