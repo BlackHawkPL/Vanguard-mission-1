@@ -304,10 +304,9 @@ case "US_MEDIC": {
     
     ["ACE_epinephrine",8,"backpack"] call FNC_AddItem;
     ["ACE_morphine",8,"backpack"] call FNC_AddItem;
-    ["ACE_atropine",12,"backpack"] call FNC_AddItem;
-    ["ACE_salineIV",1,"backpack"] call FNC_AddItem;
-    ["ACE_salineIV_250",3,"backpack"] call FNC_AddItem;
-    ["ACE_salineIV_500",3,"backpack"] call FNC_AddItem;
+    ["ACE_atropine",8,"backpack"] call FNC_AddItem;
+    ["ACE_salineIV_250",2,"backpack"] call FNC_AddItem;
+    ["ACE_salineIV_500",2,"backpack"] call FNC_AddItem;
     ["ACE_surgicalKit",2,"backpack"] call FNC_AddItem;
 
     ["rhs_weap_m4a1_carryhandle"] call FNC_AddItem;

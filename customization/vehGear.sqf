@@ -148,7 +148,7 @@ switch (_type) do {
         ["ACE_salineIV_250",2] call FNC_AddItemVehicle;
         ["ACE_salineIV_500",4] call FNC_AddItemVehicle;
         ["ACE_surgicalKit",10] call FNC_AddItemVehicle;
-        ["ACE_personalAidKit",5] call FNC_AddItemVehicle;
+        ["ACE_personalAidKit",2] call FNC_AddItemVehicle;
         
         ["ACE_bloodIV_500",4] call FNC_AddItemVehicle;
         ["ACE_plasmaIV_500",4] call FNC_AddItemVehicle;
