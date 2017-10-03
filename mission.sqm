@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={18490.102,104.10669,11781.286};
-		dir[]={-0.39906043,-0.4134025,0.81859118};
-		up[]={-0.18126211,0.91041356,0.37182951};
-		aside[]={0.89895815,5.1206734e-007,0.43823442};
+		pos[]={20314.154,49.254036,7506.5356};
+		dir[]={-0.032360539,-0.71510607,0.69844794};
+		up[]={-0.033098239,0.6988247,0.71447372};
+		aside[]={0.99899632,-1.2130686e-006,0.046285018};
 	};
 };
 binarizationWanted=0;
@@ -5688,7 +5688,7 @@ class Mission
 							class Attributes
 							{
 								rank="SERGEANT";
-								init="call{[this, ""US_SCOUT"", ""IRON DOME""] call FNC_GearScript; [this, ""ACRE_PRC343"", 5, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT_SL"", ""IRON DOME""] call FNC_GearScript; [this, ""ACRE_PRC343"", 5, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
 								description="Squad Leader @IRON DOME";
 								isPlayable=1;
 							};
@@ -6444,7 +6444,7 @@ class Mission
 							class Attributes
 							{
 								rank="SERGEANT";
-								init="call{[this, ""US_SCOUT"", ""PUNISHER 6""] call FNC_GearScript; [this, ""ACRE_PRC343"", 11, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT_SL"", ""PUNISHER 6""] call FNC_GearScript; [this, ""ACRE_PRC343"", 11, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
 								description="Squad Leader @PUNISHER 6";
 								isPlayable=1;
 							};
