@@ -25,7 +25,7 @@ if (_isRefueling) then {
         if (_heli distance _target > 50) exitWith {
             systemChat "Helicopter no longer present on pad, aborting";
         };
-        _heli setFuel (fuel _heli + 0.045);
+        [_heli, (fuel _heli + 0.045)] remoteExec ["setFuel", _heli];
         _target setVariable ["fuelLeft", (_target getVariable "fuelLeft") - 0.045, true];
         _i = _i + 1;
         systemChat format ["Refueling, %1%2 done", round (_i / 4 * 100), '%'];
@@ -49,8 +49,8 @@ else {
             systemChat "Helicopter no longer present on pad, aborting";
             _aborted = true;
         };
-        _heli removeMagazineTurret ["rhsusf_mag_gau19_melb_left", [-1]];
-        _heli addMagazineTurret ["rhsusf_mag_gau19_melb_left", [-1], 250];
+        [_heli, ["rhsusf_mag_gau19_melb_left", [-1]]] remoteExec ["removeMagazineTurret", _heli];
+        [_heli, ["rhsusf_mag_gau19_melb_left", [-1], 250]] remoteExec ["addMagazineTurret", _heli];
         _target setVariable ["ammoLeft", 1, true];
         systemChat "GAU-19 .50cal rearmed";
     };
@@ -63,8 +63,8 @@ else {
             systemChat "Helicopter no longer present on pad, aborting";
             _aborted = true;
         };
-        _heli removeMagazineTurret ["rhs_mag_AGM114K_2", [0]];
-        _heli addMagazineTurret ["rhs_mag_AGM114K_2", [0], 2];
+        [_heli, ["rhs_mag_AGM114K_2", [0]]] remoteExec ["removeMagazineTurret", _heli];
+        [_heli, ["rhs_mag_AGM114K_2", [0], 2]] remoteExec ["addMagazineTurret", _heli];
         _target setVariable ["ammoLeft", 0, true];
         systemChat "Missiles rearmed";
     };

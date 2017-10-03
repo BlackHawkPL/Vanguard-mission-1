@@ -25,7 +25,7 @@ if (_isRefueling) then {
         if (_heli distance _target > 50) exitWith {
             systemChat "Helicopter no longer present on pad, aborting";
         };
-        _heli setFuel (fuel _heli + 0.02);
+        [_heli, (fuel _heli + 0.02)] remoteExec ["setFuel", _heli];
         _target setVariable ["fuelLeft", (_target getVariable "fuelLeft") - 0.02, true];
         _i = _i + 1;
         systemChat format ["Refueling, %1%2 done", round (_i / 4 * 100), '%'];
@@ -49,8 +49,8 @@ else {
             systemChat "Helicopter no longer present on pad, aborting";
             _aborted = true;
         };
-        _heli removeMagazineTurret ["rhs_mag_ub32_ka52_s5m1", [-1]];
-        _heli addMagazineTurret ["rhs_mag_ub32_ka52_s5m1", [-1], 24];
+        [_heli, ["rhs_mag_ub32_ka52_s5m1", [-1]]] remoteExec ["removeMagazineTurret", _heli];
+        [_heli, ["rhs_mag_ub32_ka52_s5m1", [-1], 24]] remoteExec ["addMagazineTurret", _heli];
         _target setVariable ["ammoLeft", 3, true];
         systemChat "HE rockets rearmed";
     };
@@ -63,8 +63,8 @@ else {
             systemChat "Helicopter no longer present on pad, aborting";
             _aborted = true;
         };
-        _heli removeMagazineTurret ["rhs_mag_ub32_ka52_s5k1", [-1]];
-        _heli addMagazineTurret ["rhs_mag_ub32_ka52_s5k1", [-1], 24];
+        [_heli, ["rhs_mag_ub32_ka52_s5k1", [-1]]] remoteExec ["removeMagazineTurret", _heli];
+        [_heli, ["rhs_mag_ub32_ka52_s5k1", [-1], 24]] remoteExec ["addMagazineTurret", _heli];
         _target setVariable ["ammoLeft", 2, true];
         systemChat "HEAT rockets rearmed";
     };
@@ -77,8 +77,8 @@ else {
             systemChat "Helicopter no longer present on pad, aborting";
             _aborted = true;
         };
-        _heli removeMagazineTurret ["rhs_mag_3uor6_230", [0]];
-        _heli addMagazineTurret ["rhs_mag_3uor6_230", [0], 75];
+        [_heli, ["rhs_mag_3uor6_230", [0]]] remoteExec ["removeMagazineTurret", _heli];
+        [_heli, ["rhs_mag_3uor6_230", [0], 75]] remoteExec ["addMagazineTurret", _heli];
         _target setVariable ["ammoLeft", 1, true];
         systemChat "Cannon AP rearmed";
     };
@@ -91,8 +91,8 @@ else {
             systemChat "Helicopter no longer present on pad, aborting";
             _aborted = true;
         };
-        _heli removeMagazineTurret ["rhs_mag_3ubr8_230", [0]];
-        _heli addMagazineTurret ["rhs_mag_3ubr8_230", [0], 75];
+        [_heli, ["rhs_mag_3ubr8_230", [0]]] remoteExec ["removeMagazineTurret", _heli];
+        [_heli, ["rhs_mag_3ubr8_230", [0], 75]] remoteExec ["addMagazineTurret", _heli];
         _target setVariable ["ammoLeft", 0, true];
         systemChat "Cannon HE rearmed";
     };

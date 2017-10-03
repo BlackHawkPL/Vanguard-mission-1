@@ -188,7 +188,7 @@ case "RU_MKS": {
     ["rhs_mag_9x19_17",2,"vest"] call FNC_AddItem;
 
     ["rhs_weap_svdp"] call FNC_AddItem;
-    _unit addPrimaryWeaponItem "rhs_acc_pso1m2";
+    _unit addPrimaryWeaponItem "rhs_acc_pso1m21";
 
     ["rhs_weap_pya"] call FNC_AddItem;
 };
