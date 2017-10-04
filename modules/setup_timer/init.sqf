@@ -39,9 +39,19 @@ if (!isDedicated) then {
         }];
     }] call CBA_fnc_WaitUntilAndExecute;
     
-    _action = ["Start_cd", "Start 5 min countdown", "", {
+    private _action = ["Start_cd", "Start 5 min countdown", "", {
         FW_setup_start_time = serverTime;
         publicVariable "FW_setup_start_time";
+    }, {!isNil "FW_IsAdmin" && {FW_IsAdmin}}] call ace_interact_menu_fnc_createAction;
+    [player, 1, ["ACE_SelfActions"], _action] call ace_interact_menu_fnc_addActionToObject;
+    
+    _action = ["end_red", "End mission, winner: MSV", "", {
+        "MSV VICTORY <br/> BP Anna successfully defended." call FNC_EndMission;
+    }, {!isNil "FW_IsAdmin" && {FW_IsAdmin}}] call ace_interact_menu_fnc_createAction;
+    [player, 1, ["ACE_SelfActions"], _action] call ace_interact_menu_fnc_addActionToObject;
+    
+    _action = ["end_blu", "End mission, winner: US Army", "", {
+        "US ARMY VICTORY <br/> OBJ Rifles has been seized." call FNC_EndMission;
     }, {!isNil "FW_IsAdmin" && {FW_IsAdmin}}] call ace_interact_menu_fnc_createAction;
     [player, 1, ["ACE_SelfActions"], _action] call ace_interact_menu_fnc_addActionToObject;
 
