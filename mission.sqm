@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={20305.805,54.317822,7566.3486};
-		dir[]={0.13488251,-0.60271049,-0.7866202};
-		up[]={0.10188013,0.79786772,-0.59415376};
-		aside[]={-0.98573548,9.8344026e-007,-0.16902505};
+		pos[]={20816.57,47.302189,7209.1895};
+		dir[]={-0.15624528,-0.53695673,0.82904094};
+		up[]={-0.099443741,0.84361827,0.52765268};
+		aside[]={0.98272419,1.9645086e-007,0.18521044};
 	};
 };
 binarizationWanted=0;
@@ -246,8 +246,8 @@ class Mission
 		windForced=1;
 		year=2017;
 		month=8;
-		day=24;
-		hour=13;
+		day=30;
+		hour=3;
 		minute=0;
 		startFogBase=-1000;
 		forecastFogBase=-1000;
@@ -867,7 +867,7 @@ class Mission
 					};
 					id=38;
 					type="rhsusf_m1025_w_m2";
-					atlOffset=1.9073486e-006;
+					atlOffset=3.8146973e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -986,7 +986,7 @@ class Mission
 					};
 					id=37;
 					type="rhsusf_m1025_w_m2";
-					atlOffset=-0.0020008087;
+					atlOffset=-0.0020027161;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1224,6 +1224,7 @@ class Mission
 					};
 					id=41;
 					type="rhsusf_m1025_w_Mk19";
+					atlOffset=1.9073486e-006;
 					class CustomAttributes
 					{
 						class Attribute0
