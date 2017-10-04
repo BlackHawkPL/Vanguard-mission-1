@@ -8,7 +8,7 @@
 //ADDMARKER(west, "start");
 //ADDMARKER(SYSTEM, "objBravo");
 
-
+/*
 ADDMARKER(east, "ea1");
 ADDMARKER(east, "ea2");
 ADDMARKER(east, "ea3");
@@ -74,4 +74,4 @@ ADDMARKER(west, "op1");
 ADDMARKER(west, "op2");
 ADDMARKER(west, "op3");
 ADDMARKER(west, "op4");
-
+*/

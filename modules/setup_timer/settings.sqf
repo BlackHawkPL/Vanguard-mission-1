@@ -5,3 +5,9 @@
 
 //Example:
 //ADDSETUPMARKER(west, (60 * 5), "airfield");
+
+ADDSETUPMARKER(west, (60 * 5), "blufor_setup_marker");
+ADDSETUPMARKER(east, (60 * 5), "redfor_setup_marker");
+
+ADDSETUPMARKER(west, (60 * 20), "blufor_pilots_setup_marker");
+ADDSETUPMARKER(east, (60 * 20), "redfor_pilots_setup_marker");

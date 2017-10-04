@@ -8,32 +8,64 @@ if !(markerType NAME == "") then { \
 	_temp call FNC_DebugMessage; \
 };
 
+if (!isMultiplayer) exitWith {
+    "Setup Timer: Singleplayer session detected, this module will function only in multiplayer." call FNC_DebugMessage;
+};
+
 if (isServer) then {
     [] spawn {
-        waitUntil {time > 0};
-        FW_setup_start_time = serverTime;
-        publicVariable "FW_setup_start_time";
+        //waitUntil {time > 0};
+        //FW_setup_start_time = serverTime;
+        //publicVariable "FW_setup_start_time";
     };
 };
 
-if (!isServer) then {
+if (!isDedicated) then {
 	
+	private ["_markers", "_pos", "_timeLeft", "_string", "_displayed"];
+
 	_markers = [];
 
 	#include "settings.sqf"
+    
+    [{!isNull (findDisplay 46)},
+    {
+        (findDisplay 46) displayAddEventHandler ["MouseMoving", {
+            if (serverCommandAvailable "#kick") then {
+                FW_IsAdmin = true;
+            } else {
+                FW_IsAdmin = false;
+            };
+        }];
+    }] call CBA_fnc_WaitUntilAndExecute;
+    
+    _action = ["Start_cd", "Start 5 min countdown", "", {
+        FW_setup_start_time = serverTime;
+        publicVariable "FW_setup_start_time";
+    }, {!isNil "FW_IsAdmin" && {FW_IsAdmin}}] call ace_interact_menu_fnc_createAction;
+    [player, 1, ["ACE_SelfActions"], _action] call ace_interact_menu_fnc_addActionToObject;
+
 	
 	if ((count _markers) > 0) then {
 	
 		[_markers] spawn {
 			
-            private ["_pos", "_timeLeft", "_string"];
-            params ["_markers"];
-            
-            waitUntil {!isNil "FW_setup_start_time"};
-            _startTime = FW_setup_start_time;
-            
 			_marker = [];
-			
+			_displayed = false;
+            
+			waitUntil {!isNil "FW_setup_start_time"};
+            _startTime = FW_setup_start_time;
+            //we are checking for a bug described on serverTime wiki page
+            //bugged value is usually around 400 000
+            if (abs (FW_setup_start_time - serverTime) > 100000) then { 
+                _startTime = serverTime;
+                FW_setup_start_time = serverTime; //client time is used instead, according to wiki it's always correct
+                //we send it across network. Possible issue: multiple clients send it at the same time
+                //and increase network traffic. Shouldn't be too bad because data is small.
+                publicVariable "FW_setup_start_time";
+                systemchat "Setup Timer: Detected desynchronized server and client clock, using client's time instead.";
+            };
+            
 			{
 				if (((_x select 0) == (side player)) && [(vehicle player), (_x select 2)] call FNC_InArea) then {
 				
@@ -45,7 +77,7 @@ if (!isServer) then {
 					
 				};
 				
-			} forEach _markers;
+			} forEach (_this select 0);
 			
 			_pos = getPosATL (vehicle player);
 			
@@ -71,22 +103,17 @@ if (!isServer) then {
 					
 				};
 				
-				_string = "Time remaining: %1:%2";
-				
-				if (_timeLeft % 60 < 10) then {
-					
-					_string = "Time remaining: %1:0%2";
-					
+				if (_timeLeft > 0 && !_displayed) then {
+					_displayed = true;
+					missionNamespace setVariable ["FW_ST_TimeLeft", _timeLeft];
+					cutRsc ["RscSetupTimer", "PLAIN", 0.5, false];
 				};
-				
-				hintSilent format [_string, floor(_timeLeft / 60), _timeLeft % 60];
 				
 				if (_timeLeft == 0) then {
 				
-					hint "Setup timer expired";
 					(_marker select 1) setMarkerAlphaLocal 0;
 					_marker = [];
-					
+					SETUP_RUNNING = false;
 				};
 				
 				sleep(0.1);

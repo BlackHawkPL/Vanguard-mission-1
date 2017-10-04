@@ -11,19 +11,11 @@
 
 		[west, "US Army", "player"] call FNC_AddTeam;
 		[east, "MSV", "player"] call FNC_AddTeam;
-
-		//Helicopter Setup
-		{
-			[_x] execVM "customization\scripts\rearm_REDFOR.sqf";
-		} forEach [REDFOR_HELI_1,REDFOR_HELI_2];
-		{
-			[_x] execVM "customization\scripts\rearm_BLUFOR.sqf";
-		} forEach [BLUFOR_HELI_1,BLUFOR_HELI_2];
 	};
 
 	if (!isDedicated) then {
 
-		FW_DebugMessagesEnabled = false;
+		FW_DebugMessagesEnabled = true;
 
 		setViewDistance 5000;
 	};
