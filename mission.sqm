@@ -5,10 +5,10 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=1541;
+	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=898;
+		nextID=904;
 	};
 	class MarkerIDProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={20816.57,47.302189,7209.1895};
-		dir[]={-0.15624528,-0.53695673,0.82904094};
-		up[]={-0.099443741,0.84361827,0.52765268};
-		aside[]={0.98272419,1.9645086e-007,0.18521044};
+		pos[]={18507.012,104.22489,11798.516};
+		dir[]={-0.71824986,-0.58232599,-0.38096595};
+		up[]={-0.51446098,0.8129397,-0.27287439};
+		aside[]={-0.46860656,-8.4590283e-007,0.88348126};
 	};
 };
 binarizationWanted=0;
@@ -256,7 +256,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=13;
+		items=17;
 		class Item0
 		{
 			dataType="Layer";
@@ -9258,6 +9258,44 @@ class Mission
 						};
 						class Attribute6
 						{
+							property="Door_Rear";
+							expression="_this animateDoor ['Door_Rear',_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						class Attribute7
+						{
+							property="ace_cargo_space";
+							expression="[_this,_value] call ace_cargo_fnc_setSpace;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=5;
+								};
+							};
+						};
+						class Attribute8
+						{
 							property="rhs_decalPlatoon";
 							expression="if(parseNumber _value >= 0)then{ [_this, [ [ 'Label', cDecalsTigrRightPlatoonPlaces,  _this getVariable ['rhs_decalPlatoon_type','Army'],call compile _value] ] ] call rhs_fnc_decalsInit};";
 							class Value
@@ -9275,7 +9313,7 @@ class Mission
 								};
 							};
 						};
-						class Attribute7
+						class Attribute9
 						{
 							property="ace_cookoff_enable";
 							expression="if !(_value) then {_this setVariable ['ace_cookoff_enable',_value,true];};";
@@ -9294,7 +9332,7 @@ class Mission
 								};
 							};
 						};
-						nAttributes=8;
+						nAttributes=10;
 					};
 				};
 				class Item7
@@ -25168,6 +25206,166 @@ class Mission
 			drawBorder=1;
 			id=897;
 			atlOffset=-17.91;
+		};
+		class Item13
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={18503.146,100.20531,11797.787};
+				angles[]={6.2711854,2.3192756,0.081154868};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="call{[this, ""MRTR_CRATE""] call FNC_VehicleGearScript;}";
+			};
+			id=898;
+			type="rhs_7ya37_1_single";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="uo_unitDescription";
+					expression="_this setVariable ['uo_unitDescription', _value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="true";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item14
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={18503.561,100.23827,11797.087};
+				angles[]={0.0066682254,5.7836199,0.08115413};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="call{[this, ""MRTR_CRATE""] call FNC_VehicleGearScript;}";
+			};
+			id=901;
+			type="rhs_7ya37_1_single";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="uo_unitDescription";
+					expression="_this setVariable ['uo_unitDescription', _value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="true";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item15
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={18503.947,100.27393,11796.448};
+				angles[]={0.0066682254,5.7836199,0.08115413};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="call{[this, ""MRTR_CRATE""] call FNC_VehicleGearScript;}";
+			};
+			id=902;
+			type="rhs_7ya37_1_single";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="uo_unitDescription";
+					expression="_this setVariable ['uo_unitDescription', _value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="true";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item16
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={18504.018,100.28347,11795.646};
+				angles[]={0.0013372133,2.9553325,0.086450629};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="call{[this, ""MRTR_CRATE""] call FNC_VehicleGearScript;}";
+			};
+			id=903;
+			type="rhs_7ya37_1_single";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="uo_unitDescription";
+					expression="_this setVariable ['uo_unitDescription', _value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="true";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 	};
 };

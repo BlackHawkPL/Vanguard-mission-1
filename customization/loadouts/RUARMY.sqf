@@ -637,7 +637,6 @@ case "RU_AA_SL": {
     ["ItemMap"] call FNC_AddItem;
     ["ItemCompass"] call FNC_AddItem;
     ["ItemWatch"] call FNC_AddItem;
-    ["rhs_1PN138"] call FNC_AddItem;
     ["Binocular"] call FNC_AddItem;
 
     ["ACRE_PRC343",1,"uniform"] call FNC_AddItem;

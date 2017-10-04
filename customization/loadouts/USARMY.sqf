@@ -84,7 +84,7 @@ case "US_DRVR": {
 case "US_SCOUT_SL": {
  
     ["rhs_uniform_cu_ocp"] call FNC_AddItem;
-    ["rhsusf_iotv_ocp_Squadleader"] call FNC_AddItem;
+    ["rhsusf_spcs_ocp_rifleman"] call FNC_AddItem;
      
     ["rhsusf_ach_helmet_headset_ocp"] call FNC_AddItem;
      
@@ -108,7 +108,7 @@ case "US_SCOUT_SL": {
     ["ACE_tourniquet",1,"uniform"] call FNC_AddItem;
     ["ACE_MapTools",1,"uniform"] call FNC_AddItem;
     ["ACE_IR_Strobe_Item",1,"uniform"] call FNC_AddItem;
-    ["rhs_mag_30Rnd_556x45_M855A1_Stanag",8,"vest"] call FNC_AddItem;
+    ["rhs_mag_30Rnd_556x45_M855A1_Stanag",7,"vest"] call FNC_AddItem;
     ["rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red",2,"vest"] call FNC_AddItem;
     ["rhs_mag_an_m8hc",2,"vest"] call FNC_AddItem;
     ["rhs_mag_m67",2,"vest"] call FNC_AddItem;
@@ -128,7 +128,7 @@ case "US_SCOUT_SL": {
 case "US_SCOUT": {
  
     ["rhs_uniform_cu_ocp"] call FNC_AddItem;
-    ["rhsusf_iotv_ocp_Squadleader"] call FNC_AddItem;
+    ["rhsusf_spcs_ocp_rifleman"] call FNC_AddItem;
      
     ["rhsusf_ach_helmet_headset_ocp","rhsusf_ach_helmet_ocp"] call FNC_AddItemRandom;
      
@@ -138,21 +138,25 @@ case "US_SCOUT": {
     ["NVGoggles"] call FNC_AddItem;
      
     ["ACRE_PRC343",1,"uniform"] call FNC_AddItem;
+    
     ["ACE_fieldDressing",3,"uniform"] call FNC_AddItem;
     ["ACE_elasticBandage",3,"uniform"] call FNC_AddItem;
-    ["ACE_quikclot",3,"uniform"] call FNC_AddItem;
-    ["ACE_EarPlugs",1,"uniform"] call FNC_AddItem;
-    ["ACE_epinephrine",1,"uniform"] call FNC_AddItem;
-    ["ACE_Flashlight_XL50",1,"uniform"] call FNC_AddItem;
-    ["ACE_morphine",1,"uniform"] call FNC_AddItem;
     ["ACE_packingBandage",3,"uniform"] call FNC_AddItem;
+    ["ACE_quikclot",3,"uniform"] call FNC_AddItem;
     ["ACE_tourniquet",1,"uniform"] call FNC_AddItem;
+    ["ACE_epinephrine",1,"uniform"] call FNC_AddItem;
+    ["ACE_morphine",1,"uniform"] call FNC_AddItem;
+    
+    ["ACE_EarPlugs",1,"uniform"] call FNC_AddItem;
+    ["ACE_Flashlight_XL50",1,"uniform"] call FNC_AddItem;
     ["ACE_MapTools",1,"uniform"] call FNC_AddItem;
     ["ACE_IR_Strobe_Item",1,"uniform"] call FNC_AddItem;
-    ["rhs_mag_30Rnd_556x45_M855A1_Stanag",8,"vest"] call FNC_AddItem;
+    
+    ["rhs_mag_30Rnd_556x45_M855A1_Stanag",7,"vest"] call FNC_AddItem;
     ["rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red",2,"vest"] call FNC_AddItem;
     ["rhs_mag_an_m8hc",2,"vest"] call FNC_AddItem;
     ["rhs_mag_m67",2,"vest"] call FNC_AddItem;
+    
     ["Chemlight_blue",2,"vest"] call FNC_AddItem;
     ["Chemlight_green",2,"vest"] call FNC_AddItem;
     ["ACE_Chemlight_IR",2,"vest"] call FNC_AddItem;
