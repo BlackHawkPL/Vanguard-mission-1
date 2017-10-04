@@ -10,3 +10,9 @@
 //Example:
 //ADDAOMARKER(ANY, "entireAO");
 //ADDAOMARKER(east, "Kavala");
+
+ADDAOMARKER(west, "blufor_setup_marker");
+ADDAOMARKER(east, "redfor_setup_marker");
+
+ADDAOMARKER(west, "blufor_pilots_setup_marker");
+ADDAOMARKER(east, "redfor_pilots_setup_marker");

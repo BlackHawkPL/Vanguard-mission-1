@@ -80,7 +80,7 @@ case "US_DRVR": {
     ["rhs_weap_m4a1_carryhandle"] call FNC_AddItem;
 };
 
-case "US_SL": {
+case "US_SCOUT_SL": {
  
 ["rhs_uniform_cu_ocp"] call FNC_AddItem;
 ["rhsusf_iotv_ocp_Squadleader"] call FNC_AddItem;
@@ -124,7 +124,7 @@ _unit addPrimaryWeaponItem "rhsusf_acc_ACOG_USMC";
  
 };
  
-case "US_RF": {
+case "US_SCOUT": {
  
 ["rhs_uniform_cu_ocp"] call FNC_AddItem;
 ["rhsusf_iotv_ocp_Squadleader"] call FNC_AddItem;
