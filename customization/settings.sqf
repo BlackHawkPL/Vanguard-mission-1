@@ -1,5 +1,6 @@
 ace_cookoff_enable = false;
 ace_cookoff_ammoCookoffDuration = 0;
+enableCombatDeafness = false;
 
 if (isServer) then {
 

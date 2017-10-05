@@ -92,7 +92,7 @@ case "US_SCOUT_SL": {
     ["ItemCompass"] call FNC_AddItem;
     ["ItemWatch"] call FNC_AddItem;
     ["NVGoggles"] call FNC_AddItem;
-    ["ACE_Vector"] call FNC_AddItem;
+    ["Binocular"] call FNC_AddItem;
      
     ["ACRE_PRC148",1,"uniform"] call FNC_AddItem;
     ["ACRE_PRC343",1,"uniform"] call FNC_AddItem;
@@ -120,7 +120,7 @@ case "US_SCOUT_SL": {
      
     ["rhs_weap_m4a1_carryhandle"] call FNC_AddItem;
     _unit addPrimaryWeaponItem "rhsusf_acc_anpeq15side_bk";
-    _unit addPrimaryWeaponItem "rhsusf_acc_ACOG_USMC";
+    _unit addPrimaryWeaponItem "rhsusf_acc_compm4";
      
  
 };
@@ -228,6 +228,7 @@ case "US_HELIPILOT": {
     ["ACE_quikclot", 2, "uniform"] call FNC_AddItem;
     ["ACE_tourniquet", 1] call FNC_AddItem;
     ["ACRE_PRC148",1] call FNC_AddItem;
+    ["ACE_microDAGR",1] call FNC_AddItem;
 
     ["ItemMap"] call FNC_AddItem;
     ["ItemCompass"] call FNC_AddItem;

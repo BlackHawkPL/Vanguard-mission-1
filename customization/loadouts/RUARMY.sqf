@@ -703,6 +703,7 @@ case "RU_HELIPILOT": {
     ["ACE_packingBandage", 4, "uniform"] call FNC_AddItem;
     ["ACE_tourniquet", 2] call FNC_AddItem;
     ["ACRE_PRC148",1] call FNC_AddItem;
+    ["ACE_microDAGR",1] call FNC_AddItem;
 
     ["ItemMap"] call FNC_AddItem;
     ["ItemCompass"] call FNC_AddItem;
