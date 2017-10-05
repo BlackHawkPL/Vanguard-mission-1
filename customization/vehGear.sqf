@@ -10,42 +10,22 @@
 ["rhs_mag_m18_red", 5] call FNC_AddItemVehicle;\
 ["rhs_mag_m18_purple", 5] call FNC_AddItemVehicle;\
 ["rhs_mag_m18_yellow", 5] call FNC_AddItemVehicle;\
-["rhs_mag_an_m8hc", 10] call FNC_AddItemVehicle;
+["rhs_mag_an_m8hc", 10] call FNC_AddItemVehicle;\
+["rhs_weap_M136", 2] call FNC_AddItemVehicle;
 
 switch (_type) do {
-
-	case "HUMMVEE": {
-
-		_vehicle call FNC_RemoveAllVehicleGear;
-
-		["rhs_mag_an_m8hc", 10] call FNC_AddItemVehicle;
-		["rhs_mag_an_m8hc", 10] call FNC_AddItemVehicle;
-		["rhs_200rnd_556x45_M_SAW", 10] call FNC_AddItemVehicle;
-		["30Rnd_556x45_Stanag", 30] call FNC_AddItemVehicle;
-		["rhsusf_assault_eagleaiii_ocp", 4] call FNC_AddItemVehicle;
-		["rhs_weap_m249_pip_S", 2] call FNC_AddItemVehicle;
-		["rhsusf_acc_ELCAN", 2] call FNC_AddItemVehicle;
-		["rhsusf_acc_ACOG", 2] call FNC_AddItemVehicle;
-		["rhs_weap_M136", 2] call FNC_AddItemVehicle;
-		["rhs_mag_m18_green", 5] call FNC_AddItemVehicle;
-		["rhs_mag_m18_red", 5] call FNC_AddItemVehicle;
-		["rhs_mag_m18_purple", 5] call FNC_AddItemVehicle;
-		["rhs_mag_m18_yellow", 5] call FNC_AddItemVehicle;
-
-
-	};
 
 	case "BRADLEY": {
 
 		_vehicle call FNC_RemoveAllVehicleGear;
 
 		["rhs_weap_M136", 2] call FNC_AddItemVehicle;
-		["30Rnd_556x45_Stanag", 30] call FNC_AddItemVehicle;
+		["30Rnd_556x45_Stanag", 20] call FNC_AddItemVehicle;
 		["rhs_weap_m4a1_carryhandle", 3] call FNC_AddItemVehicle;
 		["rhs_mag_m67", 10] call FNC_AddItemVehicle;
-		["rhs_mag_an_m8hc", 10] call FNC_AddItemVehicle;
-		["rhs_200rnd_556x45_M_SAW", 10] call FNC_AddItemVehicle;
-		["rhsusf_assault_eagleaiii_ocp", 5] call FNC_AddItemVehicle;
+		["rhs_mag_an_m8hc", 5] call FNC_AddItemVehicle;
+		["rhs_200rnd_556x45_M_SAW", 5] call FNC_AddItemVehicle;
+		["rhsusf_assault_eagleaiii_ocp", 2] call FNC_AddItemVehicle;
 
 		["ToolKit",1] call FNC_AddItemVehicle;
 		["ACE_wirecutter",1] call FNC_AddItemVehicle;
@@ -60,7 +40,6 @@ switch (_type) do {
 		["rhs_weap_fim92", 3] call FNC_AddItemVehicle;
 		["rhs_fim92_mag", 12] call FNC_AddItemVehicle;
 		["rhsusf_assault_eagleaiii_ocp", 6] call FNC_AddItemVehicle;
-
 
 	};
 
@@ -109,15 +88,14 @@ switch (_type) do {
 		_vehicle call FNC_RemoveAllVehicleGear;
 
 		["rhs_weap_rpg26", 3] call FNC_AddItemVehicle;
-		["rhs_30Rnd_545x39_7N10_AK",30] call FNC_AddItemVehicle;
+		["rhs_30Rnd_545x39_7N10_AK",10] call FNC_AddItemVehicle;
 		["rhs_weap_ak74m",3] call FNC_AddItemVehicle;
 		["rhs_mag_rgn", 10] call FNC_AddItemVehicle;
-		["rhs_mag_rdg2_white", 10] call FNC_AddItemVehicle;
+		["rhs_mag_rdg2_white", 5] call FNC_AddItemVehicle;
 		["rhs_100Rnd_762x54mmR", 10] call FNC_AddItemVehicle;
-		["rhs_assault_umbts", 5] call FNC_AddItemVehicle;
+		["rhs_assault_umbts", 2] call FNC_AddItemVehicle;
 
 		["ToolKit",1] call FNC_AddItemVehicle;
-		["rhs_assault_umbts",2] call FNC_AddItemVehicle;
 
     };
 
@@ -126,8 +104,6 @@ switch (_type) do {
 	_vehicle call FNC_RemoveAllVehicleGear;
 
 		["ToolKit",1] call FNC_AddItemVehicle;
-		["rhs_mag_an_m8hc", 10] call FNC_AddItemVehicle;
-		["rhs_assault_umbts", 3] call FNC_AddItemVehicle;
 
 	};
 
