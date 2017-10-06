@@ -53,7 +53,7 @@ switch (_type) do {
 
 
 	};
-
+/*
 	case "MRTR_HUMVEE": {
 
 		_vehicle call FNC_RemoveAllVehicleGear;
@@ -64,13 +64,14 @@ switch (_type) do {
 
 
 	};
-
+*/
 	case "MRTR_TIGR": {
 
 		_vehicle call FNC_RemoveAllVehicleGear;
 
 		["UK3CB_BAF_1Rnd_60mm_Mo_Shells", 10] call FNC_AddItemVehicle;
 		["UK3CB_BAF_1Rnd_60mm_Mo_Smoke_White", 5] call FNC_AddItemVehicle;
+        ["ACE_MapTools",6] call FNC_AddItemVehicle;
         
         ["UK3CB_BAF_M6", 2] call FNC_AddItemVehicle;
 	};

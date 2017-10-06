@@ -6,6 +6,7 @@ case "US_TC": {
     ["rhsusf_iotv_ocp"] call FNC_AddItem;
 
     ["rhsusf_cvc_green_ess"] call FNC_AddItem;
+    ["NVGoggles"] call FNC_AddItem;
 
     ["ItemMap"] call FNC_AddItem;
     ["ItemCompass"] call FNC_AddItem;
@@ -35,6 +36,7 @@ case "US_GNR": {
     ["rhsusf_iotv_ocp"] call FNC_AddItem;
 
     ["rhsusf_cvc_green_helmet"] call FNC_AddItem;
+    ["NVGoggles"] call FNC_AddItem;
 
     ["ItemMap"] call FNC_AddItem;
     ["ItemCompass"] call FNC_AddItem;
@@ -62,6 +64,7 @@ case "US_DRVR": {
     ["rhsusf_iotv_ocp"] call FNC_AddItem;
 
     ["rhsusf_cvc_green_ess"] call FNC_AddItem;
+    ["NVGoggles"] call FNC_AddItem;
 
     ["ItemMap"] call FNC_AddItem;
     ["ItemCompass"] call FNC_AddItem;
