@@ -65,6 +65,6 @@ NEWTAB("5. COMMAND & SIGNAL:")
 	<br/>
 	<br/>------ KA-52 Recon Section - 'Akula' ------
 	<br/>
-	<br/>AH-6 1 - Akula 1 - LR 2
-	<br/>AH-6 2 - Akula 2 - LR 2
+	<br/>Ka-52 1 - Akula 1 - LR 2
+	<br/>Ka-52 2 - Akula 2 - LR 2
 ENDTAB;

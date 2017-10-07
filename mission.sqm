@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=933;
+		nextID=939;
 	};
 	class MarkerIDProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={18511.609,113.63347,11807.547};
-		dir[]={-0.76551348,-0.52813697,-0.36764267};
-		up[]={-0.47613826,0.8491267,-0.22866866};
-		aside[]={-0.43294391,5.6109275e-007,0.90148848};
+		pos[]={20304.85,46.841835,7491.6138};
+		dir[]={0.11304337,-0.65689826,0.74559772};
+		up[]={0.098484516,0.75386542,0.64958382};
+		aside[]={0.98879796,5.3491385e-007,-0.14991809};
 	};
 };
 binarizationWanted=0;
@@ -1644,8 +1644,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={20307.434,34.177593,7525.7964};
-						angles[]={0.030647982,0.17954202,0.010663962};
+						position[]={20305.846,34.278568,7516.2202};
+						angles[]={6.2778587,0.17954202,0.0026520467};
 					};
 					side="Empty";
 					flags=4;
@@ -1657,7 +1657,6 @@ class Mission
 					};
 					id=303;
 					type="rhsusf_m998_w_2dr_halftop";
-					atlOffset=3.8146973e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1798,7 +1797,7 @@ class Mission
 							{
 								rank="LIEUTENANT";
 								init="call{[this, ""US_TC"", ""GHOST 1""] call FNC_GearScript; [this, ""ACRE_PRC343"", 1, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
-								description="Platoon Leader | BFV Commander @GHOST 1";
+								description="Platoon Leader | BFV Commander @GHOST 1 | HQ";
 								isPlayable=1;
 							};
 							id=88;
@@ -2350,7 +2349,7 @@ class Mission
 							{
 								rank="SERGEANT";
 								init="call{[this, ""US_TC"", ""GHOST 2""] call FNC_GearScript; [this, ""ACRE_PRC343"", 2, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
-								description="BFV Commander @GHOST 2";
+								description="BFV Commander @GHOST 2 | M2A3 Team 2";
 								isPlayable=1;
 							};
 							id=89;
@@ -2901,8 +2900,8 @@ class Mission
 							class Attributes
 							{
 								rank="SERGEANT";
-								init="call{[this, ""US_TC"", ""GHOST 3""] call FNC_GearScript; [this, ""ACRE_PRC343"", 2, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
-								description="BFV Commander @GHOST 3";
+								init="call{[this, ""US_TC"", ""GHOST 3""] call FNC_GearScript; [this, ""ACRE_PRC343"", 3, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
+								description="BFV Commander @GHOST 3 | M2A3 Team 3";
 								isPlayable=1;
 							};
 							id=90;
@@ -3001,7 +3000,7 @@ class Mission
 							class Attributes
 							{
 								rank="CORPORAL";
-								init="call{[this, ""US_GNR"", ""GHOST 3""] call FNC_GearScript; [this, ""ACRE_PRC343"", 2, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_GNR"", ""GHOST 3""] call FNC_GearScript; [this, ""ACRE_PRC343"", 3, ""LEFT""] call FNC_SetRadio;}";
 								description="BFV Gunner";
 								isPlayable=1;
 							};
@@ -3100,7 +3099,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="call{[this, ""US_DRVR"", ""GHOST 3""] call FNC_GearScript; [this, ""ACRE_PRC343"", 2, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_DRVR"", ""GHOST 3""] call FNC_GearScript; [this, ""ACRE_PRC343"", 3, ""LEFT""] call FNC_SetRadio;}";
 								description="BFV Driver";
 								isPlayable=1;
 							};
@@ -3193,13 +3192,13 @@ class Mission
 							class PositionInfo
 							{
 								position[]={20324.58,31.632208,7589.6997};
-								angles[]={0,0.17711599,0};
+								angles[]={0,0.17711601,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="call{[this, ""US_SCOUT"", ""GHOST 3""] call FNC_GearScript; [this, ""ACRE_PRC343"", 2, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT"", ""GHOST 3""] call FNC_GearScript; [this, ""ACRE_PRC343"", 3, ""LEFT""] call FNC_SetRadio;}";
 								description="Scout";
 								isPlayable=1;
 							};
@@ -3292,13 +3291,13 @@ class Mission
 							class PositionInfo
 							{
 								position[]={20325.619,31.627666,7589.4409};
-								angles[]={0,0.17711599,0};
+								angles[]={0,0.17711601,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="call{[this, ""US_SCOUT"", ""GHOST 3""] call FNC_GearScript; [this, ""ACRE_PRC343"", 2, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT"", ""GHOST 3""] call FNC_GearScript; [this, ""ACRE_PRC343"", 3, ""LEFT""] call FNC_SetRadio;}";
 								description="Scout";
 								isPlayable=1;
 							};
@@ -3447,15 +3446,15 @@ class Mission
 							class PositionInfo
 							{
 								position[]={20323.063,31.496605,7580.605};
-								angles[]={0,0.17711599,0};
+								angles[]={0,0.17711601,0};
 							};
 							side="West";
 							flags=7;
 							class Attributes
 							{
 								rank="SERGEANT";
-								init="call{[this, ""US_SCOUT_SL"", ""GHOST 4""] call FNC_GearScript; [this, ""ACRE_PRC343"", 1, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
-								description="Platoon Sergeant @GHOST 4";
+								init="call{[this, ""US_SCOUT_SL"", ""GHOST 4""] call FNC_GearScript; [this, ""ACRE_PRC343"", 4, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
+								description="Platoon Sergeant @GHOST 4 | HQ";
 								isPlayable=1;
 							};
 							id=92;
@@ -3547,13 +3546,13 @@ class Mission
 							class PositionInfo
 							{
 								position[]={20323.684,31.494944,7578.2349};
-								angles[]={0,0.17711599,0};
+								angles[]={0,0.17711601,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="call{[this, ""US_SCOUT"", ""GHOST 4""] call FNC_GearScript; [this, ""ACRE_PRC343"", 1, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT"", ""GHOST 4""] call FNC_GearScript; [this, ""ACRE_PRC343"", 4, ""LEFT""] call FNC_SetRadio;}";
 								description="Scout Driver";
 								isPlayable=1;
 							};
@@ -3646,13 +3645,13 @@ class Mission
 							class PositionInfo
 							{
 								position[]={20321.449,31.500906,7578.7769};
-								angles[]={0,0.17711599,0};
+								angles[]={0,0.17711601,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="call{[this, ""US_SCOUT"", ""GHOST 4""] call FNC_GearScript; [this, ""ACRE_PRC343"", 1, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT"", ""GHOST 4""] call FNC_GearScript; [this, ""ACRE_PRC343"", 4, ""LEFT""] call FNC_SetRadio;}";
 								description="Scout";
 								isPlayable=1;
 							};
@@ -3745,13 +3744,13 @@ class Mission
 							class PositionInfo
 							{
 								position[]={20324.373,31.492874,7575.6177};
-								angles[]={0,0.17711599,0};
+								angles[]={0,0.17711601,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="call{[this, ""US_SCOUT"", ""GHOST 4""] call FNC_GearScript; [this, ""ACRE_PRC343"", 1, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT"", ""GHOST 4""] call FNC_GearScript; [this, ""ACRE_PRC343"", 4, ""LEFT""] call FNC_SetRadio;}";
 								description="Scout";
 								isPlayable=1;
 							};
@@ -3899,15 +3898,15 @@ class Mission
 							class PositionInfo
 							{
 								position[]={20320.787,31.486383,7568.8926};
-								angles[]={0,0.17711599,0};
+								angles[]={0,0.17711601,0};
 							};
 							side="West";
 							flags=7;
 							class Attributes
 							{
 								rank="SERGEANT";
-								init="call{[this, ""US_SCOUT_SL"", ""GHOST 5""] call FNC_GearScript; [this, ""ACRE_PRC343"", 3, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
-								description="Squad Leader @GHOST 5";
+								init="call{[this, ""US_SCOUT_SL"", ""GHOST 5""] call FNC_GearScript; [this, ""ACRE_PRC343"", 5, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
+								description="Squad Leader @GHOST 5 | A SEC Team 1";
 								isPlayable=1;
 							};
 							id=100;
@@ -3999,13 +3998,13 @@ class Mission
 							class PositionInfo
 							{
 								position[]={20321.408,31.484337,7566.5229};
-								angles[]={0,0.17711599,0};
+								angles[]={0,0.17711601,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="call{[this, ""US_SCOUT"", ""GHOST 5""] call FNC_GearScript; [this, ""ACRE_PRC343"", 3, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT"", ""GHOST 5""] call FNC_GearScript; [this, ""ACRE_PRC343"", 5, ""LEFT""] call FNC_SetRadio;}";
 								description="Scout Driver";
 								isPlayable=1;
 							};
@@ -4099,13 +4098,13 @@ class Mission
 							class PositionInfo
 							{
 								position[]={20319.174,31.476845,7567.064};
-								angles[]={0,0.17711599,0};
+								angles[]={0,0.17711601,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="call{[this, ""US_SCOUT"", ""GHOST 5""] call FNC_GearScript; [this, ""ACRE_PRC343"", 3, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT"", ""GHOST 5""] call FNC_GearScript; [this, ""ACRE_PRC343"", 5, ""LEFT""] call FNC_SetRadio;}";
 								description="Scout";
 								isPlayable=1;
 							};
@@ -4205,7 +4204,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="call{[this, ""US_SCOUT"", ""GHOST 5""] call FNC_GearScript; [this, ""ACRE_PRC343"", 3, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT"", ""GHOST 5""] call FNC_GearScript; [this, ""ACRE_PRC343"", 5, ""LEFT""] call FNC_SetRadio;}";
 								description="Scout";
 								isPlayable=1;
 							};
@@ -4361,8 +4360,8 @@ class Mission
 							class Attributes
 							{
 								rank="SERGEANT";
-								init="call{[this, ""US_SCOUT_SL"", ""GHOST 6""] call FNC_GearScript; [this, ""ACRE_PRC343"", 3, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
-								description="Squad Leader @GHOST 6";
+								init="call{[this, ""US_SCOUT_SL"", ""GHOST 6""] call FNC_GearScript; [this, ""ACRE_PRC343"", 6, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
+								description="Squad Leader @GHOST 6 | A SEC Team 2";
 								isPlayable=1;
 							};
 							id=105;
@@ -4460,7 +4459,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="call{[this, ""US_SCOUT"", ""GHOST 6""] call FNC_GearScript; [this, ""ACRE_PRC343"", 3, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT"", ""GHOST 6""] call FNC_GearScript; [this, ""ACRE_PRC343"", 6, ""LEFT""] call FNC_SetRadio;}";
 								description="Scout Driver";
 								isPlayable=1;
 							};
@@ -4559,7 +4558,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="call{[this, ""US_SCOUT"", ""GHOST 6""] call FNC_GearScript; [this, ""ACRE_PRC343"", 3, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT"", ""GHOST 6""] call FNC_GearScript; [this, ""ACRE_PRC343"", 6, ""LEFT""] call FNC_SetRadio;}";
 								description="Scout";
 								isPlayable=1;
 							};
@@ -4659,7 +4658,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="call{[this, ""US_SCOUT"", ""GHOST 6""] call FNC_GearScript; [this, ""ACRE_PRC343"", 3, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT"", ""GHOST 6""] call FNC_GearScript; [this, ""ACRE_PRC343"", 6, ""LEFT""] call FNC_SetRadio;}";
 								description="Scout";
 								isPlayable=1;
 							};
@@ -4815,8 +4814,8 @@ class Mission
 							class Attributes
 							{
 								rank="SERGEANT";
-								init="call{[this, ""US_SCOUT_SL"", ""GHOST 7""] call FNC_GearScript; [this, ""ACRE_PRC343"", 4, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
-								description="Squad Leader @GHOST 7";
+								init="call{[this, ""US_SCOUT_SL"", ""GHOST 7""] call FNC_GearScript; [this, ""ACRE_PRC343"", 7, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
+								description="Squad Leader @GHOST 7 | B SEC Team 1";
 								isPlayable=1;
 							};
 							id=110;
@@ -4915,7 +4914,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="call{[this, ""US_SCOUT"", ""GHOST 7""] call FNC_GearScript; [this, ""ACRE_PRC343"", 4, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT"", ""GHOST 7""] call FNC_GearScript; [this, ""ACRE_PRC343"", 7, ""LEFT""] call FNC_SetRadio;}";
 								description="Scout Driver";
 								isPlayable=1;
 							};
@@ -5014,7 +5013,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="call{[this, ""US_SCOUT"", ""GHOST 7""] call FNC_GearScript; [this, ""ACRE_PRC343"", 4, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT"", ""GHOST 7""] call FNC_GearScript; [this, ""ACRE_PRC343"", 7, ""LEFT""] call FNC_SetRadio;}";
 								description="Scout";
 								isPlayable=1;
 							};
@@ -5113,7 +5112,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="call{[this, ""US_SCOUT"", ""GHOST 7""] call FNC_GearScript; [this, ""ACRE_PRC343"", 4, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT"", ""GHOST 7""] call FNC_GearScript; [this, ""ACRE_PRC343"", 7, ""LEFT""] call FNC_SetRadio;}";
 								description="Scout";
 								isPlayable=1;
 							};
@@ -5269,8 +5268,8 @@ class Mission
 							class Attributes
 							{
 								rank="SERGEANT";
-								init="call{[this, ""US_SCOUT_SL"", ""GHOST 8""] call FNC_GearScript; [this, ""ACRE_PRC343"", 4, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
-								description="Squad Leader @GHOST 8";
+								init="call{[this, ""US_SCOUT_SL"", ""GHOST 8""] call FNC_GearScript; [this, ""ACRE_PRC343"", 8, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
+								description="Squad Leader @GHOST 8 | B SEC Team 2";
 								isPlayable=1;
 							};
 							id=115;
@@ -5368,7 +5367,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="call{[this, ""US_SCOUT"", ""GHOST 8""] call FNC_GearScript; [this, ""ACRE_PRC343"", 4, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT"", ""GHOST 8""] call FNC_GearScript; [this, ""ACRE_PRC343"", 8, ""LEFT""] call FNC_SetRadio;}";
 								description="Scout Driver";
 								isPlayable=1;
 							};
@@ -5467,7 +5466,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="call{[this, ""US_SCOUT"", ""GHOST 8""] call FNC_GearScript; [this, ""ACRE_PRC343"", 4, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT"", ""GHOST 8""] call FNC_GearScript; [this, ""ACRE_PRC343"", 8, ""LEFT""] call FNC_SetRadio;}";
 								description="Scout";
 								isPlayable=1;
 							};
@@ -5567,7 +5566,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="call{[this, ""US_SCOUT"", ""GHOST 8""] call FNC_GearScript; [this, ""ACRE_PRC343"", 4, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT"", ""GHOST 8""] call FNC_GearScript; [this, ""ACRE_PRC343"", 8, ""LEFT""] call FNC_SetRadio;}";
 								description="Scout";
 								isPlayable=1;
 							};
@@ -5715,7 +5714,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={20310.371,32.33073,7515.6807};
+								position[]={20312.881,32.271023,7525.8735};
 								angles[]={0,0.17711601,0};
 							};
 							side="West";
@@ -5723,7 +5722,7 @@ class Mission
 							class Attributes
 							{
 								rank="SERGEANT";
-								init="call{[this, ""US_SCOUT_SL"", ""IRON DOME""] call FNC_GearScript; [this, ""ACRE_PRC343"", 5, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT_SL"", ""IRON DOME""] call FNC_GearScript; [this, ""ACRE_PRC343"", 9, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
 								description="Squad Leader @IRON DOME";
 								isPlayable=1;
 							};
@@ -5815,7 +5814,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={20311.305,32.235764,7513.5679};
+								position[]={20311.035,32.303356,7524.5786};
 								angles[]={0,0.17711601,0};
 							};
 							side="West";
@@ -5823,13 +5822,12 @@ class Mission
 							class Attributes
 							{
 								rank="CORPORAL";
-								init="call{[this, ""US_SCOUT"", ""IRON DOME""] call FNC_GearScript; [this, ""ACRE_PRC343"", 5, ""LEFT""] call FNC_SetRadio;}";
-								description="Stinger Gunner";
+								init="call{[this, ""US_SCOUT"", ""IRON DOME""] call FNC_GearScript; [this, ""ACRE_PRC343"", 9, ""LEFT""] call FNC_SetRadio;}";
+								description="Stinger Gunner | Team 1";
 								isPlayable=1;
 							};
-							id=137;
+							id=139;
 							type="B_recon_F";
-							atlOffset=0.0060005188;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -5916,18 +5914,18 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={20312.098,32.141941,7511.4497};
+								position[]={20309.535,32.355518,7522.8379};
 								angles[]={0,0.17711601,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="call{[this, ""US_SCOUT"", ""IRON DOME""] call FNC_GearScript; [this, ""ACRE_PRC343"", 5, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT"", ""IRON DOME""] call FNC_GearScript; [this, ""ACRE_PRC343"", 9, ""LEFT""] call FNC_SetRadio;}";
 								description="Asst. Stinger Gunner";
 								isPlayable=1;
 							};
-							id=138;
+							id=140;
 							type="B_recon_F";
 							atlOffset=0.0060005188;
 							class CustomAttributes
@@ -6016,7 +6014,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={20308.525,32.323349,7514.3857};
+								position[]={20313.814,32.345558,7523.7607};
 								angles[]={0,0.17711601,0};
 							};
 							side="West";
@@ -6024,12 +6022,13 @@ class Mission
 							class Attributes
 							{
 								rank="CORPORAL";
-								init="call{[this, ""US_SCOUT"", ""IRON DOME""] call FNC_GearScript; [this, ""ACRE_PRC343"", 5, ""LEFT""] call FNC_SetRadio;}";
-								description="Stinger Gunner";
+								init="call{[this, ""US_SCOUT"", ""IRON DOME""] call FNC_GearScript; [this, ""ACRE_PRC343"", 10, ""LEFT""] call FNC_SetRadio;}";
+								description="Stinger Gunner | Team 2";
 								isPlayable=1;
 							};
-							id=139;
+							id=137;
 							type="B_recon_F";
+							atlOffset=0.0060005188;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -6116,20 +6115,20 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={20307.025,32.288219,7512.645};
+								position[]={20314.607,32.349594,7521.6426};
 								angles[]={0,0.17711601,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="call{[this, ""US_SCOUT"", ""IRON DOME""] call FNC_GearScript; [this, ""ACRE_PRC343"", 5, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT"", ""IRON DOME""] call FNC_GearScript; [this, ""ACRE_PRC343"", 10, ""LEFT""] call FNC_SetRadio;}";
 								description="Asst. Stinger Gunner";
 								isPlayable=1;
 							};
-							id=140;
+							id=138;
 							type="B_recon_F";
-							atlOffset=0.0060005188;
+							atlOffset=0.0059967041;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -6216,7 +6215,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={20308.219,32.229473,7509.9297};
+								position[]={20310.729,32.332672,7520.1226};
 								angles[]={0,0.17711601,0};
 							};
 							side="West";
@@ -6224,8 +6223,8 @@ class Mission
 							class Attributes
 							{
 								rank="CORPORAL";
-								init="call{[this, ""US_SCOUT"", ""IRON DOME""] call FNC_GearScript; [this, ""ACRE_PRC343"", 5, ""LEFT""] call FNC_SetRadio;}";
-								description="Stinger Gunner";
+								init="call{[this, ""US_SCOUT"", ""IRON DOME""] call FNC_GearScript; [this, ""ACRE_PRC343"", 11, ""LEFT""] call FNC_SetRadio;}";
+								description="Stinger Gunner | Team 3";
 								isPlayable=1;
 							};
 							id=142;
@@ -6317,14 +6316,14 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={20309.992,32.222279,7509.4648};
+								position[]={20312.502,32.270294,7519.6577};
 								angles[]={0,0.17711601,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="call{[this, ""US_SCOUT"", ""IRON DOME""] call FNC_GearScript; [this, ""ACRE_PRC343"", 5, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT"", ""IRON DOME""] call FNC_GearScript; [this, ""ACRE_PRC343"", 11, ""LEFT""] call FNC_SetRadio;}";
 								description="Asst. Stinger Gunner";
 								isPlayable=1;
 							};
@@ -6471,7 +6470,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={20311.936,32.304417,7524.6616};
+								position[]={20310.348,32.329937,7515.0854};
 								angles[]={0,0.17711601,0};
 							};
 							side="West";
@@ -6479,7 +6478,7 @@ class Mission
 							class Attributes
 							{
 								rank="SERGEANT";
-								init="call{[this, ""US_SCOUT_SL"", ""PUNISHER 6""] call FNC_GearScript; [this, ""ACRE_PRC343"", 11, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT_SL"", ""PUNISHER 6""] call FNC_GearScript; [this, ""ACRE_PRC343"", 12, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
 								description="Squad Leader @PUNISHER 6";
 								isPlayable=1;
 							};
@@ -6571,7 +6570,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={20312.869,32.372898,7522.5488};
+								position[]={20311.281,32.218517,7512.9727};
 								angles[]={0,0.17711601,0};
 							};
 							side="West";
@@ -6579,13 +6578,12 @@ class Mission
 							class Attributes
 							{
 								rank="CORPORAL";
-								init="call{[this, ""US_SCOUT"", ""PUNISHER 6""] call FNC_GearScript; [this, ""ACRE_PRC343"", 11, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT"", ""PUNISHER 6""] call FNC_GearScript; [this, ""ACRE_PRC343"", 12, ""LEFT""] call FNC_SetRadio;}";
 								description="Mortar Gunner";
 								isPlayable=1;
 							};
 							id=122;
 							type="B_recon_F";
-							atlOffset=-3.8146973e-006;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -6672,20 +6670,19 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={20313.664,32.291393,7520.4316};
+								position[]={20312.076,32.124611,7510.8555};
 								angles[]={0,0.17711601,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="call{[this, ""US_SCOUT"", ""PUNISHER 6""] call FNC_GearScript; [this, ""ACRE_PRC343"", 11, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT"", ""PUNISHER 6""] call FNC_GearScript; [this, ""ACRE_PRC343"", 12, ""LEFT""] call FNC_SetRadio;}";
 								description="Asst. Mortar Gunner";
 								isPlayable=1;
 							};
 							id=127;
 							type="B_recon_F";
-							atlOffset=-3.8146973e-006;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -6772,7 +6769,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={20310.092,32.336754,7523.3667};
+								position[]={20308.504,32.310596,7513.7905};
 								angles[]={0,0.17711601,0};
 							};
 							side="West";
@@ -6780,7 +6777,7 @@ class Mission
 							class Attributes
 							{
 								rank="CORPORAL";
-								init="call{[this, ""US_SCOUT"", ""PUNISHER 6""] call FNC_GearScript; [this, ""ACRE_PRC343"", 11, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT"", ""PUNISHER 6""] call FNC_GearScript; [this, ""ACRE_PRC343"", 12, ""LEFT""] call FNC_SetRadio;}";
 								description="Mortar Gunner";
 								isPlayable=1;
 							};
@@ -6872,20 +6869,19 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={20308.59,32.358971,7521.625};
+								position[]={20307.002,32.269432,7512.0488};
 								angles[]={0,0.17711601,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="call{[this, ""US_SCOUT"", ""PUNISHER 6""] call FNC_GearScript; [this, ""ACRE_PRC343"", 11, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT"", ""PUNISHER 6""] call FNC_GearScript; [this, ""ACRE_PRC343"", 12, ""LEFT""] call FNC_SetRadio;}";
 								description="Asst. Mortar Gunner";
 								isPlayable=1;
 							};
 							id=131;
 							type="B_recon_F";
-							atlOffset=-3.8146973e-006;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -7528,8 +7524,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={20305.043,34.261951,7514.5176};
-						angles[]={6.2618575,0.17954202,0.0026703537};
+						position[]={20307.553,34.212543,7524.7104};
+						angles[]={0.041309625,0.17954202,0};
 					};
 					side="Empty";
 					flags=4;
@@ -7761,7 +7757,7 @@ class Mission
 							class Attributes
 							{
 								rank="SERGEANT";
-								init="call{[this, ""US_MEDIC"", ""BANDAID""] call FNC_GearScript; [this, ""ACRE_PRC343"", 6, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_MEDIC"", ""BANDAID""] call FNC_GearScript; [this, ""ACRE_PRC343"", 1, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
 								description="Medic @BANDAID";
 								isPlayable=1;
 							};
@@ -7880,7 +7876,7 @@ class Mission
 							class Attributes
 							{
 								rank="CORPORAL";
-								init="call{[this, ""US_MEDIC"", ""BANDAID""] call FNC_GearScript; [this, ""ACRE_PRC343"", 6, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_MEDIC"", ""BANDAID""] call FNC_GearScript; [this, ""ACRE_PRC343"", 1, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
 								description="Medic";
 								isPlayable=1;
 							};
@@ -8037,7 +8033,7 @@ class Mission
 				};
 			};
 			id=51;
-			atlOffset=-1.2533836;
+			atlOffset=-1.3233356;
 		};
 		class Item2
 		{
@@ -9884,7 +9880,7 @@ class Mission
 							{
 								rank="LIEUTENANT";
 								init="call{[this, ""RU_PL"", ""AKATSIYA 0""] call FNC_GearScript; [this, ""ACRE_PRC343"", 1, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
-								description="Platoon Leader @AKATSIYA 0";
+								description="Platoon Leader @AKATSIYA 0 | PL HQ";
 								isPlayable=1;
 							};
 							id=378;
@@ -10277,7 +10273,7 @@ class Mission
 							{
 								rank="SERGEANT";
 								init="call{[this, ""RU_SL"", ""AKATSIYA 1""] call FNC_GearScript; [this, ""ACRE_PRC343"", 2, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
-								description="Squad Leader | BMP Commander @AKATSIYA 1";
+								description="Squad Leader | BMP Commander @AKATSIYA 1 | 1 SEC";
 								isPlayable=1;
 							};
 							id=433;
@@ -11260,7 +11256,7 @@ class Mission
 							{
 								rank="SERGEANT";
 								init="call{[this, ""RU_SL"", ""AKATSIYA 2""] call FNC_GearScript; [this, ""ACRE_PRC343"", 3, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
-								description="Squad Leader | BMP Commander @AKATSIYA 2";
+								description="Squad Leader | BMP Commander @AKATSIYA 2 | 2 SEC";
 								isPlayable=1;
 							};
 							id=495;
@@ -12244,7 +12240,7 @@ class Mission
 							{
 								rank="SERGEANT";
 								init="call{[this, ""RU_SL"", ""AKATSIYA 3""] call FNC_GearScript; [this, ""ACRE_PRC343"", 4, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
-								description="Squad Leader | BMP Commander @AKATSIYA 3";
+								description="Squad Leader | BMP Commander @AKATSIYA 3 | 3 SEC";
 								isPlayable=1;
 							};
 							id=494;
@@ -13208,7 +13204,7 @@ class Mission
 							{
 								rank="SERGEANT";
 								init="call{[this, ""RU_TC"", ""AKATSIYA 4""] call FNC_GearScript; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
-								description="Tank Commander @AKATSIYA 4";
+								description="Tank Commander @AKATSIYA 4 | T-90A";
 								isPlayable=1;
 							};
 							id=447;
@@ -13600,7 +13596,7 @@ class Mission
 							{
 								rank="SERGEANT";
 								init="call{[this, ""RU_TC"", ""AKATSIYA 5""] call FNC_GearScript; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
-								description="Tank Commander @AKATSIYA 5";
+								description="Tank Commander @AKATSIYA 5 | T-90A";
 								isPlayer=1;
 								isPlayable=1;
 							};
@@ -14014,8 +14010,8 @@ class Mission
 							class Attributes
 							{
 								rank="SERGEANT";
-								init="call{[this, ""RU_AA_SL"", ""SERPENT""] call FNC_GearScript; [this, ""ACRE_PRC343"", 6, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
-								description="Team Leader | Igla Gunner @SERPENT";
+								init="call{[this, ""RU_AA_SL"", ""SERPENT""] call FNC_GearScript; [this, ""ACRE_PRC343"", 7, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
+								description="Igla Gunner | Team 1 @SERPENT";
 								isPlayable=1;
 							};
 							id=460;
@@ -14133,13 +14129,13 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{[this, ""RU_AA"", ""SERPENT""] call FNC_GearScript; [this, ""ACRE_PRC343"", 6, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""RU_AA"", ""SERPENT""] call FNC_GearScript; [this, ""ACRE_PRC343"", 7, ""LEFT""] call FNC_SetRadio;}";
 								description="Asst. Igla Gunner";
 								isPlayable=1;
 							};
 							id=452;
 							type="rhs_msv_emr_rifleman";
-							atlOffset=1.5258789e-005;
+							atlOffset=7.6293945e-006;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -14253,8 +14249,8 @@ class Mission
 							class Attributes
 							{
 								rank="CORPORAL";
-								init="call{[this, ""RU_AA"", ""SERPENT""] call FNC_GearScript; [this, ""ACRE_PRC343"", 6, ""LEFT""] call FNC_SetRadio;}";
-								description="Igla Gunner";
+								init="call{[this, ""RU_AA"", ""SERPENT""] call FNC_GearScript; [this, ""ACRE_PRC343"", 8, ""LEFT""] call FNC_SetRadio;}";
+								description="Igla Gunner | Team 2";
 								isPlayable=1;
 							};
 							id=461;
@@ -14371,7 +14367,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{[this, ""RU_AA"", ""SERPENT""] call FNC_GearScript; [this, ""ACRE_PRC343"", 6, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""RU_AA"", ""SERPENT""] call FNC_GearScript; [this, ""ACRE_PRC343"", 8, ""LEFT""] call FNC_SetRadio;}";
 								description="Asst. Igla Gunner";
 								isPlayable=1;
 							};
@@ -14490,8 +14486,8 @@ class Mission
 							class Attributes
 							{
 								rank="CORPORAL";
-								init="call{[this, ""RU_AA"", ""SERPENT""] call FNC_GearScript; [this, ""ACRE_PRC343"", 6, ""LEFT""] call FNC_SetRadio;}";
-								description="Igla Gunner";
+								init="call{[this, ""RU_AA"", ""SERPENT""] call FNC_GearScript; [this, ""ACRE_PRC343"", 9, ""LEFT""] call FNC_SetRadio;}";
+								description="Igla Gunner | Team 3";
 								isPlayable=1;
 							};
 							id=462;
@@ -14608,7 +14604,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{[this, ""RU_AA"", ""SERPENT""] call FNC_GearScript; [this, ""ACRE_PRC343"", 6, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""RU_AA"", ""SERPENT""] call FNC_GearScript; [this, ""ACRE_PRC343"", 9, ""LEFT""] call FNC_SetRadio;}";
 								description="Asst. Igla Gunner";
 								isPlayable=1;
 							};
@@ -14783,7 +14779,7 @@ class Mission
 							class Attributes
 							{
 								rank="SERGEANT";
-								init="call{[this, ""RU_MRTR_SL"", ""BARGRETS 5""] call FNC_GearScript; [this, ""ACRE_PRC343"", 5, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
+								init="call{[this, ""RU_MRTR_SL"", ""BARGRETS 5""] call FNC_GearScript; [this, ""ACRE_PRC343"", 10, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
 								description="Mortar Squad Leader @BARGRETS 5";
 								isPlayable=1;
 							};
@@ -14902,13 +14898,12 @@ class Mission
 							class Attributes
 							{
 								rank="CORPORAL";
-								init="call{[this, ""RU_MRTR_GNR"", ""BARGRETS 5""] call FNC_GearScript; [this, ""ACRE_PRC343"", 5, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""RU_MRTR_GNR"", ""BARGRETS 5""] call FNC_GearScript; [this, ""ACRE_PRC343"", 10, ""LEFT""] call FNC_SetRadio;}";
 								description="Mortar Gunner";
 								isPlayable=1;
 							};
 							id=456;
 							type="rhs_msv_emr_rifleman";
-							atlOffset=-7.6293945e-006;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -15021,7 +15016,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{[this, ""RU_MRTR_ASST"", ""BARGRETS 5""] call FNC_GearScript; [this, ""ACRE_PRC343"", 5, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""RU_MRTR_ASST"", ""BARGRETS 5""] call FNC_GearScript; [this, ""ACRE_PRC343"", 10, ""LEFT""] call FNC_SetRadio;}";
 								description="Asst. Mortar Gunner";
 								isPlayable=1;
 							};
@@ -15140,13 +15135,12 @@ class Mission
 							class Attributes
 							{
 								rank="CORPORAL";
-								init="call{[this, ""RU_MRTR_GNR"", ""BARGRETS 5""] call FNC_GearScript; [this, ""ACRE_PRC343"", 5, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""RU_MRTR_GNR"", ""BARGRETS 5""] call FNC_GearScript; [this, ""ACRE_PRC343"", 10, ""LEFT""] call FNC_SetRadio;}";
 								description="Mortar Gunner";
 								isPlayable=1;
 							};
 							id=455;
 							type="rhs_msv_emr_rifleman";
-							atlOffset=7.6293945e-006;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -15259,7 +15253,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{[this, ""RU_MRTR_ASST"", ""BARGRETS 5""] call FNC_GearScript; [this, ""ACRE_PRC343"", 5, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""RU_MRTR_ASST"", ""BARGRETS 5""] call FNC_GearScript; [this, ""ACRE_PRC343"", 10, ""LEFT""] call FNC_SetRadio;}";
 								description="Asst. Mortar Gunner";
 								isPlayable=1;
 							};
@@ -15433,7 +15427,7 @@ class Mission
 							class Attributes
 							{
 								rank="SERGEANT";
-								init="call{[this, ""RU_MEDIC"", ""MEDIC 1""] call FNC_GearScript; [this, ""ACRE_PRC343"", 7, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
+								init="call{[this, ""RU_MEDIC"", ""MEDIC 1""] call FNC_GearScript; [this, ""ACRE_PRC343"", 1, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
 								description="Medic @MEDIC 1";
 								isPlayable=1;
 							};
@@ -15572,7 +15566,7 @@ class Mission
 							class Attributes
 							{
 								rank="CORPORAL";
-								init="call{[this, ""RU_MEDIC"", ""MEDIC 1""] call FNC_GearScript; [this, ""ACRE_PRC343"", 7, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
+								init="call{[this, ""RU_MEDIC"", ""MEDIC 1""] call FNC_GearScript; [this, ""ACRE_PRC343"", 1, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
 								description="Medic";
 								isPlayable=1;
 							};
@@ -15748,8 +15742,8 @@ class Mission
 							class Attributes
 							{
 								rank="CAPTAIN";
-								init="call{[this, ""RU_HELIPILOT"", ""AKULA 1""] call FNC_GearScript; [this, ""ACRE_PRC148"", 1, ""LEFT""] call FNC_SetRadio;}";
-								description="Pilot @AKULA 1";
+								init="call{[this, ""RU_HELIPILOT"", ""AKULA 1""] call FNC_GearScript; [this, ""ACRE_PRC148"", 2, ""LEFT""] call FNC_SetRadio;}";
+								description="Pilot @AKULA 1 | Ka-52";
 								isPlayable=1;
 							};
 							id=465;
@@ -16003,8 +15997,8 @@ class Mission
 							class Attributes
 							{
 								rank="CAPTAIN";
-								init="call{[this, ""RU_HELIPILOT"", ""AKULA 2""] call FNC_GearScript; [this, ""ACRE_PRC148"", 1, ""LEFT""] call FNC_SetRadio;}";
-								description="Pilot @AKULA 2";
+								init="call{[this, ""RU_HELIPILOT"", ""AKULA 2""] call FNC_GearScript; [this, ""ACRE_PRC148"", 2, ""LEFT""] call FNC_SetRadio;}";
+								description="Pilot @AKULA 2 | Ka-52";
 								isPlayable=1;
 							};
 							id=463;
@@ -25408,8 +25402,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={20306.527,32.63615,7522.6968};
-				angles[]={0.041311946,5.1089454,0};
+				position[]={20304.939,32.569988,7513.1206};
+				angles[]={6.2618566,5.1089454,0.0026744273};
 			};
 			side="Empty";
 			flags=4;
@@ -25467,8 +25461,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={20306.648,32.641701,7521.6172};
-				angles[]={6.2805324,2.9553311,0};
+				position[]={20305.061,32.5499,7512.041};
+				angles[]={6.2671871,2.9553311,6.2805333};
 			};
 			side="Empty";
 			flags=4;
@@ -25478,7 +25472,6 @@ class Mission
 			};
 			id=924;
 			type="Box_NATO_Ammo_F";
-			atlOffset=-3.8146973e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -25527,8 +25520,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={20307.51,32.559052,7522.7476};
-				angles[]={0.041311946,1.5388044,0};
+				position[]={20305.922,32.573689,7513.1714};
+				angles[]={6.2618566,1.5388044,0.0026744273};
 			};
 			side="Empty";
 			flags=4;
@@ -25538,7 +25531,6 @@ class Mission
 			};
 			id=925;
 			type="Box_NATO_Ammo_F";
-			atlOffset=-0.075000763;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -25587,8 +25579,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={20305.67,32.631439,7522.8105};
-				angles[]={0.041311946,1.7983,0};
+				position[]={20304.082,32.571159,7513.2344};
+				angles[]={6.2671871,1.7983,6.2805333};
 			};
 			side="Empty";
 			flags=4;
@@ -25750,8 +25742,8 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={20307.602,32.358292,7521.8584};
-				angles[]={6.2805333,0,0};
+				position[]={20306.014,32.271408,7512.2822};
+				angles[]={6.2618566,0,0.0026744273};
 			};
 			id=930;
 			type="ModuleChemlight_F";
@@ -25784,8 +25776,8 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={20305.617,32.358303,7521.8623};
-				angles[]={6.2805333,0,0};
+				position[]={20304.029,32.272499,7512.2861};
+				angles[]={6.2671871,0,6.2805333};
 			};
 			id=931;
 			type="ModuleChemlight_F";
@@ -25818,8 +25810,8 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={20306.625,32.312435,7523.6504};
-				angles[]={0.041309625,0,0};
+				position[]={20305.037,32.307022,7514.0742};
+				angles[]={6.2618566,0,0.0026744273};
 			};
 			id=932;
 			type="ModuleChemlight_F";
