@@ -1,22 +1,20 @@
-
+﻿
 NEWTAB("1. SITUATION: CIVILIAN")
-	<br/>1.a.) Civilian: Local civilians are under a curfew. However, increasing discontent among the civlian population has limited the curfew's effectiveness. Friendly UAVs have spotted a few civilian vehicles driving at night.
+	<br/>1.a. Civilian: The pre-dawn raids have sent the civilian population fleeing north or hiding inside houses. There should be zero civilian presence on the battlefield.
 	<br/>
-	<br/>1.b.) Enemy Overview: The 101st Mechanized Infantry Battalion is currently maintaining a defensive posture to the north of the international boundary. Their forces are currently occupying defensive positions on OBJ RIFLES (AR CO), OBJ Pistol (IN PLT). They have an armor recon PLT (+) advancing towards Key Terrain 1, 2, & 3 on OBJ Shotgun. This enemy force on OBJ Shotgun is the focus for the remainder of this OPORD.
+	<br/>1.b. Enemy Overview: The 101st Mechanized Infantry Battalion (MIBN) is currently maintaining a defensive posture to the North of the international boundary. Their forces are currently occupying defensive positions on OBJ Rifles (AR CO), OBJ Pistol (IN PLT). They have an armor recon PLT (+) advancing towards Key Terrain 1, 2 & 3 on OBJ Shotgun. This enemy force on OBJ Shotgun is the focus for the remainder of this OPORD.
 	<br/>
-	<br/>1.b.1.) Composition: Enemy forces on OBJ Shotgun consist of armored recon platoon (+) with Soviet style small arms and equipment (AK-47, RPG-7, PKM, NVG). They also have the following combat equipment:
+	<br/>1.b.1.) 1.b.1. Composition: Enemy forces on OBJ Shotgun consist of armored recon platoon (+) with Soviet style small arms and equipment (AK-47, RPG-7, PKM, NVG). They also have the following combat equipment:
+	<br/>3 x BMP-3
+	<br/>2 x T-72
+	<br/>1 x 60mm Mortar Section (2 x Gun Tubes)
+	<br/>2 x Helicopters (KA-52)
+	<br/>3 x Iglas
+	<br/>1.b.2.) 1.b.2. Disposition: Enemy forces are advancing towards OBJ Shotgun. Their exact direction of travel is unknown but likely North-to-South in order to seize key terrain as quickly as possible.
 	<br/>
-	<br/>          3 x BMP-3
-	<br/>          2 x T-72
-	<br/>          1 x 60mm Mortar Section (2 x Gun Tubes)
-	<br/>          2 x Helicopters (KA-52)
-	<br/>          3 x Iglas
+	<br/>1b.3. Enemy Most Likely Course of Action: Enemy forces will seize key pieces of terrain and establish hasty defensive battle positions in vicinity of K1, K2, K3. Once established, they will use direct and indirect fires to destroy our forces.
 	<br/>
-	<br/>1.b.2.) Disposition: Enemy forces are advancing towards OBJ Shotgun. Their exact direction of travel is unknown but likely North-to-South in order to seize key terrain as quickly as possible.
-	<br/>
-	<br/>1.b.3.) Enemy MLCOA: Enemy forces will seize key pieces of terrain and establish hasty defensive battle positions in vicinity of K1, K2, K3. Once established, they will use direct and indirect fires to destroy our forces.
-	<br/>
-	<br/>1.b.4.) Enemy MDCOA: Simliar to the above scenario, but instead of maintaining stand-off distance, the enemy will leave absolute minimum forces on key terrain in order to conduct a counter-attack to destroy our forces.
+	<br/>1.b.4 Enemy Most Dangerous Course of Action: Similar to above scenario but instead of maintaining stand-off distance, the enemy will leave absolute minimum forces on key terrain in order to conduct a counter-attack to destroy our forces.
 ENDTAB;
 
 NEWTAB("1. SITUATION: ENEMY")
@@ -57,6 +55,12 @@ ENDTAB;
 
 NEWTAB("4. SUSTAINMENT")
 	<br/>
+	<br/>Helicopters are under a 15 setup timer in order to simulate them currently performing operations in support of other maneuver units in the brigade AO.
+	<br/>Operating Area. The enemy has several air defense artillery (ADA) assets around their main FOB. Stay within the Air Operating Area so as to not risk the loss of your platform. We also have ADA around our FOB that will prevent enemy air from operating south of the DMZ.
+Fuel
+	<br/>Each helicopter starts with approx. 15-20 min. of fuel. 
+There is resupply available at the Forward Aerial Resupply Point (FARP). Resupply consists of an additional 15-20 minutes of fuel and additional ammo (see below). Resupply actions take approx. 10 min.
+
 ENDTAB;
 
 NEWTAB("5. Command & Signal:")
