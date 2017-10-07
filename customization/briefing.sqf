@@ -10,7 +10,7 @@ switch (side player) do {
 	};
 };
 
-NEWTAB("VII. BAF M6 Mortar system")
+NEWTAB("BAF M6 Mortar system")
 <br/><font color='#FFA500'>M6 mortar</font>
 <br/>Due to the M6 Mortar being a little differnt than the normal Ace Mortar, is here a short crash course. Taken from BAFs own guide.
 <br/>
@@ -25,7 +25,7 @@ NEWTAB("VII. BAF M6 Mortar system")
 <br/>9. Once the correct charge, traversal and elevation are set, then fire …
 ENDTAB;
 
-NEWTAB("VIII. Mission notes:")
+NEWTAB("MISSION NOTES:")
 There will be a 5 minute set up timer, no elements may move more than 100m from their starting locations until A GM calls the mission to be live.
 <br/>
 <br/>ACE Medical is enabled. Medics have surgical kits to stitch up wounds completely.
@@ -59,7 +59,7 @@ There will be a 5 minute set up timer, no elements may move more than 100m from 
 ENDTAB;
 
 NEWTAB("Game Mastering")
-This mission is not designed for game mastering and should only be manipulated for technical, administrative or diagnostic purposes.
+This mission is designed to be started and ended by a logged-in admin via ACE self-interaction menu.
 ENDTAB;
 
 DISPLAYBRIEFING();

@@ -1,9 +1,10 @@
 ﻿
 NEWTAB("1.a. SITUATION: CIVILIAN")
-	<br/>1.a. Civilian: The pre-dawn raids have sent the civilian population fleeing north or hiding inside houses. There should be zero civilian presence on the battlefield.
+	1.a. Civilian: The pre-dawn raids have sent the civilian population fleeing north or hiding inside houses. There should be zero civilian presence on the battlefield.
 	<br/>
-	("1.b. SITUATION: ENEMY")
-	<br/>1.b. Enemy Overview: The enemy Combined Arms Battalion Battalion (CAB) is currently maintaining a defensive posture to the South of the international boundary. Their forces are currently occupying defensive positions around their main Forward Operating Base. They have an armor recon PLT (+) advancing towards Key Terrain 1, 2 & 3 on OBJ Boris. This enemy force on OBJ Boris is the focus for the remainder of this OPORD.
+ENDTAB;
+NEWTAB("1.b. SITUATION: ENEMY")
+	1.b. Enemy Overview: The enemy Combined Arms Battalion Battalion (CAB) is currently maintaining a defensive posture to the South of the international boundary. Their forces are currently occupying defensive positions around their main Forward Operating Base. They have an armor recon PLT (+) advancing towards Key Terrain 1, 2 & 3 on OBJ Boris. This enemy force on OBJ Boris is the focus for the remainder of this OPORD.
 	<br/>
 	<br/>1.b.1. Composition: Enemy forces advancing towards OBJ Boris consist of armored recon platoon (+) with American style small arms and equipment (M-4, M249, M240, NVG). They also have the following combat equipment:
 	<br/>3 x M3A3
@@ -20,31 +21,30 @@ NEWTAB("1.a. SITUATION: CIVILIAN")
 	<br/>1.b.4 Enemy Most Dangerous Course of Action: Similar to above scenario but instead of maintaining stand-off distance, the enemy will leave absolute minimum forces on key terrain in order to conduct a counter-attack to destroy our forces.
 ENDTAB;
 NEWTAB("1. SITUATION: FRIENDLY")
-	<br/>1.c.1.) BN Mission. The 101st MIBN continues to defend in-depth along the international boundary. Our recon forces are to deploy south of the demilitarized zone in order to destroy enemy recon forces and prevent them from securing key terrain. A/101 is continuing to defend BP Alpha and the forward disruption zone. C/101 is defending BP Charlie.
+	1.c.1.) BN Mission. The 101st MIBN continues to defend in-depth along the international boundary. Our recon forces are to deploy south of the demilitarized zone in order to destroy enemy recon forces and prevent them from securing key terrain. A/101 is continuing to defend BP Alpha and the forward disruption zone. C/101 is defending BP Charlie.
 	<br/>
 	<br/>
 	<br/>1.c.2.) Adjacent Units. A/101 MIBN (Radon Company) continues to defend North of the demilitarized zone along BP Alpha. B/101 MIBN (Ruda Company) continues to defend the town of Charkia.\
 ENDTAB;
 
 NEWTAB("2. MISSION")
-	<br/>2. Platoon Mission:  Akatsiya Platoon conducts a deliberate attack on OBJ Boris NLT 0300 in order to destroy enemy recon forces operating in sector.
+	2. Platoon Mission:  Akatsiya Platoon conducts a deliberate attack on OBJ Boris NLT 0300 in order to destroy enemy recon forces operating in sector.
 ENDTAB;
 
-NEWTAB("3. EXECTION")
-	<br/>
+NEWTAB("3. EXECUTION")
+	
 ENDTAB;
 
 NEWTAB("4. SUSTAINMENT")
-	<br/>
-	<br/>Helicopters are under a 15 setup timer in order to simulate them currently performing operations in support of other maneuver units in the brigade AO.
+	Helicopters are under a 15 setup timer in order to simulate them currently performing operations in support of other maneuver units in the brigade AO.
 	<br/>Operating Area. The enemy has several air defense artillery (ADA) assets around their main FOB. Stay within the Air Operating Area so as to not risk the loss of your platform. We also have ADA around our FOB that will prevent enemy air from operating North of the DMZ.
 Fuel
 	<br/>Each helicopter starts with approx. 15-20 min. of fuel. 
 There is resupply available at the Forward Aerial Resupply Point (FARP). Resupply consists of an additional 15-20 minutes of fuel and additional ammo (see below). Resupply actions take approx. 10 min.
 ENDTAB;
 
-NEWTAB("5. Command & Signal:")
-	<br/> ------ Recon Platoon - 'Akatsiya' ------
+NEWTAB("5. COMMAND & SIGNAL:")
+	------ Recon Platoon - 'Akatsiya' ------
 	<br/>
 	<br/>PL HQ - Akatsiya 0 - LR 1 / SR 1
 	<br/>1 SEC - Akatsiya 1 - LR 1 / SR 2
