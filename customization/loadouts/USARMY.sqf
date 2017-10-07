@@ -123,7 +123,51 @@ case "US_SCOUT_SL": {
      
     ["rhs_weap_m4a1_carryhandle"] call FNC_AddItem;
     _unit addPrimaryWeaponItem "rhsusf_acc_anpeq15side_bk";
-    _unit addPrimaryWeaponItem "rhsusf_acc_compm4";
+    _unit addPrimaryWeaponItem "rhsusf_acc_ACOG3";
+     
+ 
+};
+
+case "US_SCOUT_SL_T": {
+ 
+    ["rhs_uniform_cu_ocp"] call FNC_AddItem;
+    ["rhsusf_spcs_ocp_rifleman"] call FNC_AddItem;
+     
+    ["rhsusf_ach_helmet_headset_ocp"] call FNC_AddItem;
+     
+    ["ItemMap"] call FNC_AddItem;
+    ["ItemCompass"] call FNC_AddItem;
+    ["ItemWatch"] call FNC_AddItem;
+    ["NVGoggles"] call FNC_AddItem;
+    ["Binocular"] call FNC_AddItem;
+     
+    ["ACRE_PRC148",1,"uniform"] call FNC_AddItem;
+    ["ACRE_PRC343",1,"uniform"] call FNC_AddItem;
+    ["ACE_fieldDressing",3,"uniform"] call FNC_AddItem;
+    ["ACE_elasticBandage",3,"uniform"] call FNC_AddItem;
+    ["ACE_quikclot",3,"uniform"] call FNC_AddItem;
+    ["ACE_EarPlugs",1,"uniform"] call FNC_AddItem;
+    ["ACE_epinephrine",1,"uniform"] call FNC_AddItem;
+    ["ACE_Flashlight_XL50",1,"uniform"] call FNC_AddItem;
+    ["ACE_microDAGR",1,"uniform"] call FNC_AddItem;
+    ["ACE_morphine",1,"uniform"] call FNC_AddItem;
+    ["ACE_packingBandage",3,"uniform"] call FNC_AddItem;
+    ["ACE_tourniquet",1,"uniform"] call FNC_AddItem;
+    ["ACE_MapTools",1,"uniform"] call FNC_AddItem;
+    ["ACE_IR_Strobe_Item",1,"uniform"] call FNC_AddItem;
+    ["rhs_mag_30Rnd_556x45_M855A1_Stanag",7,"vest"] call FNC_AddItem;
+    ["rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red",2,"vest"] call FNC_AddItem;
+    ["rhs_mag_an_m8hc",2,"vest"] call FNC_AddItem;
+    ["rhs_mag_m67",2,"vest"] call FNC_AddItem;
+    ["Chemlight_blue",2,"vest"] call FNC_AddItem;
+    ["Chemlight_green",2,"vest"] call FNC_AddItem;
+    ["ACE_Chemlight_IR",2,"vest"] call FNC_AddItem;
+    ["ACE_HandFlare_Green",1,"vest"] call FNC_AddItem;
+    ["ACE_HandFlare_Red",1,"vest"] call FNC_AddItem;
+     
+    ["rhs_weap_m4a1_carryhandle"] call FNC_AddItem;
+    _unit addPrimaryWeaponItem "rhsusf_acc_anpeq15side_bk";
+    _unit addPrimaryWeaponItem "rhsusf_acc_anpas13gv1";
      
  
 };

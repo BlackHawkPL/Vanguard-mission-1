@@ -8,22 +8,22 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=964;
+		nextID=972;
 	};
 	class MarkerIDProvider
 	{
-		nextID=31;
+		nextID=34;
 	};
 	class LayerIndexProvider
 	{
-		nextID=109;
+		nextID=114;
 	};
 	class Camera
 	{
-		pos[]={18500.51,117.04382,11773.452};
-		dir[]={-0.78458822,-0.541812,0.30180705};
-		up[]={-0.50583428,0.84037769,0.19457664};
-		aside[]={0.35906628,-2.0660809e-007,0.93343043};
+		pos[]={20316.416,74.318787,7544.3481};
+		dir[]={0.10391472,-0.71663994,0.68967104};
+		up[]={0.10677414,0.69743508,0.7086488};
+		aside[]={0.9888441,1.1293741e-007,-0.14899239};
 	};
 };
 binarizationWanted=0;
@@ -278,7 +278,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=36;
+		items=38;
 		class Item0
 		{
 			dataType="Layer";
@@ -526,7 +526,7 @@ class Mission
 						lock="UNLOCKED";
 						fuel=0.17765242;
 						init="call{[this, ""US_HELI""] call FNC_VehicleGearScript; if (local this) then {this call compile preprocessFileLineNumbers ""customization\scripts\USheli.sqf""}; [this, ""AH-6M"", ""US Army""] call FNC_TrackAsset;}";
-						name="BLUFOR_HELI_1";
+						name="b13";
 						pylons="rhsusf_mag_gau19_melb_left;;;rhs_mag_AGM114K_2[0];";
 					};
 					id=205;
@@ -666,7 +666,7 @@ class Mission
 						lock="UNLOCKED";
 						fuel=0.17765242;
 						init="call{[this, ""US_HELI""] call FNC_VehicleGearScript; if (local this) then {this call compile preprocessFileLineNumbers ""customization\scripts\USheli.sqf""}; [this, ""AH-6M"", ""US Army""] call FNC_TrackAsset;}";
-						name="BLUFOR_HELI_2";
+						name="b12";
 						pylons="rhsusf_mag_gau19_melb_left;;;rhs_mag_AGM114K_2[0];";
 					};
 					id=216;
@@ -767,7 +767,7 @@ class Mission
 					{
 						lock="UNLOCKED";
 						init="call{[this, ""GHOST4""] call FNC_VehicleGearScript; [this, ""HMMWV M2"", ""US Army""] call FNC_TrackAsset;}";
-						name="CAR_GHOST_4";
+						name="b4";
 					};
 					id=39;
 					type="rhsusf_m1025_w_m2";
@@ -885,7 +885,7 @@ class Mission
 					{
 						lock="UNLOCKED";
 						init="call{[this, ""GHOST5""] call FNC_VehicleGearScript; [this, ""HMMWV M2"", ""US Army""] call FNC_TrackAsset;}";
-						name="CAR_GHOST_5";
+						name="b5";
 					};
 					id=38;
 					type="rhsusf_m1025_w_m2";
@@ -1004,7 +1004,7 @@ class Mission
 					{
 						lock="UNLOCKED";
 						init="call{[this, ""GHOST7""] call FNC_VehicleGearScript; [this, ""HMMWV M2"", ""US Army""] call FNC_TrackAsset;}";
-						name="CAR_GHOST_7";
+						name="b7";
 					};
 					id=37;
 					type="rhsusf_m1025_w_m2";
@@ -1123,7 +1123,7 @@ class Mission
 					{
 						lock="UNLOCKED";
 						init="call{[this, ""GHOST6""] call FNC_VehicleGearScript; [this, ""HMMWV Mk19"", ""US Army""] call FNC_TrackAsset;}";
-						name="CAR_GHOST_6";
+						name="b6";
 					};
 					id=40;
 					type="rhsusf_m1025_w_Mk19";
@@ -1242,7 +1242,7 @@ class Mission
 					{
 						lock="UNLOCKED";
 						init="call{[this, ""GHOST8""] call FNC_VehicleGearScript; [this, ""HMMWV Mk19"", ""US Army""] call FNC_TrackAsset;}";
-						name="CAR_GHOST_8";
+						name="b8";
 					};
 					id=41;
 					type="rhsusf_m1025_w_Mk19";
@@ -1361,7 +1361,7 @@ class Mission
 					{
 						lock="UNLOCKED";
 						init="call{[this, ""BRADLEY""] call FNC_VehicleGearScript; [this, ""M2A2"", ""US Army""] call FNC_TrackAsset;}";
-						name="IFV_GHOST_1";
+						name="b1";
 					};
 					id=44;
 					type="RHS_M2A2_wd";
@@ -1461,7 +1461,7 @@ class Mission
 					{
 						lock="UNLOCKED";
 						init="call{[this, ""BRADLEY""] call FNC_VehicleGearScript; [this, ""M2A2"", ""US Army""] call FNC_TrackAsset;}";
-						name="IFV_GHOST_2";
+						name="b2";
 					};
 					id=43;
 					type="RHS_M2A2_wd";
@@ -1560,7 +1560,7 @@ class Mission
 					{
 						lock="UNLOCKED";
 						init="call{[this, ""BRADLEY""] call FNC_VehicleGearScript; [this, ""M2A2"", ""US Army""] call FNC_TrackAsset;}";
-						name="IFV_GHOST_3";
+						name="b3";
 					};
 					id=42;
 					type="RHS_M2A2_wd";
@@ -1650,8 +1650,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={20305.846,34.278568,7516.2202};
-						angles[]={6.2778587,0.17954202,0.0026520467};
+						position[]={20305.846,34.278469,7516.2197};
+						angles[]={6.2778621,0.17954202,0.0026529003};
 					};
 					side="Empty";
 					flags=4;
@@ -1659,11 +1659,11 @@ class Mission
 					{
 						lock="UNLOCKED";
 						init="call{[this, ""MRTR_TIGR""] call FNC_VehicleGearScript; [this, ""Open-top HMMWV"", ""US Army""] call FNC_TrackAsset;}";
-						name="CAR_GHOST_MTR";
+						name="b10";
 					};
 					id=303;
 					type="rhsusf_m998_w_2dr_halftop";
-					atlOffset=-0.0019035339;
+					atlOffset=-0.0019989014;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -2907,7 +2907,7 @@ class Mission
 							class Attributes
 							{
 								rank="SERGEANT";
-								init="call{[this, ""US_TC"", ""GHOST 3""] call FNC_GearScript; [this, ""ACRE_PRC343"", 3, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_TC"", ""GHOST 3""] call FNC_GearScript; [this, ""ACRE_PRC343"", 2, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
 								description="BFV Commander @GHOST 3 | M2A3 Team 3";
 								isPlayable=1;
 							};
@@ -3007,7 +3007,7 @@ class Mission
 							class Attributes
 							{
 								rank="CORPORAL";
-								init="call{[this, ""US_GNR"", ""GHOST 3""] call FNC_GearScript; [this, ""ACRE_PRC343"", 3, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_GNR"", ""GHOST 3""] call FNC_GearScript; [this, ""ACRE_PRC343"", 2, ""LEFT""] call FNC_SetRadio;}";
 								description="BFV Gunner";
 								isPlayable=1;
 							};
@@ -3106,7 +3106,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="call{[this, ""US_DRVR"", ""GHOST 3""] call FNC_GearScript; [this, ""ACRE_PRC343"", 3, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_DRVR"", ""GHOST 3""] call FNC_GearScript; [this, ""ACRE_PRC343"", 2, ""LEFT""] call FNC_SetRadio;}";
 								description="BFV Driver";
 								isPlayable=1;
 							};
@@ -3205,7 +3205,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="call{[this, ""US_SCOUT"", ""GHOST 3""] call FNC_GearScript; [this, ""ACRE_PRC343"", 3, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT"", ""GHOST 3""] call FNC_GearScript; [this, ""ACRE_PRC343"", 2, ""LEFT""] call FNC_SetRadio;}";
 								description="Scout";
 								isPlayable=1;
 							};
@@ -3304,7 +3304,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="call{[this, ""US_SCOUT"", ""GHOST 3""] call FNC_GearScript; [this, ""ACRE_PRC343"", 3, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT"", ""GHOST 3""] call FNC_GearScript; [this, ""ACRE_PRC343"", 2, ""LEFT""] call FNC_SetRadio;}";
 								description="Scout";
 								isPlayable=1;
 							};
@@ -3460,7 +3460,7 @@ class Mission
 							class Attributes
 							{
 								rank="SERGEANT";
-								init="call{[this, ""US_SCOUT_SL"", ""GHOST 4""] call FNC_GearScript; [this, ""ACRE_PRC343"", 4, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT_SL_T"", ""GHOST 4""] call FNC_GearScript; [this, ""ACRE_PRC343"", 1, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
 								description="Platoon Sergeant @GHOST 4 | HQ";
 								isPlayable=1;
 							};
@@ -3559,7 +3559,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="call{[this, ""US_SCOUT"", ""GHOST 4""] call FNC_GearScript; [this, ""ACRE_PRC343"", 4, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT"", ""GHOST 4""] call FNC_GearScript; [this, ""ACRE_PRC343"", 1, ""LEFT""] call FNC_SetRadio;}";
 								description="Scout Driver";
 								isPlayable=1;
 							};
@@ -3658,7 +3658,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="call{[this, ""US_SCOUT"", ""GHOST 4""] call FNC_GearScript; [this, ""ACRE_PRC343"", 4, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT"", ""GHOST 4""] call FNC_GearScript; [this, ""ACRE_PRC343"", 1, ""LEFT""] call FNC_SetRadio;}";
 								description="Scout";
 								isPlayable=1;
 							};
@@ -3757,7 +3757,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="call{[this, ""US_SCOUT"", ""GHOST 4""] call FNC_GearScript; [this, ""ACRE_PRC343"", 4, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT"", ""GHOST 4""] call FNC_GearScript; [this, ""ACRE_PRC343"", 1, ""LEFT""] call FNC_SetRadio;}";
 								description="Scout";
 								isPlayable=1;
 							};
@@ -3912,7 +3912,7 @@ class Mission
 							class Attributes
 							{
 								rank="SERGEANT";
-								init="call{[this, ""US_SCOUT_SL"", ""GHOST 5""] call FNC_GearScript; [this, ""ACRE_PRC343"", 5, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT_SL_T"", ""GHOST 5""] call FNC_GearScript; [this, ""ACRE_PRC343"", 3, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
 								description="Squad Leader @GHOST 5 | A SEC Team 1";
 								isPlayable=1;
 							};
@@ -4011,7 +4011,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="call{[this, ""US_SCOUT"", ""GHOST 5""] call FNC_GearScript; [this, ""ACRE_PRC343"", 5, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT"", ""GHOST 5""] call FNC_GearScript; [this, ""ACRE_PRC343"", 3, ""LEFT""] call FNC_SetRadio;}";
 								description="Scout Driver";
 								isPlayable=1;
 							};
@@ -4111,7 +4111,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="call{[this, ""US_SCOUT"", ""GHOST 5""] call FNC_GearScript; [this, ""ACRE_PRC343"", 5, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT"", ""GHOST 5""] call FNC_GearScript; [this, ""ACRE_PRC343"", 3, ""LEFT""] call FNC_SetRadio;}";
 								description="Scout";
 								isPlayable=1;
 							};
@@ -4211,7 +4211,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="call{[this, ""US_SCOUT"", ""GHOST 5""] call FNC_GearScript; [this, ""ACRE_PRC343"", 5, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT"", ""GHOST 5""] call FNC_GearScript; [this, ""ACRE_PRC343"", 3, ""LEFT""] call FNC_SetRadio;}";
 								description="Scout";
 								isPlayable=1;
 							};
@@ -4367,7 +4367,7 @@ class Mission
 							class Attributes
 							{
 								rank="SERGEANT";
-								init="call{[this, ""US_SCOUT_SL"", ""GHOST 6""] call FNC_GearScript; [this, ""ACRE_PRC343"", 6, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT_SL"", ""GHOST 6""] call FNC_GearScript; [this, ""ACRE_PRC343"", 3, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
 								description="Squad Leader @GHOST 6 | A SEC Team 2";
 								isPlayable=1;
 							};
@@ -4466,7 +4466,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="call{[this, ""US_SCOUT"", ""GHOST 6""] call FNC_GearScript; [this, ""ACRE_PRC343"", 6, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT"", ""GHOST 6""] call FNC_GearScript; [this, ""ACRE_PRC343"", 3, ""LEFT""] call FNC_SetRadio;}";
 								description="Scout Driver";
 								isPlayable=1;
 							};
@@ -4565,7 +4565,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="call{[this, ""US_SCOUT"", ""GHOST 6""] call FNC_GearScript; [this, ""ACRE_PRC343"", 6, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT"", ""GHOST 6""] call FNC_GearScript; [this, ""ACRE_PRC343"", 3, ""LEFT""] call FNC_SetRadio;}";
 								description="Scout";
 								isPlayable=1;
 							};
@@ -4665,7 +4665,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="call{[this, ""US_SCOUT"", ""GHOST 6""] call FNC_GearScript; [this, ""ACRE_PRC343"", 6, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT"", ""GHOST 6""] call FNC_GearScript; [this, ""ACRE_PRC343"", 3, ""LEFT""] call FNC_SetRadio;}";
 								description="Scout";
 								isPlayable=1;
 							};
@@ -4821,7 +4821,7 @@ class Mission
 							class Attributes
 							{
 								rank="SERGEANT";
-								init="call{[this, ""US_SCOUT_SL"", ""GHOST 7""] call FNC_GearScript; [this, ""ACRE_PRC343"", 7, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT_SL_T"", ""GHOST 7""] call FNC_GearScript; [this, ""ACRE_PRC343"", 4, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
 								description="Squad Leader @GHOST 7 | B SEC Team 1";
 								isPlayable=1;
 							};
@@ -4921,7 +4921,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="call{[this, ""US_SCOUT"", ""GHOST 7""] call FNC_GearScript; [this, ""ACRE_PRC343"", 7, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT"", ""GHOST 7""] call FNC_GearScript; [this, ""ACRE_PRC343"", 4, ""LEFT""] call FNC_SetRadio;}";
 								description="Scout Driver";
 								isPlayable=1;
 							};
@@ -5020,7 +5020,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="call{[this, ""US_SCOUT"", ""GHOST 7""] call FNC_GearScript; [this, ""ACRE_PRC343"", 7, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT"", ""GHOST 7""] call FNC_GearScript; [this, ""ACRE_PRC343"", 4, ""LEFT""] call FNC_SetRadio;}";
 								description="Scout";
 								isPlayable=1;
 							};
@@ -5119,7 +5119,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="call{[this, ""US_SCOUT"", ""GHOST 7""] call FNC_GearScript; [this, ""ACRE_PRC343"", 7, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT"", ""GHOST 7""] call FNC_GearScript; [this, ""ACRE_PRC343"", 4, ""LEFT""] call FNC_SetRadio;}";
 								description="Scout";
 								isPlayable=1;
 							};
@@ -5275,7 +5275,7 @@ class Mission
 							class Attributes
 							{
 								rank="SERGEANT";
-								init="call{[this, ""US_SCOUT_SL"", ""GHOST 8""] call FNC_GearScript; [this, ""ACRE_PRC343"", 8, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT_SL"", ""GHOST 8""] call FNC_GearScript; [this, ""ACRE_PRC343"", 4, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
 								description="Squad Leader @GHOST 8 | B SEC Team 2";
 								isPlayable=1;
 							};
@@ -5374,7 +5374,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="call{[this, ""US_SCOUT"", ""GHOST 8""] call FNC_GearScript; [this, ""ACRE_PRC343"", 8, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT"", ""GHOST 8""] call FNC_GearScript; [this, ""ACRE_PRC343"", 4, ""LEFT""] call FNC_SetRadio;}";
 								description="Scout Driver";
 								isPlayable=1;
 							};
@@ -5473,7 +5473,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="call{[this, ""US_SCOUT"", ""GHOST 8""] call FNC_GearScript; [this, ""ACRE_PRC343"", 8, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT"", ""GHOST 8""] call FNC_GearScript; [this, ""ACRE_PRC343"", 4, ""LEFT""] call FNC_SetRadio;}";
 								description="Scout";
 								isPlayable=1;
 							};
@@ -5573,7 +5573,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="call{[this, ""US_SCOUT"", ""GHOST 8""] call FNC_GearScript; [this, ""ACRE_PRC343"", 8, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT"", ""GHOST 8""] call FNC_GearScript; [this, ""ACRE_PRC343"", 4, ""LEFT""] call FNC_SetRadio;}";
 								description="Scout";
 								isPlayable=1;
 							};
@@ -5715,108 +5715,8 @@ class Mission
 					side="West";
 					class Entities
 					{
-						items=7;
+						items=6;
 						class Item0
-						{
-							dataType="Object";
-							class PositionInfo
-							{
-								position[]={20312.881,32.271008,7525.874};
-								angles[]={0,0.17711601,0};
-							};
-							side="West";
-							flags=7;
-							class Attributes
-							{
-								rank="SERGEANT";
-								init="call{[this, ""US_SCOUT_SL"", ""IRON DOME""] call FNC_GearScript; [this, ""ACRE_PRC343"", 9, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
-								description="Squad Leader @IRON DOME | AA Team";
-								isPlayable=1;
-							};
-							id=136;
-							type="B_recon_TL_F";
-							class CustomAttributes
-							{
-								class Attribute0
-								{
-									property="acex_headless_blacklist";
-									expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"BOOL"
-												};
-											};
-											value=0;
-										};
-									};
-								};
-								class Attribute1
-								{
-									property="speaker";
-									expression="_this setspeaker _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"STRING"
-												};
-											};
-											value="Male09ENG";
-										};
-									};
-								};
-								class Attribute2
-								{
-									property="pitch";
-									expression="_this setpitch _value;";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"SCALAR"
-												};
-											};
-											value=1.02;
-										};
-									};
-								};
-								class Attribute3
-								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"STRING"
-												};
-											};
-											value="true";
-										};
-									};
-								};
-								nAttributes=4;
-							};
-						};
-						class Item1
 						{
 							dataType="Object";
 							class PositionInfo
@@ -5825,12 +5725,12 @@ class Mission
 								angles[]={0,0.17711601,0};
 							};
 							side="West";
-							flags=5;
+							flags=7;
 							class Attributes
 							{
 								rank="CORPORAL";
-								init="call{[this, ""US_SCOUT"", ""IRON DOME""] call FNC_GearScript; [this, ""ACRE_PRC343"", 9, ""LEFT""] call FNC_SetRadio;}";
-								description="Stinger Gunner | Team 1";
+								init="call{[this, ""US_SCOUT_SL"", ""IRON DOME""] call FNC_GearScript; [this, ""ACRE_PRC343"", 9, ""LEFT""] call FNC_SetRadio;}";
+								description="Stinger Gunner | Team 1 @IRON DOME | AA Team";
 								isPlayable=1;
 							};
 							id=139;
@@ -5916,7 +5816,7 @@ class Mission
 								nAttributes=4;
 							};
 						};
-						class Item2
+						class Item1
 						{
 							dataType="Object";
 							class PositionInfo
@@ -6016,7 +5916,7 @@ class Mission
 								nAttributes=4;
 							};
 						};
-						class Item3
+						class Item2
 						{
 							dataType="Object";
 							class PositionInfo
@@ -6029,7 +5929,7 @@ class Mission
 							class Attributes
 							{
 								rank="CORPORAL";
-								init="call{[this, ""US_SCOUT"", ""IRON DOME""] call FNC_GearScript; [this, ""ACRE_PRC343"", 10, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT"", ""IRON DOME""] call FNC_GearScript; [this, ""ACRE_PRC343"", 9, ""LEFT""] call FNC_SetRadio;}";
 								description="Stinger Gunner | Team 2";
 								isPlayable=1;
 							};
@@ -6117,7 +6017,7 @@ class Mission
 								nAttributes=4;
 							};
 						};
-						class Item4
+						class Item3
 						{
 							dataType="Object";
 							class PositionInfo
@@ -6129,7 +6029,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="call{[this, ""US_SCOUT"", ""IRON DOME""] call FNC_GearScript; [this, ""ACRE_PRC343"", 10, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT"", ""IRON DOME""] call FNC_GearScript; [this, ""ACRE_PRC343"", 9, ""LEFT""] call FNC_SetRadio;}";
 								description="Stinger Gunner Assistant";
 								isPlayable=1;
 							};
@@ -6217,12 +6117,12 @@ class Mission
 								nAttributes=4;
 							};
 						};
-						class Item5
+						class Item4
 						{
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={20310.729,32.332672,7520.1226};
+								position[]={20310.729,32.332676,7520.123};
 								angles[]={0,0.17711601,0};
 							};
 							side="West";
@@ -6230,7 +6130,7 @@ class Mission
 							class Attributes
 							{
 								rank="CORPORAL";
-								init="call{[this, ""US_SCOUT"", ""IRON DOME""] call FNC_GearScript; [this, ""ACRE_PRC343"", 11, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT"", ""IRON DOME""] call FNC_GearScript; [this, ""ACRE_PRC343"", 9, ""LEFT""] call FNC_SetRadio;}";
 								description="Stinger Gunner | Team 3";
 								isPlayable=1;
 							};
@@ -6318,7 +6218,7 @@ class Mission
 								nAttributes=4;
 							};
 						};
-						class Item6
+						class Item5
 						{
 							dataType="Object";
 							class PositionInfo
@@ -6330,7 +6230,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="call{[this, ""US_SCOUT"", ""IRON DOME""] call FNC_GearScript; [this, ""ACRE_PRC343"", 11, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""US_SCOUT"", ""IRON DOME""] call FNC_GearScript; [this, ""ACRE_PRC343"", 9, ""LEFT""] call FNC_SetRadio;}";
 								description="Stinger Gunner Assistant";
 								isPlayable=1;
 							};
@@ -7531,8 +7431,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={20307.553,34.212543,7524.7104};
-						angles[]={0.041309625,0.17954202,0};
+						position[]={20307.553,34.212288,7524.7104};
+						angles[]={0.041311946,0.17954202,0};
 					};
 					side="Empty";
 					flags=4;
@@ -7540,11 +7440,11 @@ class Mission
 					{
 						lock="UNLOCKED";
 						init="call{[this, ""AA_HUMVEE""] call FNC_VehicleGearScript; [this, ""Open-top HMMWV"", ""US Army""] call FNC_TrackAsset;}";
-						name="CAR_GHOST_STG_1";
+						name="b9";
 					};
 					id=467;
 					type="rhsusf_m998_w_2dr";
-					atlOffset=-0.0027427673;
+					atlOffset=-0.0029983521;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -7659,7 +7559,7 @@ class Mission
 					{
 						lock="UNLOCKED";
 						init="call{[this, ""MEDICAL""] call FNC_VehicleGearScript; [this, ""M113 MEV"", ""US Army""] call FNC_TrackAsset;}";
-						name="CAR_GHOST_STG";
+						name="b11";
 					};
 					id=468;
 					type="rhsusf_m113_usarmy_medical";
@@ -8041,7 +7941,7 @@ class Mission
 				};
 			};
 			id=51;
-			atlOffset=-1.3224411;
+			atlOffset=-1.3212051;
 		};
 		class Item2
 		{
@@ -9916,8 +9816,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -9929,7 +9829,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -9973,8 +9873,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -9986,7 +9886,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -10135,8 +10035,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -10148,7 +10048,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -10192,8 +10092,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -10205,7 +10105,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -10309,8 +10209,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -10322,7 +10222,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -10366,8 +10266,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -10379,7 +10279,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -10428,8 +10328,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -10441,7 +10341,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -10485,8 +10385,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -10498,7 +10398,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -10546,8 +10446,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -10559,7 +10459,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -10603,8 +10503,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -10616,7 +10516,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -10665,8 +10565,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -10678,7 +10578,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -10722,8 +10622,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -10735,7 +10635,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -10783,8 +10683,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -10796,7 +10696,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -10840,8 +10740,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -10853,7 +10753,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -10901,8 +10801,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -10914,7 +10814,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -10958,8 +10858,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -10971,7 +10871,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -11019,8 +10919,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -11032,7 +10932,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -11076,8 +10976,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -11089,7 +10989,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -11292,8 +11192,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -11305,7 +11205,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -11349,8 +11249,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -11362,7 +11262,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -11411,8 +11311,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -11424,7 +11324,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -11468,8 +11368,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -11481,7 +11381,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -11530,8 +11430,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -11543,7 +11443,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -11587,8 +11487,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -11600,7 +11500,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -11649,8 +11549,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -11662,7 +11562,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -11706,8 +11606,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -11719,7 +11619,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -11767,8 +11667,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -11780,7 +11680,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -11824,8 +11724,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -11837,7 +11737,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -11984,8 +11884,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -11997,7 +11897,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -12041,8 +11941,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -12054,7 +11954,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -12102,8 +12002,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -12115,7 +12015,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -12159,8 +12059,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -12172,7 +12072,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -12276,8 +12176,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -12289,7 +12189,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -12333,8 +12233,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -12346,7 +12246,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -12395,8 +12295,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -12408,7 +12308,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -12452,8 +12352,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -12465,7 +12365,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -12513,8 +12413,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -12526,7 +12426,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -12570,8 +12470,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -12583,7 +12483,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -12632,8 +12532,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -12645,7 +12545,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -12689,8 +12589,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -12702,7 +12602,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -12750,8 +12650,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -12763,7 +12663,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -12807,8 +12707,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -12820,7 +12720,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -12967,8 +12867,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -12980,7 +12880,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -13024,8 +12924,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -13037,7 +12937,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -13240,8 +13140,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -13253,7 +13153,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -13297,8 +13197,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -13310,7 +13210,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -13359,8 +13259,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -13372,7 +13272,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -13416,8 +13316,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -13429,7 +13329,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -13634,8 +13534,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -13647,7 +13547,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -13691,8 +13591,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -13704,7 +13604,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -13753,8 +13653,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -13766,7 +13666,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -13810,8 +13710,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -13823,7 +13723,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -13872,8 +13772,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -13885,7 +13785,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -13929,8 +13829,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -13942,7 +13842,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -14048,8 +13948,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -14061,7 +13961,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -14105,8 +14005,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -14118,7 +14018,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -14143,7 +14043,7 @@ class Mission
 							};
 							id=452;
 							type="rhs_msv_emr_rifleman";
-							atlOffset=7.6293945e-006;
+							atlOffset=1.5258789e-005;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -14167,8 +14067,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -14180,7 +14080,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -14224,8 +14124,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -14237,7 +14137,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -14257,7 +14157,7 @@ class Mission
 							class Attributes
 							{
 								rank="CORPORAL";
-								init="call{[this, ""RU_AA"", ""SERPENT""] call FNC_GearScript; [this, ""ACRE_PRC343"", 8, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""RU_AA"", ""SERPENT""] call FNC_GearScript; [this, ""ACRE_PRC343"", 7, ""LEFT""] call FNC_SetRadio;}";
 								description="Igla Gunner | Team 2";
 								isPlayable=1;
 							};
@@ -14286,8 +14186,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -14299,7 +14199,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -14343,8 +14243,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -14356,7 +14256,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -14375,7 +14275,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{[this, ""RU_AA"", ""SERPENT""] call FNC_GearScript; [this, ""ACRE_PRC343"", 8, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""RU_AA"", ""SERPENT""] call FNC_GearScript; [this, ""ACRE_PRC343"", 7, ""LEFT""] call FNC_SetRadio;}";
 								description="Igla Gunner Assistant";
 								isPlayable=1;
 							};
@@ -14404,8 +14304,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -14417,7 +14317,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -14461,8 +14361,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -14474,7 +14374,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -14494,7 +14394,7 @@ class Mission
 							class Attributes
 							{
 								rank="CORPORAL";
-								init="call{[this, ""RU_AA"", ""SERPENT""] call FNC_GearScript; [this, ""ACRE_PRC343"", 9, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""RU_AA"", ""SERPENT""] call FNC_GearScript; [this, ""ACRE_PRC343"", 7, ""LEFT""] call FNC_SetRadio;}";
 								description="Igla Gunner | Team 3";
 								isPlayable=1;
 							};
@@ -14523,8 +14423,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -14536,7 +14436,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -14580,8 +14480,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -14593,7 +14493,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -14612,7 +14512,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{[this, ""RU_AA"", ""SERPENT""] call FNC_GearScript; [this, ""ACRE_PRC343"", 9, ""LEFT""] call FNC_SetRadio;}";
+								init="call{[this, ""RU_AA"", ""SERPENT""] call FNC_GearScript; [this, ""ACRE_PRC343"", 7, ""LEFT""] call FNC_SetRadio;}";
 								description="Igla Gunner Assistant";
 								isPlayable=1;
 							};
@@ -14641,8 +14541,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -14654,7 +14554,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -14698,8 +14598,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -14711,7 +14611,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -14816,8 +14716,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -14829,7 +14729,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -14873,8 +14773,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -14886,7 +14786,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -14912,6 +14812,7 @@ class Mission
 							};
 							id=456;
 							type="rhs_msv_emr_rifleman";
+							atlOffset=-7.6293945e-006;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -14935,8 +14836,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -14948,7 +14849,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -14992,8 +14893,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -15005,7 +14906,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -15053,8 +14954,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -15066,7 +14967,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -15110,8 +15011,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -15123,7 +15024,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -15149,6 +15050,7 @@ class Mission
 							};
 							id=455;
 							type="rhs_msv_emr_rifleman";
+							atlOffset=7.6293945e-006;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -15172,8 +15074,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -15185,7 +15087,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -15229,8 +15131,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -15242,7 +15144,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -15290,8 +15192,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -15303,7 +15205,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -15347,8 +15249,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -15360,7 +15262,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -16165,7 +16067,7 @@ class Mission
 							};
 							id=942;
 							type="rhs_msv_emr_medic";
-							atlOffset=0.017051697;
+							atlOffset=0.017059326;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -16208,8 +16110,8 @@ class Mission
 								};
 								class Attribute2
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -16221,7 +16123,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -16265,8 +16167,8 @@ class Mission
 								};
 								class Attribute5
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -16278,7 +16180,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -16410,7 +16312,7 @@ class Mission
 					{
 					};
 					id=941;
-					atlOffset=0.017051697;
+					atlOffset=0.017059326;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -25835,22 +25737,22 @@ class Mission
 		class Item27
 		{
 			dataType="Marker";
-			position[]={18480.559,0,11802.564};
-			name="marker_11";
+			position[]={18480.561,0,11802.564};
+			name="rm6";
 			text="Akatsiya 5";
 			type="dk_zn_tank_def";
-			angle=345.95807;
+			angle=345.95801;
 			id=944;
-			atlOffset=-98.776405;
+			atlOffset=-98.776558;
 		};
 		class Item28
 		{
 			dataType="Marker";
 			position[]={18484.889,0,11790.183};
-			name="marker_12";
+			name="rm5";
 			text="Akatsiya 4";
 			type="dk_zn_tank_def";
-			angle=344.26849;
+			angle=344.26797;
 			id=945;
 			atlOffset=-98.803673;
 		};
@@ -25858,10 +25760,10 @@ class Mission
 		{
 			dataType="Marker";
 			position[]={18478.383,0,11781.535};
-			name="marker_13";
+			name="rm2";
 			text="Akatsiya 1";
-			type="dk_zn_btr_def";
-			angle=338.69733;
+			type="dk_zn_bmp_def";
+			angle=338.69684;
 			id=946;
 			atlOffset=-98.333397;
 		};
@@ -25869,10 +25771,10 @@ class Mission
 		{
 			dataType="Marker";
 			position[]={18456.48,0,11787.544};
-			name="marker_14";
+			name="rm3";
 			text="Akatsiya 2";
-			type="dk_zn_btr_def";
-			angle=338.69696;
+			type="dk_zn_bmp_def";
+			angle=338.69684;
 			id=947;
 			atlOffset=-96.195015;
 		};
@@ -25880,10 +25782,10 @@ class Mission
 		{
 			dataType="Marker";
 			position[]={18469.943,0,11805.318};
-			name="marker_15";
+			name="rm4";
 			text="Akatsiya 3";
-			type="dk_zn_btr_def";
-			angle=338.69696;
+			type="dk_zn_bmp_def";
+			angle=338.69684;
 			id=948;
 			atlOffset=-98.099289;
 		};
@@ -25891,7 +25793,7 @@ class Mission
 		{
 			dataType="Marker";
 			position[]={18471.555,0,11793.219};
-			name="marker_16";
+			name="rm1";
 			text="Akatsiya 0";
 			type="dk_zn_hq_vzv";
 			id=949;
@@ -25901,7 +25803,7 @@ class Mission
 		{
 			dataType="Marker";
 			position[]={18502.598,0,11796.515};
-			name="marker_28";
+			name="rm7";
 			text="Bagrets 5";
 			type="dk_zn_minomet_maly";
 			colorName="ColorRed";
@@ -25912,7 +25814,7 @@ class Mission
 		{
 			dataType="Marker";
 			position[]={18500.094,0,11809.73};
-			name="marker_29";
+			name="rm8";
 			text="Serpent";
 			type="dk_zn_pzrk_def";
 			colorName="ColorRed";
@@ -25923,12 +25825,32 @@ class Mission
 		{
 			dataType="Marker";
 			position[]={18517.699,0,11802.013};
-			name="marker_30";
+			name="rm9";
 			text="Medic 1";
 			type="dk_zn_car_medic";
 			angle=338.509;
 			id=963;
 			atlOffset=-100.96558;
+		};
+		class Item36
+		{
+			dataType="Marker";
+			position[]={14775.258,0,16670.533};
+			name="rm10";
+			text="Akula 1";
+			type="dk_zn_heli_attack";
+			id=964;
+			atlOffset=-17.91;
+		};
+		class Item37
+		{
+			dataType="Marker";
+			position[]={14740.618,0,16635.77};
+			name="rm11";
+			text="Akula 2";
+			type="dk_zn_heli_attack";
+			id=965;
+			atlOffset=-17.91;
 		};
 	};
 };

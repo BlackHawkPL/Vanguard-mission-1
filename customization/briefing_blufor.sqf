@@ -55,22 +55,22 @@ NEWTAB("5. COMMAND & SIGNAL:")
 	<br/>------ Scout Platoon - 'Ghost' ------
 	<br/>
 	<br/>HQ - Ghost 1 - LR 1 / SR 1
-	<br/>HQ - Ghost 4 - LR 1 / SR 4
+	<br/>HQ - Ghost 4 - LR 1 / SR 1
 	<br/>
 	<br/>M2A3 Team 2 - Ghost 2 - LR 1 / SR 2
-	<br/>M2A3 Team 3 - Ghost 3 - LR 1 / SR 3
+	<br/>M2A3 Team 3 - Ghost 3 - LR 1 / SR 2
 	<br/>
-	<br/>A SEC Team 1 - Ghost 5 - LR 1 / SR 5
-	<br/>A SEC Team 2 - Ghost 6 - LR 1 / SR 6
+	<br/>A SEC Team 1 - Ghost 5 - LR 1 / SR 3
+	<br/>A SEC Team 2 - Ghost 6 - LR 1 / SR 3
 	<br/>
-	<br/>B SEC Team 1 - Ghost 7 - LR 1 / SR 7
-	<br/>B SEC Team 2 - Ghost 8 - LR 1 / SR 8
+	<br/>B SEC Team 1 - Ghost 7 - LR 1 / SR 4
+	<br/>B SEC Team 2 - Ghost 8 - LR 1 / SR 4
 	<br/>
 	<br/>------ ADA Section - 'Iron Dome' ------
 	<br/>
 	<br/>1 SEC Team 1- Iron Dome 1 - LR 1 / SR 9
-	<br/>2 SEC Team 2 - Iron Dome 2 - LR 1 / SR 10
-	<br/>3 SEC Team 3 - Iron Dome 3 - LR 1 / SR 11
+	<br/>2 SEC Team 2 - Iron Dome 2 - LR 1 / SR 9
+	<br/>3 SEC Team 3 - Iron Dome 3 - LR 1 / SR 9
 	<br/>
 	<br/>------ Mortar Section - 'Punisher' ------
 	<br/>

@@ -10,6 +10,7 @@ case "RU_PL": {
     ["ItemCompass"] call FNC_AddItem;
     ["ItemWatch"] call FNC_AddItem;
     ["Binocular"] call FNC_AddItem;
+    ["ACE_Flashlight_KSF1",1,"vest"] call FNC_AddItem;
 
     ["ACE_fieldDressing",3,"uniform"] call FNC_AddItem;
     ["ACE_morphine",1,"uniform"] call FNC_AddItem;
@@ -27,7 +28,8 @@ case "RU_PL": {
 
     ["rhs_weap_ak74m"] call FNC_AddItem;
     _unit addPrimaryWeaponItem "rhs_acc_dtk";
-    _unit addPrimaryWeaponItem "rhs_acc_pkas";
+    _unit addPrimaryWeaponItem "rhs_acc_1pn93_1";
+    _unit addPrimaryWeaponItem "rhs_acc_perst1ik";
 
     ["rhs_weap_pya"] call FNC_AddItem;
 };
@@ -45,6 +47,7 @@ case "RU_PSGT": {
     ["ItemCompass"] call FNC_AddItem;
     ["ItemWatch"] call FNC_AddItem;
     ["Binocular"] call FNC_AddItem;
+    ["ACE_Flashlight_KSF1",1,"vest"] call FNC_AddItem;
 
     ["ACE_fieldDressing",3,"uniform"] call FNC_AddItem;
     ["ACE_morphine",1,"uniform"] call FNC_AddItem;
@@ -65,7 +68,8 @@ case "RU_PSGT": {
 
     ["rhs_weap_ak74m_gp25"] call FNC_AddItem;
     _unit addPrimaryWeaponItem "rhs_acc_dtk";
-    _unit addPrimaryWeaponItem "rhs_acc_pkas";
+    _unit addPrimaryWeaponItem "rhs_acc_1pn93_1";
+    _unit addPrimaryWeaponItem "rhs_acc_perst1ik";
 
 };
 
@@ -81,6 +85,7 @@ case "RU_RTO": {
     ["ItemMap"] call FNC_AddItem;
     ["ItemCompass"] call FNC_AddItem;
     ["ItemWatch"] call FNC_AddItem;
+    ["ACE_Flashlight_KSF1",1,"vest"] call FNC_AddItem;
 
 
     ["ACE_fieldDressing",3,"uniform"] call FNC_AddItem;
@@ -100,6 +105,7 @@ case "RU_RTO": {
 
     ["rhs_weap_ak74m"] call FNC_AddItem;
     _unit addPrimaryWeaponItem "rhs_acc_dtk";
+    _unit addPrimaryWeaponItem "rhs_acc_perst1ik";
 };
 
 case "RU_SL": {
@@ -114,6 +120,7 @@ case "RU_SL": {
     ["ItemCompass"] call FNC_AddItem;
     ["ItemWatch"] call FNC_AddItem;
     ["Binocular"] call FNC_AddItem;
+    ["ACE_Flashlight_KSF1",1,"vest"] call FNC_AddItem;
 
 
     ["ACE_fieldDressing",3,"uniform"] call FNC_AddItem;
@@ -131,7 +138,8 @@ case "RU_SL": {
 
     ["rhs_weap_ak74m"] call FNC_AddItem;
     _unit addPrimaryWeaponItem "rhs_acc_dtk";
-    _unit addPrimaryWeaponItem "rhs_acc_1p78";
+    _unit addPrimaryWeaponItem "rhs_acc_1pn93_1";
+    _unit addPrimaryWeaponItem "rhs_acc_perst1ik";
 
 };
 
@@ -147,6 +155,7 @@ case "RU_MKS": {
     ["ItemCompass"] call FNC_AddItem;
     ["ItemWatch"] call FNC_AddItem;
     ["Binocular"] call FNC_AddItem;
+    ["ACE_Flashlight_KSF1",1,"vest"] call FNC_AddItem;
 
     ["ACE_fieldDressing",3,"uniform"] call FNC_AddItem;
     ["ACE_morphine",1,"uniform"] call FNC_AddItem;
@@ -162,7 +171,7 @@ case "RU_MKS": {
     ["rhs_mag_9x19_17",2,"vest"] call FNC_AddItem;
 
     ["rhs_weap_svdp"] call FNC_AddItem;
-    _unit addPrimaryWeaponItem "rhs_acc_pso1m21";
+    _unit addPrimaryWeaponItem "rhs_acc_1pn93_1";
 
     ["rhs_weap_pya"] call FNC_AddItem;
 };
@@ -179,6 +188,7 @@ case "RU_EFR": {
     ["ItemCompass"] call FNC_AddItem;
     ["ItemWatch"] call FNC_AddItem;
     ["Binocular"] call FNC_AddItem;
+    ["ACE_Flashlight_KSF1",1,"vest"] call FNC_AddItem;
 
     ["ACE_fieldDressing",3,"uniform"] call FNC_AddItem;
     ["ACE_morphine",1,"uniform"] call FNC_AddItem;
@@ -196,7 +206,8 @@ case "RU_EFR": {
 
     ["rhs_weap_ak74m_gp25"] call FNC_AddItem;
     _unit addPrimaryWeaponItem "rhs_acc_dtk";
-    _unit addPrimaryWeaponItem "rhs_acc_pkas";
+    _unit addPrimaryWeaponItem "rhs_acc_1pn93_1";
+    _unit addPrimaryWeaponItem "rhs_acc_perst1ik";
 
 };
 
@@ -212,6 +223,7 @@ case "RU_RPG": {
     ["ItemMap"] call FNC_AddItem;
     ["ItemCompass"] call FNC_AddItem;
     ["ItemWatch"] call FNC_AddItem;
+    ["ACE_Flashlight_KSF1",1,"vest"] call FNC_AddItem;
 
     ["ACE_fieldDressing",3,"uniform"] call FNC_AddItem;
     ["ACE_morphine",1,"uniform"] call FNC_AddItem;
@@ -231,7 +243,7 @@ case "RU_RPG": {
     _unit addPrimaryWeaponItem "rhs_acc_dtk";
 
     ["rhs_weap_rpg7"] call FNC_AddItem;
-    _unit addSecondaryWeaponItem "rhs_acc_pgo7v";
+    _unit addSecondaryWeaponItem "rhs_acc_1pn93_2";
 
 };
 
@@ -247,6 +259,7 @@ case "RU_RPGASST": {
     ["ItemMap"] call FNC_AddItem;
     ["ItemCompass"] call FNC_AddItem;
     ["ItemWatch"] call FNC_AddItem;
+    ["ACE_Flashlight_KSF1",1,"vest"] call FNC_AddItem;
 
     ["ACE_fieldDressing",3,"uniform"] call FNC_AddItem;
     ["ACE_morphine",1,"uniform"] call FNC_AddItem;
@@ -279,6 +292,7 @@ case "RU_RIFLE": {
     ["ItemMap"] call FNC_AddItem;
     ["ItemCompass"] call FNC_AddItem;
     ["ItemWatch"] call FNC_AddItem;
+    ["ACE_Flashlight_KSF1",1,"vest"] call FNC_AddItem;
 
     ["ACE_fieldDressing",3,"uniform"] call FNC_AddItem;
     ["ACE_morphine",1,"uniform"] call FNC_AddItem;
@@ -311,6 +325,7 @@ case "RU_PKP": {
     ["ItemMap"] call FNC_AddItem;
     ["ItemCompass"] call FNC_AddItem;
     ["ItemWatch"] call FNC_AddItem;
+    ["ACE_Flashlight_KSF1",1,"vest"] call FNC_AddItem;
 
     ["ACE_fieldDressing",3,"uniform"] call FNC_AddItem;
     ["ACE_morphine",1,"uniform"] call FNC_AddItem;
@@ -326,6 +341,7 @@ case "RU_PKP": {
     ["rhs_100Rnd_762x54mmR",2,"backpack"] call FNC_AddItem;
 
     ["rhs_weap_pkp"] call FNC_AddItem;
+    _unit addPrimaryWeaponItem "rhs_acc_1p29";
 
 };
 
@@ -343,6 +359,7 @@ case "RU_MRTR_SL": {
     ["ItemCompass"] call FNC_AddItem;
     ["ItemWatch"] call FNC_AddItem;
     ["Binocular"] call FNC_AddItem;
+    ["ACE_Flashlight_KSF1",1,"vest"] call FNC_AddItem;
 
     ["ACE_fieldDressing",3,"uniform"] call FNC_AddItem;
     ["ACE_elasticBandage",3,"uniform"] call FNC_AddItem;
@@ -361,7 +378,8 @@ case "RU_MRTR_SL": {
 
     ["rhs_weap_ak74m"] call FNC_AddItem;
     _unit addPrimaryWeaponItem "rhs_acc_dtk";
-    _unit addPrimaryWeaponItem "rhs_acc_pkas";
+    _unit addPrimaryWeaponItem "rhs_acc_1pn93_1";
+    _unit addPrimaryWeaponItem "rhs_acc_perst1ik";
 
 };
 
@@ -379,6 +397,7 @@ case "RU_MRTR_GNR": {
     ["ItemCompass"] call FNC_AddItem;
     ["ItemWatch"] call FNC_AddItem;
     ["Binocular"] call FNC_AddItem;
+    ["ACE_Flashlight_KSF1",1,"vest"] call FNC_AddItem;
 
     ["ACE_fieldDressing",3,"uniform"] call FNC_AddItem;
     ["ACE_elasticBandage",3,"uniform"] call FNC_AddItem;
@@ -410,6 +429,7 @@ case "RU_MRTR_ASST": {
     ["ItemCompass"] call FNC_AddItem;
     ["ItemWatch"] call FNC_AddItem;
     ["Binocular"] call FNC_AddItem;
+    ["ACE_Flashlight_KSF1",1,"vest"] call FNC_AddItem;
     
     ["NVGoggles"] call FNC_AddItem;
 
@@ -444,6 +464,7 @@ case "RU_MEDIC": {
     ["ItemMap"] call FNC_AddItem;
     ["ItemCompass"] call FNC_AddItem;
     ["ItemWatch"] call FNC_AddItem;
+    ["ACE_Flashlight_KSF1",1,"vest"] call FNC_AddItem;
 
     ["ACE_fieldDressing",3,"uniform"] call FNC_AddItem;
     ["ACE_elasticBandage",3,"uniform"] call FNC_AddItem;
@@ -486,6 +507,7 @@ case "RU_BMPG": {
     ["ItemMap"] call FNC_AddItem;
     ["ItemCompass"] call FNC_AddItem;
     ["ItemWatch"] call FNC_AddItem;
+    ["ACE_Flashlight_KSF1",1,"vest"] call FNC_AddItem;
     
     ["NVGoggles"] call FNC_AddItem;
 
@@ -517,6 +539,7 @@ case "RU_BMPD": {
     ["ItemMap"] call FNC_AddItem;
     ["ItemCompass"] call FNC_AddItem;
     ["ItemWatch"] call FNC_AddItem;
+    ["ACE_Flashlight_KSF1",1,"vest"] call FNC_AddItem;
     
     ["NVGoggles"] call FNC_AddItem;
 
@@ -547,6 +570,7 @@ case "RU_TC": {
     ["ItemMap"] call FNC_AddItem;
     ["ItemCompass"] call FNC_AddItem;
     ["ItemWatch"] call FNC_AddItem;
+    ["ACE_Flashlight_KSF1",1,"vest"] call FNC_AddItem;
     
     ["NVGoggles"] call FNC_AddItem;
 
@@ -577,6 +601,7 @@ case "RU_GNR": {
     ["ItemMap"] call FNC_AddItem;
     ["ItemCompass"] call FNC_AddItem;
     ["ItemWatch"] call FNC_AddItem;
+    ["ACE_Flashlight_KSF1",1,"vest"] call FNC_AddItem;
     
     ["NVGoggles"] call FNC_AddItem;
 
@@ -608,6 +633,7 @@ case "RU_DRV": {
     ["ItemMap"] call FNC_AddItem;
     ["ItemCompass"] call FNC_AddItem;
     ["ItemWatch"] call FNC_AddItem;
+    ["ACE_Flashlight_KSF1",1,"vest"] call FNC_AddItem;
 
     ["ACE_fieldDressing",3,"uniform"] call FNC_AddItem;
     ["ACE_morphine",1,"uniform"] call FNC_AddItem;
@@ -638,6 +664,7 @@ case "RU_AA_SL": {
     ["ItemCompass"] call FNC_AddItem;
     ["ItemWatch"] call FNC_AddItem;
     ["Binocular"] call FNC_AddItem;
+    ["ACE_Flashlight_KSF1",1,"vest"] call FNC_AddItem;
 
     ["ACRE_PRC343",1,"uniform"] call FNC_AddItem;
     ["ACE_fieldDressing",3,"uniform"] call FNC_AddItem;
@@ -656,6 +683,7 @@ case "RU_AA_SL": {
 
     ["rhs_weap_ak74m"] call FNC_AddItem;
     _unit addPrimaryWeaponItem "rhs_acc_dtk";
+    _unit addPrimaryWeaponItem "rhs_acc_perst1ik";
 };
 
 case "RU_AA": {
@@ -671,6 +699,7 @@ case "RU_AA": {
     ["ItemCompass"] call FNC_AddItem;
     ["ItemWatch"] call FNC_AddItem;
     ["Binocular"] call FNC_AddItem;
+    ["ACE_Flashlight_KSF1",1,"vest"] call FNC_AddItem;
 
     ["ACRE_PRC343",1,"uniform"] call FNC_AddItem;
     ["ACE_fieldDressing",3,"uniform"] call FNC_AddItem;
@@ -710,7 +739,7 @@ case "RU_HELIPILOT": {
     ["ItemWatch"] call FNC_AddItem;
     ["ACE_MapTools"] call FNC_AddItem;
     ["ACE_earplugs"] call FNC_AddItem;
-    ["ACE_Flashlight_KSF1"] call FNC_AddItem;
+    ["ACE_Flashlight_KSF1",1,"vest"] call FNC_AddItem;
 
     ["rhs_weap_makarov_pm"] call FNC_AddItem;
     ["rhs_mag_9x18_8_57N181S",3, "vest"] call FNC_AddItem;

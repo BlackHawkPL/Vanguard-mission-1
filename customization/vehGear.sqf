@@ -11,7 +11,8 @@
 ["rhs_mag_m18_purple", 5] call FNC_AddItemVehicle;\
 ["rhs_mag_m18_yellow", 5] call FNC_AddItemVehicle;\
 ["rhs_mag_an_m8hc", 10] call FNC_AddItemVehicle;\
-["rhs_weap_M136", 2] call FNC_AddItemVehicle;
+["rhs_weap_M136", 2] call FNC_AddItemVehicle;\
+["ACRE_PRC148", 1] call FNC_AddItemVehicle;
 
 switch (_type) do {
 
@@ -164,7 +165,9 @@ switch (_type) do {
         ["ACE_salineIV_250",2] call FNC_AddItemVehicle;
         
         ["rhs_weap_m249_pip_S", 1] call FNC_AddItemVehicle;
+        ["rhsusf_acc_ELCAN_ard", 1] call FNC_AddItemVehicle;
         ["rhs_200rnd_556x45_M_SAW", 10] call FNC_AddItemVehicle;
+        
     };
     
     case "GHOST5": {
@@ -172,6 +175,7 @@ switch (_type) do {
         HUM_GENERIC
         
         ["rhs_weap_m240B", 1] call FNC_AddItemVehicle;
+        ["rhsusf_acc_ELCAN_ard", 1] call FNC_AddItemVehicle;
         ["rhsusf_100Rnd_762x51", 15] call FNC_AddItemVehicle;
         ["rhsusf_100Rnd_762x51_m62_tracer", 5] call FNC_AddItemVehicle;
     };
@@ -181,7 +185,7 @@ switch (_type) do {
         HUM_GENERIC
         
         ["UK3CB_BAF_Javelin_CLU", 1] call FNC_AddItemVehicle;
-        ["UK3CB_BAF_Javelin_Slung_Tube", 2] call FNC_AddItemVehicle;
+        ["UK3CB_BAF_Javelin_Slung_Tube", 1] call FNC_AddItemVehicle;
     };
     
     case "GHOST7": {
@@ -189,6 +193,7 @@ switch (_type) do {
         HUM_GENERIC
         
         ["rhs_weap_m240B", 1] call FNC_AddItemVehicle;
+        ["rhsusf_acc_ELCAN_ard", 1] call FNC_AddItemVehicle;
         ["rhsusf_100Rnd_762x51", 15] call FNC_AddItemVehicle;
         ["rhsusf_100Rnd_762x51_m62_tracer", 5] call FNC_AddItemVehicle;
     };
@@ -198,6 +203,6 @@ switch (_type) do {
         HUM_GENERIC
         
         ["UK3CB_BAF_Javelin_CLU", 1] call FNC_AddItemVehicle;
-        ["UK3CB_BAF_Javelin_Slung_Tube", 2] call FNC_AddItemVehicle;
+        ["UK3CB_BAF_Javelin_Slung_Tube", 1] call FNC_AddItemVehicle;
     };
 };

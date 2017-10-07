@@ -56,8 +56,8 @@ NEWTAB("5. COMMAND & SIGNAL:")
 	<br/>------ ADA Section - 'Serpent' ------
 	<br/>
 	<br/>1 SEC Team 1- Serpent 1 - LR 1 / SR 7
-	<br/>2 SEC Team 2 - Serpent 2 - LR 1 / SR 8
-	<br/>3 SEC Team 3 - Serpent 3 - LR 1 / SR 9
+	<br/>2 SEC Team 2 - Serpent 2 - LR 1 / SR 7
+	<br/>3 SEC Team 3 - Serpent 3 - LR 1 / SR 7
 	<br/>
 	<br/>------ Mortar Section - 'Bagrets' ------
 	<br/>
