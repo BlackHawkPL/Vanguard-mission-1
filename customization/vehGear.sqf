@@ -38,7 +38,7 @@ switch (_type) do {
 		_vehicle call FNC_RemoveAllVehicleGear;
 
 		["rhs_weap_fim92", 3] call FNC_AddItemVehicle;
-		["rhs_fim92_mag", 12] call FNC_AddItemVehicle;
+		["rhs_fim92_mag", 6] call FNC_AddItemVehicle;
 		["rhsusf_assault_eagleaiii_ocp", 6] call FNC_AddItemVehicle;
 
 	};
@@ -48,7 +48,7 @@ switch (_type) do {
 		_vehicle call FNC_RemoveAllVehicleGear;
 
 		["rhs_weap_igla", 3] call FNC_AddItemVehicle;
-		["rhs_mag_9k38_rocket", 12] call FNC_AddItemVehicle;
+		["rhs_mag_9k38_rocket", 6] call FNC_AddItemVehicle;
 		["rhs_assault_umbts", 6] call FNC_AddItemVehicle;
 
 

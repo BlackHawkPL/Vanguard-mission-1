@@ -8,11 +8,11 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=944;
+		nextID=964;
 	};
 	class MarkerIDProvider
 	{
-		nextID=11;
+		nextID=31;
 	};
 	class LayerIndexProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={18485.762,117.04382,11758.471};
-		dir[]={-0.70646626,-0.57526958,0.41254607};
-		up[]={-0.49689588,0.81784147,0.29016328};
-		aside[]={0.50433117,4.2840838e-008,0.86363804};
+		pos[]={18500.51,117.04382,11773.452};
+		dir[]={-0.78458822,-0.541812,0.30180705};
+		up[]={-0.50583428,0.84037769,0.19457664};
+		aside[]={0.35906628,-2.0660809e-007,0.93343043};
 	};
 };
 binarizationWanted=0;
@@ -49,13 +49,14 @@ addons[]=
 	"CUP_StandaloneTerrains_Core_Faction",
 	"rhs_c_weapons",
 	"A3_Weapons_F_Ammoboxes",
-	"A3_Modules_F_Effects"
+	"A3_Modules_F_Effects",
+	"RU_MKRDK"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=21;
+		items=22;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -195,6 +196,11 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
+		class Item21
+		{
+			className="RU_MKRDK";
+			name="RU_MKRDK";
+		};
 	};
 };
 randomSeed=13989647;
@@ -272,7 +278,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=27;
+		items=36;
 		class Item0
 		{
 			dataType="Layer";
@@ -8043,7 +8049,7 @@ class Mission
 			name="REDFOR";
 			class Entities
 			{
-				items=22;
+				items=21;
 				class Item0
 				{
 					dataType="Object";
@@ -15413,58 +15419,6 @@ class Mission
 				{
 					dataType="Group";
 					side="East";
-					class Attributes
-					{
-					};
-					id=372;
-					atlOffset=185.97;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="groupID";
-							expression="[_this, _value] call CBA_fnc_setCallsign";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="Medic 1";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="acex_headless_blacklist";
-							expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-				class Item18
-				{
-					dataType="Group";
-					side="East";
 					class Entities
 					{
 						items=2;
@@ -15716,7 +15670,7 @@ class Mission
 						nAttributes=2;
 					};
 				};
-				class Item19
+				class Item18
 				{
 					dataType="Group";
 					side="East";
@@ -15971,7 +15925,7 @@ class Mission
 						nAttributes=2;
 					};
 				};
-				class Item20
+				class Item19
 				{
 					dataType="Object";
 					class PositionInfo
@@ -16185,7 +16139,7 @@ class Mission
 						nAttributes=10;
 					};
 				};
-				class Item21
+				class Item20
 				{
 					dataType="Group";
 					side="East";
@@ -16483,7 +16437,7 @@ class Mission
 				};
 			};
 			id=53;
-			atlOffset=66.483452;
+			atlOffset=50.082676;
 		};
 		class Item3
 		{
@@ -25877,6 +25831,104 @@ class Mission
 				};
 				nAttributes=1;
 			};
+		};
+		class Item27
+		{
+			dataType="Marker";
+			position[]={18480.559,0,11802.564};
+			name="marker_11";
+			text="Akatsiya 5";
+			type="dk_zn_tank_def";
+			angle=345.95807;
+			id=944;
+			atlOffset=-98.776405;
+		};
+		class Item28
+		{
+			dataType="Marker";
+			position[]={18484.889,0,11790.183};
+			name="marker_12";
+			text="Akatsiya 4";
+			type="dk_zn_tank_def";
+			angle=344.26849;
+			id=945;
+			atlOffset=-98.803673;
+		};
+		class Item29
+		{
+			dataType="Marker";
+			position[]={18478.383,0,11781.535};
+			name="marker_13";
+			text="Akatsiya 1";
+			type="dk_zn_btr_def";
+			angle=338.69733;
+			id=946;
+			atlOffset=-98.333397;
+		};
+		class Item30
+		{
+			dataType="Marker";
+			position[]={18456.48,0,11787.544};
+			name="marker_14";
+			text="Akatsiya 2";
+			type="dk_zn_btr_def";
+			angle=338.69696;
+			id=947;
+			atlOffset=-96.195015;
+		};
+		class Item31
+		{
+			dataType="Marker";
+			position[]={18469.943,0,11805.318};
+			name="marker_15";
+			text="Akatsiya 3";
+			type="dk_zn_btr_def";
+			angle=338.69696;
+			id=948;
+			atlOffset=-98.099289;
+		};
+		class Item32
+		{
+			dataType="Marker";
+			position[]={18471.555,0,11793.219};
+			name="marker_16";
+			text="Akatsiya 0";
+			type="dk_zn_hq_vzv";
+			id=949;
+			atlOffset=-97.747192;
+		};
+		class Item33
+		{
+			dataType="Marker";
+			position[]={18502.598,0,11796.515};
+			name="marker_28";
+			text="Bagrets 5";
+			type="dk_zn_minomet_maly";
+			colorName="ColorRed";
+			id=961;
+			atlOffset=-100.00988;
+		};
+		class Item34
+		{
+			dataType="Marker";
+			position[]={18500.094,0,11809.73};
+			name="marker_29";
+			text="Serpent";
+			type="dk_zn_pzrk_def";
+			colorName="ColorRed";
+			id=962;
+			atlOffset=-99.907364;
+		};
+		class Item35
+		{
+			dataType="Marker";
+			position[]={18517.699,0,11802.013};
+			name="marker_30";
+			text="Medic 1";
+			type="dk_zn_car_medic";
+			angle=338.509;
+			id=963;
+			atlOffset=-100.96558;
 		};
 	};
 };
