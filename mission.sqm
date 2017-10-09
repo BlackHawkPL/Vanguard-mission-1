@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=114;
+		nextID=124;
 	};
 	class Camera
 	{
-		pos[]={20316.416,74.318787,7544.3481};
-		dir[]={0.10391472,-0.71663994,0.68967104};
-		up[]={0.10677414,0.69743508,0.7086488};
-		aside[]={0.9888441,1.1293741e-007,-0.14899239};
+		pos[]={18485.598,108.11339,11789.106};
+		dir[]={-0.36437267,-0.61339551,0.70074338};
+		up[]={-0.28299248,0.78975832,0.54423565};
+		aside[]={0.88724643,-4.558824e-007,0.46135312};
 	};
 };
 binarizationWanted=0;
@@ -7962,7 +7962,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="call{[this, ""TANK""] call FNC_VehicleGearScript; [this, ""T-90A"", ""MSV""] call FNC_TrackAsset;}";
+						init="call{[this, ""TANK""] call FNC_VehicleGearScript; [this, ""T-90A"", ""MSV""] call FNC_TrackAsset; if (isServer) then {this  setVariable [""RHS_randomNumber"", 114, true]; this setObjectTextureGlobal [9, ""rhsafrf\addons\rhs_decals\data\numbers\default\1_ca.paa""]; this setObjectTextureGlobal [10, ""rhsafrf\addons\rhs_decals\data\numbers\default\1_ca.paa""]; this setObjectTextureGlobal [11, ""rhsafrf\addons\rhs_decals\data\numbers\default\4_ca.paa""]; };}";
 						name="TANK_RECCE_1";
 					};
 					id=54;
@@ -8118,7 +8118,7 @@ class Mission
 											"SCALAR"
 										};
 									};
-									value=114;
+									value=0;
 								};
 							};
 						};
@@ -8194,12 +8194,12 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="call{[this, ""TANK""] call FNC_VehicleGearScript; [this, ""T-90A"", ""MSV""] call FNC_TrackAsset;}";
+						init="call{[this, ""TANK""] call FNC_VehicleGearScript; [this, ""T-90A"", ""MSV""] call FNC_TrackAsset; if (isServer) then {this  setVariable [""RHS_randomNumber"", 115, true]; this setObjectTextureGlobal [9, ""rhsafrf\addons\rhs_decals\data\numbers\default\1_ca.paa""]; this setObjectTextureGlobal [10, ""rhsafrf\addons\rhs_decals\data\numbers\default\1_ca.paa""]; this setObjectTextureGlobal [11, ""rhsafrf\addons\rhs_decals\data\numbers\default\5_ca.paa""]; };}";
 						name="TANK_RECCE_2";
 					};
 					id=55;
 					type="rhs_t90a_tv";
-					atlOffset=0.0079956055;
+					atlOffset=0.0080032349;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8350,7 +8350,7 @@ class Mission
 											"SCALAR"
 										};
 									};
-									value=115;
+									value=0;
 								};
 							};
 						};
@@ -14687,8 +14687,8 @@ class Mission
 							class Attributes
 							{
 								rank="SERGEANT";
-								init="call{[this, ""RU_MRTR_SL"", ""BARGRETS 5""] call FNC_GearScript; [this, ""ACRE_PRC343"", 10, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
-								description="Mortar Squad Leader @BARGRETS 5 | Mortar Team";
+								init="call{[this, ""RU_MRTR_SL"", ""BAGRETS 5""] call FNC_GearScript; [this, ""ACRE_PRC343"", 10, ""LEFT""] call FNC_SetRadio; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
+								description="Mortar Squad Leader @BAGRETS 5 | Mortar Team";
 								isPlayable=1;
 							};
 							id=459;
@@ -15291,7 +15291,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="Bargrets 5";
+									value="Bagrets 5";
 								};
 							};
 						};
@@ -25763,7 +25763,7 @@ class Mission
 			name="rm2";
 			text="Akatsiya 1";
 			type="dk_zn_bmp_def";
-			angle=338.69684;
+			angle=338.69681;
 			id=946;
 			atlOffset=-98.333397;
 		};
@@ -25774,7 +25774,7 @@ class Mission
 			name="rm3";
 			text="Akatsiya 2";
 			type="dk_zn_bmp_def";
-			angle=338.69684;
+			angle=338.69681;
 			id=947;
 			atlOffset=-96.195015;
 		};
@@ -25785,7 +25785,7 @@ class Mission
 			name="rm4";
 			text="Akatsiya 3";
 			type="dk_zn_bmp_def";
-			angle=338.69684;
+			angle=338.69681;
 			id=948;
 			atlOffset=-98.099289;
 		};

@@ -6,10 +6,10 @@
 
 #define HUM_GENERIC\
 ["30Rnd_556x45_Stanag", 20] call FNC_AddItemVehicle;\
-["rhs_mag_m18_green", 5] call FNC_AddItemVehicle;\
-["rhs_mag_m18_red", 5] call FNC_AddItemVehicle;\
-["rhs_mag_m18_purple", 5] call FNC_AddItemVehicle;\
-["rhs_mag_m18_yellow", 5] call FNC_AddItemVehicle;\
+["rhs_mag_m18_green", 2] call FNC_AddItemVehicle;\
+["rhs_mag_m18_red", 2] call FNC_AddItemVehicle;\
+["rhs_mag_m18_purple", 2] call FNC_AddItemVehicle;\
+["rhs_mag_m18_yellow", 2] call FNC_AddItemVehicle;\
 ["rhs_mag_an_m8hc", 10] call FNC_AddItemVehicle;\
 ["rhs_weap_M136", 2] call FNC_AddItemVehicle;\
 ["ACRE_PRC148", 1] call FNC_AddItemVehicle;
@@ -37,6 +37,8 @@ switch (_type) do {
 	case "AA_HUMVEE": {
 
 		_vehicle call FNC_RemoveAllVehicleGear;
+        
+        HUM_GENERIC
 
 		["rhs_weap_fim92", 3] call FNC_AddItemVehicle;
 		["rhs_fim92_mag", 6] call FNC_AddItemVehicle;
@@ -106,6 +108,7 @@ switch (_type) do {
 	_vehicle call FNC_RemoveAllVehicleGear;
 
 		["ToolKit",1] call FNC_AddItemVehicle;
+		["rhs_assault_umbts", 1] call FNC_AddItemVehicle;
 
 	};
 

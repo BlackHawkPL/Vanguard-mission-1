@@ -8,7 +8,9 @@ if !(markerType NAME == "") then { \
 	_temp call FNC_DebugMessage; \
 };
 
-if (!isMultiplayer) exitWith {
+private _isSP = false;
+if (!isMultiplayer) then {
+    _isSP = true;
     "Setup Timer: Singleplayer session detected, this module will function only in multiplayer." call FNC_DebugMessage;
 };
 
@@ -20,7 +22,7 @@ if (isServer) then {
     };
 };
 
-if (!isDedicated) then {
+if (!isDedicated && _isSP) then {
 	
 	private ["_markers", "_pos", "_timeLeft", "_string", "_displayed"];
 
@@ -46,12 +48,12 @@ if (!isDedicated) then {
     [player, 1, ["ACE_SelfActions"], _action] call ace_interact_menu_fnc_addActionToObject;
     
     _action = ["end_red", "End mission, winner: MSV", "", {
-        "MSV VICTORY <br/> BP Anna successfully defended." call FNC_EndMission;
+        "MSV VICTORY <br/> BP Anna successfully defended." remoteExecCall ["FNC_EndMission", 2];
     }, {!isNil "FW_IsAdmin" && {FW_IsAdmin}}] call ace_interact_menu_fnc_createAction;
     [player, 1, ["ACE_SelfActions"], _action] call ace_interact_menu_fnc_addActionToObject;
     
     _action = ["end_blu", "End mission, winner: US Army", "", {
-        "US ARMY VICTORY <br/> OBJ Rifles has been seized." call FNC_EndMission;
+        "US ARMY VICTORY <br/> OBJ Rifles has been seized." remoteExecCall ["FNC_EndMission", 2];
     }, {!isNil "FW_IsAdmin" && {FW_IsAdmin}}] call ace_interact_menu_fnc_createAction;
     [player, 1, ["ACE_SelfActions"], _action] call ace_interact_menu_fnc_addActionToObject;
 

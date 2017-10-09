@@ -31,7 +31,7 @@ if (!isDedicated) then {
     
     [getpos b9, WEST, ["motor", "aa"], -1, 1, WEST, "Iron Dome"] call vk_fnc_addMarker;
     
-    [getpos b10, WEST, ["motor", "mortar"], -1, 1, WEST, "Punisher 6"] call vk_fnc_addMarker;
+    [getpos b10, WEST, ["mortar"], -1, 1, WEST, "Punisher 6"] call vk_fnc_addMarker;
     
     [getpos b11, WEST, ["mech", "medic"], -1, 1, WEST, "Bandaid"] call vk_fnc_addMarker;
     

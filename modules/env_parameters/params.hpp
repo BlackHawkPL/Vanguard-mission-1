@@ -1,15 +1,5 @@
 // Params: https://community.bistudio.com/wiki/Arma_3_Mission_Parameters
 
-class ATGM {
-	
-	title = "Rounds per ATGM";
-	texts[] = {"3", "2"};
-	values[] = {3, 2};
-	default = 3;
-	
-};
-
-
 
 /*class TimeOfDay {
 	title = "Time";

@@ -34,23 +34,26 @@ if (date select 2 < 4 || date select 2 > 20) then {
 	};
 };
 
-if (date select 3 < 10) then {
+private _h = date select 3;
+if (date select 4 == 60) then {_h = _h + 1;};
 
-	_hour = "0" + format ["%1", date select 3];
+if (_h < 10) then {
+	_hour = "0" + format ["%1", _h];
 
 } else {
 
-	_hour = format ["%1", date select 3];
+	_hour = format ["%1", _h];
 
 };
-
-if (date select 4 < 10) then {
-
-	_min = "0" + format ["%1H", date select 4];
+_m = date select 4;
+if (date select 4 == 60) then {_m = 0};
+if (_m < 10) then {
+    
+	_min = "0" + format ["%1H", _m];
 
 } else {
 
-	_min = format ["%1H", date select 4];
+	_min = format ["%1H", _m];
 
 };
 

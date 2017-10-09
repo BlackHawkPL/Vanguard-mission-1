@@ -700,6 +700,7 @@ case "RU_AA": {
     ["ItemWatch"] call FNC_AddItem;
     ["Binocular"] call FNC_AddItem;
     ["ACE_Flashlight_KSF1",1,"vest"] call FNC_AddItem;
+    ["ACRE_PRC148",1,"vest"] call FNC_AddItem;
 
     ["ACRE_PRC343",1,"uniform"] call FNC_AddItem;
     ["ACE_fieldDressing",3,"uniform"] call FNC_AddItem;

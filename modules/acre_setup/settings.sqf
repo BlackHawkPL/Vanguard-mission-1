@@ -84,7 +84,7 @@ FW_ChannelNames = [
 //BABEL
 //////////////
 
-FW_enable_babel = false;
+FW_enable_babel = true;
 
 /*
  * FNC_SetLanguages
@@ -101,15 +101,14 @@ FW_enable_babel = false;
 
 FW_all_languages = [
     ["en", "English"],
-    ["ru", "Russian"],
-    ["fr", "French"]
+    ["ru", "Russian"]
 ];
 
 //define languages for different sides
 FW_languages_babel = [
-    ["fr", "en"],//WEST
-    ["ru", "en"],//EAST
-    ["fr", "en", "ru"],//INDEPENDENT
+    ["en"],//WEST
+    ["ru"],//EAST
+    ["en", "ru"],//INDEPENDENT
     ["en"]//DEFAULT/CIVILIAN
 ];
 
