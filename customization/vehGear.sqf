@@ -12,7 +12,8 @@
 ["rhs_mag_m18_yellow", 2] call FNC_AddItemVehicle;\
 ["rhs_mag_an_m8hc", 10] call FNC_AddItemVehicle;\
 ["rhs_weap_M136", 2] call FNC_AddItemVehicle;\
-["ACRE_PRC148", 1] call FNC_AddItemVehicle;
+["ACRE_PRC148", 1] call FNC_AddItemVehicle;\
+["rhsusf_assault_eagleaiii_ocp", 2] call FNC_AddItemVehicle;
 
 switch (_type) do {
 
@@ -22,7 +23,6 @@ switch (_type) do {
 
 		["rhs_weap_M136", 2] call FNC_AddItemVehicle;
 		["30Rnd_556x45_Stanag", 20] call FNC_AddItemVehicle;
-		["rhs_weap_m4a1_carryhandle", 3] call FNC_AddItemVehicle;
 		["rhs_mag_m67", 10] call FNC_AddItemVehicle;
 		["rhs_mag_an_m8hc", 5] call FNC_AddItemVehicle;
 		["rhs_200rnd_556x45_M_SAW", 5] call FNC_AddItemVehicle;
@@ -128,24 +128,23 @@ switch (_type) do {
 
 		_vehicle call FNC_RemoveAllVehicleGear;
 
-        ["ACE_fieldDressing",20] call FNC_AddItemVehicle;
-        ["ACE_elasticBandage",20] call FNC_AddItemVehicle;
-        ["ACE_packingBandage",20] call FNC_AddItemVehicle;
-        ["ACE_quikclot",20] call FNC_AddItemVehicle;
+        ["ACE_fieldDressing",30] call FNC_AddItemVehicle;
+        ["ACE_elasticBandage",30] call FNC_AddItemVehicle;
+        ["ACE_packingBandage",30] call FNC_AddItemVehicle;
+        ["ACE_quikclot",30] call FNC_AddItemVehicle;
         ["ACE_tourniquet",10] call FNC_AddItemVehicle;
         
         ["ACE_epinephrine",10] call FNC_AddItemVehicle;
-        ["ACE_morphine",10] call FNC_AddItemVehicle;
+        ["ACE_morphine",20] call FNC_AddItemVehicle;
         ["ACE_atropine",10] call FNC_AddItemVehicle;
         
         ["ACE_salineIV",1] call FNC_AddItemVehicle;
-        ["ACE_salineIV_250",2] call FNC_AddItemVehicle;
-        ["ACE_salineIV_500",4] call FNC_AddItemVehicle;
-        ["ACE_surgicalKit",10] call FNC_AddItemVehicle;
+        ["ACE_salineIV_250",10] call FNC_AddItemVehicle;
+        ["ACE_salineIV_500",6] call FNC_AddItemVehicle;
         ["ACE_personalAidKit",2] call FNC_AddItemVehicle;
         
         ["ACE_bloodIV_500",4] call FNC_AddItemVehicle;
-        ["ACE_plasmaIV_500",4] call FNC_AddItemVehicle;
+        ["ACE_plasmaIV_500",8] call FNC_AddItemVehicle;
         
         ["ACE_bodyBag",20] call FNC_AddItemVehicle;
 	};

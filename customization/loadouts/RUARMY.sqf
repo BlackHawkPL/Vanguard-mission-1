@@ -183,6 +183,7 @@ case "RU_EFR": {
     ["rhs_6b7_1m_emr_ess_bala"] call FNC_AddItem;
     
     ["NVGoggles"] call FNC_AddItem;
+    ["ACRE_PRC148",1,"vest"] call FNC_AddItem;
 
     ["ItemMap"] call FNC_AddItem;
     ["ItemCompass"] call FNC_AddItem;
@@ -490,7 +491,7 @@ case "RU_MEDIC": {
     ["ACE_atropine",8,"backpack"] call FNC_AddItem;
     ["ACE_salineIV_250",2,"backpack"] call FNC_AddItem;
     ["ACE_salineIV_500",2,"backpack"] call FNC_AddItem;
-    ["ACE_surgicalKit",2,"backpack"] call FNC_AddItem;
+    ["ACE_surgicalKit",1,"backpack"] call FNC_AddItem;
 
     ["rhs_weap_ak74m"] call FNC_AddItem;
     _unit addPrimaryWeaponItem "rhs_acc_dtk";

@@ -23,4 +23,9 @@ if (!isDedicated) then {
 			(_x select 1) setMarkerAlphaLocal 0;
 		};
 	} forEach _markers;
+    
+    [{time > 0},
+    {
+        {deleteMarker (_x select 1)} forEach _this;
+    }, _markers] call CBA_fnc_WaitUntilAndExecute;
 };

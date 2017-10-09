@@ -30,16 +30,7 @@ if (!isDedicated && _isSP) then {
 
 	#include "settings.sqf"
     
-    [{!isNull (findDisplay 46)},
-    {
-        (findDisplay 46) displayAddEventHandler ["MouseMoving", {
-            if (serverCommandAvailable "#kick") then {
-                FW_IsAdmin = true;
-            } else {
-                FW_IsAdmin = false;
-            };
-        }];
-    }] call CBA_fnc_WaitUntilAndExecute;
+
     
     private _action = ["Start_cd", "Start 5 min countdown", "", {
         FW_setup_start_time = serverTime;
@@ -47,15 +38,7 @@ if (!isDedicated && _isSP) then {
     }, {!isNil "FW_IsAdmin" && {FW_IsAdmin}}] call ace_interact_menu_fnc_createAction;
     [player, 1, ["ACE_SelfActions"], _action] call ace_interact_menu_fnc_addActionToObject;
     
-    _action = ["end_red", "End mission, winner: MSV", "", {
-        "MSV VICTORY <br/> BP Anna successfully defended." remoteExecCall ["FNC_EndMission", 2];
-    }, {!isNil "FW_IsAdmin" && {FW_IsAdmin}}] call ace_interact_menu_fnc_createAction;
-    [player, 1, ["ACE_SelfActions"], _action] call ace_interact_menu_fnc_addActionToObject;
-    
-    _action = ["end_blu", "End mission, winner: US Army", "", {
-        "US ARMY VICTORY <br/> OBJ Rifles has been seized." remoteExecCall ["FNC_EndMission", 2];
-    }, {!isNil "FW_IsAdmin" && {FW_IsAdmin}}] call ace_interact_menu_fnc_createAction;
-    [player, 1, ["ACE_SelfActions"], _action] call ace_interact_menu_fnc_addActionToObject;
+
 
 	
 	if ((count _markers) > 0) then {

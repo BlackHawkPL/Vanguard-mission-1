@@ -20,11 +20,6 @@ ADDMARKER(east, "rm9");
 ADDMARKER(east, "rm10");
 ADDMARKER(east, "rm11");
 
-ADDMARKER(east, "redfor_setup_marker");
-ADDMARKER(east, "redfor_pilots_setup_marker");
-
-ADDMARKER(west, "blufor_setup_marker");
-ADDMARKER(west, "blufor_pilots_setup_marker");
 /*
 ADDMARKER(east, "ea1");
 ADDMARKER(east, "ea2");
