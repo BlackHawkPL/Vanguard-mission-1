@@ -95,7 +95,7 @@ case "US_SCOUT_SL": {
     ["ItemCompass"] call FNC_AddItem;
     ["ItemWatch"] call FNC_AddItem;
     ["NVGoggles"] call FNC_AddItem;
-    ["ACE_Vector21"] call FNC_AddItem;
+    ["ACE_Vector"] call FNC_AddItem;
      
     ["ACRE_PRC148",1,"uniform"] call FNC_AddItem;
     ["ACRE_PRC343",1,"uniform"] call FNC_AddItem;

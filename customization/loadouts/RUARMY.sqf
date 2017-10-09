@@ -303,7 +303,7 @@ case "RU_RIFLE": {
     ["ACE_packingBandage",3,"uniform"] call FNC_AddItem;
     ["ACE_tourniquet",1,"uniform"] call FNC_AddItem;
     ["ACRE_PRC343",1,"uniform"] call FNC_AddItem;
-    ["rhs_mag_rgn",2,"uniform"] call FNC_AddItem;
+    ["rhs_mag_rgn",1,"uniform"] call FNC_AddItem;
     ["rhs_mag_rdg2_white",1,"uniform"] call FNC_AddItem;
     ["rhs_30Rnd_545x39_7N10_AK",7,"vest"] call FNC_AddItem;
 
