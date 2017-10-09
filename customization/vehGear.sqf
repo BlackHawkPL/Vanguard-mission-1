@@ -68,6 +68,7 @@ switch (_type) do {
 
 	};
 */
+    //it's for humvee and tigr, don't let the name fool you
 	case "MRTR_TIGR": {
 
 		_vehicle call FNC_RemoveAllVehicleGear;
@@ -93,7 +94,6 @@ switch (_type) do {
 
 		["rhs_weap_rpg26", 3] call FNC_AddItemVehicle;
 		["rhs_30Rnd_545x39_7N10_AK",10] call FNC_AddItemVehicle;
-		["rhs_weap_ak74m",3] call FNC_AddItemVehicle;
 		["rhs_mag_rgn", 10] call FNC_AddItemVehicle;
 		["rhs_mag_rdg2_white", 5] call FNC_AddItemVehicle;
 		["rhs_100Rnd_762x54mmR", 10] call FNC_AddItemVehicle;
@@ -123,7 +123,7 @@ switch (_type) do {
 		_vehicle call FNC_RemoveAllVehicleGear;
 
 	};
-    
+    //for russians and US
     case "MEDICAL": {
 
 		_vehicle call FNC_RemoveAllVehicleGear;
