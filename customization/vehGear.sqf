@@ -93,7 +93,7 @@ switch (_type) do {
 		_vehicle call FNC_RemoveAllVehicleGear;
 
 		["rhs_weap_rpg26", 3] call FNC_AddItemVehicle;
-		["rhs_30Rnd_545x39_7N10_AK",10] call FNC_AddItemVehicle;
+		["rhs_30Rnd_545x39_7N10_AK",20] call FNC_AddItemVehicle;
 		["rhs_mag_rgn", 10] call FNC_AddItemVehicle;
 		["rhs_mag_rdg2_white", 5] call FNC_AddItemVehicle;
 		["rhs_100Rnd_762x54mmR", 10] call FNC_AddItemVehicle;
