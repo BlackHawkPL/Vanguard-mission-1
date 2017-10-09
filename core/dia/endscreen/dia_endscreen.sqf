@@ -101,5 +101,5 @@ for "_x" from 1 to 120 do {
 	
 };
 
-sleep (10);
+sleep (20);
 endMission "END1";

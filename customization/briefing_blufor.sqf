@@ -36,20 +36,22 @@ NEWTAB("2. MISSION")
 ENDTAB;
 
 NEWTAB("3. EXECUTION")
-	
+
 ENDTAB;
 
 NEWTAB("4. SUSTAINMENT")
 	Helicopters are under a 15 setup timer in order to simulate them currently performing operations in support of other maneuver units in the brigade AO.
 	<br/>Operating Area. The enemy has several air defense artillery (ADA) assets around their main FOB. Stay within the Air Operating Area so as to not risk the loss of your platform. We also have ADA around our FOB that will prevent enemy air from operating south of the DMZ.
 Fuel
-	Each helicopter starts with approx. 15-20 min. of fuel. 
+	Each helicopter starts with approx. 15-20 min. of fuel.
     <br/>There is resupply available at the Forward Aerial Resupply Point (FARP). Resupply consists of an additional 15-20 minutes of fuel and additional ammo (see below). Resupply actions take approx. 10 min.
 
 ENDTAB;
 
 NEWTAB("5. COMMAND & SIGNAL:")
-	BN TOC / Zeus - Vanguard X-Ray - LR 6 / SR 16
+	All radios start preset to these channels:
+	<br/>
+	<br/>BN TOC / Zeus - Vanguard X-Ray - LR 6 / SR 16
 	<br/>OC Net - Zeus - LR 9
 	<br/>
 	<br/>------ Scout Platoon - 'Ghost' ------
@@ -76,8 +78,103 @@ NEWTAB("5. COMMAND & SIGNAL:")
 	<br/>
 	<br/>1 SEC - Punisher 6 - LR 1 / SR 12
 	<br/>
+	<br/>------ Medical Team - 'Bandaid' ------
+	<br/>
+	<br/>1 SEC - Bandaid 1 - LR 1 / SR 1
+	<br/>
 	<br/>------ AH-6 Recon Section - 'Reaper' ------
 	<br/>
 	<br/>AH-6 1 - Reaper 1 - LR 2
 	<br/>AH-6 2 - Reaper 2 - LR 2
+ENDTAB;
+
+NEWTAB("APPENDIX A - VEHICLE LOADOUT")
+	3 x M3A2 (GHOST 1, 2, 3):
+	<br/>	2 x M136 HEAT
+	<br/>	20 x 30rnd 5.56 magazine
+	<br/>	10 x M67 grenade
+	<br/>	5 x smoke grenade, white
+	<br/>	5 x 200rnd 5.56 belt
+	<br/>	2 x backpack
+	<br/>	1 x toolkit
+	<br/>	1 x wirecutters
+	<br/>
+	<br/>1 x HMMWV M2 (GHOST 4):
+	<br/> 2 x M136 HEAT
+	<br/> 1 x M249 PIP
+	<br/> 1 x ELCAN sight
+	<br/> 20 x 30rnd 5.56 magazine
+	<br/> 10 x 200rnd 5.56 belt
+	<br/> 2 x smoke grenade, green
+	<br/> 2 x smoke grenade, red
+	<br/> 2 x smoke grenade, purple
+	<br/> 2 x smoke grenade, yellow
+	<br/> 10 x smoke grenade, white
+	<br/> 1 x AN/PRC-148
+	<br/> 2 x backpack
+	<br/> 10 x field dressing
+	<br/> 10 x elastic bandage
+	<br/> 10 x packing bandage
+	<br/> 10 x quickclot
+	<br/> 5 x tourniquet
+	<br/> 5 x epinephrine
+	<br/> 5 x morphine
+	<br/> 5 x atropine
+	<br/> 1 x saline bag, 500ml
+	<br/> 2 x saline bag, 250ml
+	<br/>
+	<br/>2 x HMMWV M2 (GHOST 5,7):
+	<br/> 2 x M136 HEAT
+	<br/> 1 x M240B
+	<br/> 1 x ELCAN sight
+	<br/> 20 x 30rnd 5.56 magazine
+	<br/> 15 x 100rnd 7.62 belt
+	<br/> 5 x 100rnd 7.62 belt, tracer
+	<br/> 2 x smoke grenade, green
+	<br/> 2 x smoke grenade, red
+	<br/> 2 x smoke grenade, purple
+	<br/> 2 x smoke grenade, yellow
+	<br/> 10 x smoke grenade, white
+	<br/> 1 x AN/PRC-148
+	<br/> 2 x backpack
+	<br/>
+	<br/>2 x HMMWV Mk19 (GHOST 6,8):
+	<br/> 2 x M136 HEAT
+	<br/> 1 x Javelin CLU
+	<br/> 1 x Javelin tube
+	<br/> 20 x 30rnd 5.56 magazine
+	<br/> 2 x smoke grenade, green
+	<br/> 2 x smoke grenade, red
+	<br/> 2 x smoke grenade, purple
+	<br/> 2 x smoke grenade, yellow
+	<br/> 10 x smoke grenade, white
+	<br/> 1 x AN/PRC-148
+	<br/> 2 x backpack
+	<br/>
+	<br/>1 x HMMWV, open top (IRON DOME 1,2,3):
+	<br/> 3 x FIM-92 Stinger launcher
+	<br/> 6 x FIM-92 missle
+	<br/> 6 x backpack
+	<br/>
+	<br/>1 x HMMWV, open top (PUNISHER 6):
+	<br/> 2 x M6 60mm mortar
+	<br/> 10 x HE round (plus 40 in crates)
+	<br/> 5 x smoke round (plus 20 in crates)
+	<br/> 6 x map tools
+	<br/>
+	<br/>1 x M113 Medevac (BANDAID 1):
+	<br/> 30 x field dressing
+	<br/> 30 x elastic bandage
+	<br/> 30 x packing bandage
+	<br/> 30 x quickclot
+	<br/> 10 x tourniquet
+	<br/> 10 x epinephrine
+	<br/> 20 x morphine
+	<br/> 10 x atropine
+	<br/> 1 x saline bag, 1000ml
+	<br/> 6 x saline bag, 500ml
+	<br/> 10 x saline bag, 250ml
+	<br/> 4 x bloody bag, 500ml
+	<br/> 8 x plasma bag, 500ml
+	<br/> 20 x bodybag
 ENDTAB;

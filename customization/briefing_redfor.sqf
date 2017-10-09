@@ -32,19 +32,21 @@ NEWTAB("2. MISSION")
 ENDTAB;
 
 NEWTAB("3. EXECUTION")
-	
+
 ENDTAB;
 
 NEWTAB("4. SUSTAINMENT")
 	Helicopters are under a 15 setup timer in order to simulate them currently performing operations in support of other maneuver units in the brigade AO.
 	<br/>Operating Area. The enemy has several air defense artillery (ADA) assets around their main FOB. Stay within the Air Operating Area so as to not risk the loss of your platform. We also have ADA around our FOB that will prevent enemy air from operating North of the DMZ.
 Fuel
-	<br/>Each helicopter starts with approx. 15-20 min. of fuel. 
+	<br/>Each helicopter starts with approx. 15-20 min. of fuel.
 There is resupply available at the Forward Aerial Resupply Point (FARP). Resupply consists of an additional 15-20 minutes of fuel and additional ammo (see below). Resupply actions take approx. 10 min.
 ENDTAB;
 
 NEWTAB("5. COMMAND & SIGNAL:")
-	------ Recon Platoon - 'Akatsiya' ------
+	All radios start preset to these channels:
+	<br/>
+	<br/>------ Recon Platoon - 'Akatsiya' ------
 	<br/>
 	<br/>PL HQ - Akatsiya 0 - LR 1 / SR 1
 	<br/>1 SEC - Akatsiya 1 - LR 1 / SR 2
@@ -63,8 +65,59 @@ NEWTAB("5. COMMAND & SIGNAL:")
 	<br/>
 	<br/>1 SEC - Bagrets 5 - LR 1 / SR 10
 	<br/>
+	<br/>------ Medical Team - 'Medic' ------
+	<br/>
+	<br/>1 SEC - Medic 1 - LR 1 / SR 1
+	<br/>
 	<br/>------ KA-52 Recon Section - 'Akula' ------
 	<br/>
 	<br/>Ka-52 1 - Akula 1 - LR 2
 	<br/>Ka-52 2 - Akula 2 - LR 2
+	<br/>
+	<br/>------ Vehicle Numbers ------
+	<br/>
+	<br/>BMP-3: 111, 112, 113
+	<br/>T-90: 114, 115
+ENDTAB;
+
+NEWTAB("APPENDIX A - VEHICLE LOADOUT")
+	3 x BMP-3 (AKATSIYA 1,2,3):
+	<br/> 3 x RPG-26
+	<br/> 20 x 30rnd 5.45 magazine
+	<br/> 10 x RGN frag grenade
+	<br/> 5 x smoke grenade, white
+	<br/> 10 x 100rnd 7.62 belt
+	<br/> 2 x backpack
+	<br/> 1 x toolkit
+	<br/>
+	<br/>2 x T-90 (AKATSIYA 4,5):
+	<br/> 1 x toolkit
+	<br/> 1 x backpack
+	<br/>
+	<br/>1 x GAZ Tigr (SERPENT 1,2,3):
+	<br/> 3 x 9K38 Igla launcher
+	<br/> 6 x 9K38 missle
+	<br/> 6 x backpack
+	<br/>
+	<br/>1 x GAZ Tigr (BAGRETS 5):
+	<br/> 2 x M6 60mm mortar
+	<br/> 10 x HE round (plus 40 in crates)
+	<br/> 5 x smoke round (plus 20 in crates)
+	<br/> 6 x map tools
+	<br/>
+	<br/>1 x GAZ-66 (MEDIC 1):
+	<br/> 30 x field dressing
+	<br/> 30 x elastic bandage
+	<br/> 30 x packing bandage
+	<br/> 30 x quickclot
+	<br/> 10 x tourniquet
+	<br/> 10 x epinephrine
+	<br/> 20 x morphine
+	<br/> 10 x atropine
+	<br/> 1 x saline bag, 1000ml
+	<br/> 6 x saline bag, 500ml
+	<br/> 10 x saline bag, 250ml
+	<br/> 4 x bloody bag, 500ml
+	<br/> 8 x plasma bag, 500ml
+	<br/> 20 x bodybag
 ENDTAB;
