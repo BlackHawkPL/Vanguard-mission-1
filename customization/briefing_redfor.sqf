@@ -81,43 +81,45 @@ NEWTAB("5. COMMAND & SIGNAL:")
 ENDTAB;
 
 NEWTAB("APPENDIX A - VEHICLE LOADOUT")
-	3 x BMP-3 (AKATSIYA 1,2,3):
-	<br/> 3 x RPG-26
-	<br/> 20 x 30rnd 5.45 magazine
-	<br/> 10 x RGN frag grenade
-	<br/> 5 x smoke grenade, white
-	<br/> 10 x 100rnd 7.62 belt
-	<br/> 2 x backpack
-	<br/> 1 x toolkit
+	<font size=18>3 x BMP-3 (AKATSIYA 1,2,3):</font>
+	<br/>   3 x RPG-26
+	<br/>   20 x 30rnd 5.45 magazine
+	<br/>   10 x RGN frag grenade
+	<br/>   5 x smoke grenade, white
+	<br/>   10 x 100rnd 7.62 belt
+    <br/>   5 x PG-7VL
+    <br/>   10 x VOG-25
+	<br/>   2 x backpack
+	<br/>   1 x toolkit
 	<br/>
-	<br/>2 x T-90 (AKATSIYA 4,5):
-	<br/> 1 x toolkit
-	<br/> 1 x backpack
+	<br/><font size=18>2 x T-90 (AKATSIYA 4,5):</font>
+	<br/>   1 x toolkit
+	<br/>   1 x backpack
 	<br/>
-	<br/>1 x GAZ Tigr (SERPENT 1,2,3):
-	<br/> 3 x 9K38 Igla launcher
-	<br/> 6 x 9K38 missle
-	<br/> 6 x backpack
+	<br/><font size=18>1 x GAZ Tigr (SERPENT 1,2,3):</font>
+	<br/>   3 x 9K38 Igla launcher
+	<br/>   6 x 9K38 missle
+	<br/>   6 x backpack
 	<br/>
-	<br/>1 x GAZ Tigr (BAGRETS 5):
-	<br/> 2 x M6 60mm mortar
-	<br/> 10 x HE round (plus 40 in crates)
-	<br/> 5 x smoke round (plus 20 in crates)
-	<br/> 6 x map tools
+	<br/><font size=18>1 x GAZ Tigr (BAGRETS 5):</font>
+	<br/>   2 x M6 60mm mortar
+	<br/>   10 x HE round (plus 40 in crates)
+	<br/>   5 x smoke round (plus 20 in crates)
+	<br/>   6 x map tools
 	<br/>
-	<br/>1 x GAZ-66 (MEDIC 1):
-	<br/> 30 x field dressing
-	<br/> 30 x elastic bandage
-	<br/> 30 x packing bandage
-	<br/> 30 x quickclot
-	<br/> 10 x tourniquet
-	<br/> 10 x epinephrine
-	<br/> 20 x morphine
-	<br/> 10 x atropine
-	<br/> 1 x saline bag, 1000ml
-	<br/> 6 x saline bag, 500ml
-	<br/> 10 x saline bag, 250ml
-	<br/> 4 x bloody bag, 500ml
-	<br/> 8 x plasma bag, 500ml
-	<br/> 20 x bodybag
+	<br/><font size=18>1 x GAZ-66 (MEDIC 1):</font>
+	<br/>   30 x field dressing
+	<br/>   30 x elastic bandage
+	<br/>   30 x packing bandage
+	<br/>   30 x quickclot
+	<br/>   10 x tourniquet
+	<br/>   10 x epinephrine
+	<br/>   20 x morphine
+	<br/>   10 x atropine
+	<br/>   1 x saline bag, 1000ml
+	<br/>   6 x saline bag, 500ml
+	<br/>   10 x saline bag, 250ml
+	<br/>   4 x bloody bag, 500ml
+	<br/>   8 x plasma bag, 500ml
+	<br/>   20 x bodybag
 ENDTAB;

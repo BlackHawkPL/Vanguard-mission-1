@@ -89,92 +89,92 @@ NEWTAB("5. COMMAND & SIGNAL:")
 ENDTAB;
 
 NEWTAB("APPENDIX A - VEHICLE LOADOUT")
-	3 x M3A2 (GHOST 1, 2, 3):
-	<br/>	2 x M136 HEAT
-	<br/>	20 x 30rnd 5.56 magazine
-	<br/>	10 x M67 grenade
-	<br/>	5 x smoke grenade, white
-	<br/>	5 x 200rnd 5.56 belt
-	<br/>	2 x backpack
-	<br/>	1 x toolkit
-	<br/>	1 x wirecutters
+	<font size=18>3 x M3A2 (GHOST 1, 2, 3):</font>
+	<br/>   2 x M136 HEAT
+	<br/>   20 x 30rnd 5.56 magazine
+	<br/>   10 x M67 grenade
+	<br/>   5 x smoke grenade, white
+	<br/>   5 x 200rnd 5.56 belt
+	<br/>   2 x backpack
+	<br/>   1 x toolkit
+	<br/>   1 x wirecutters
 	<br/>
-	<br/>1 x HMMWV M2 (GHOST 4):
-	<br/> 2 x M136 HEAT
-	<br/> 1 x M249 PIP
-	<br/> 1 x ELCAN sight
-	<br/> 20 x 30rnd 5.56 magazine
-	<br/> 10 x 200rnd 5.56 belt
-	<br/> 2 x smoke grenade, green
-	<br/> 2 x smoke grenade, red
-	<br/> 2 x smoke grenade, purple
-	<br/> 2 x smoke grenade, yellow
-	<br/> 10 x smoke grenade, white
-	<br/> 1 x AN/PRC-148
-	<br/> 2 x backpack
-	<br/> 10 x field dressing
-	<br/> 10 x elastic bandage
-	<br/> 10 x packing bandage
-	<br/> 10 x quickclot
-	<br/> 5 x tourniquet
-	<br/> 5 x epinephrine
-	<br/> 5 x morphine
-	<br/> 5 x atropine
-	<br/> 1 x saline bag, 500ml
-	<br/> 2 x saline bag, 250ml
+	<br/><font size=18>1 x HMMWV M2 (GHOST 4):</font>
+	<br/>   2 x M136 HEAT
+	<br/>   1 x M249 PIP
+	<br/>   1 x ELCAN sight
+	<br/>   20 x 30rnd 5.56 magazine
+	<br/>   10 x 200rnd 5.56 belt
+	<br/>   2 x smoke grenade, green
+	<br/>   2 x smoke grenade, red
+	<br/>   2 x smoke grenade, purple
+	<br/>   2 x smoke grenade, yellow
+	<br/>   10 x smoke grenade, white
+	<br/>   1 x AN/PRC-148
+	<br/>   2 x backpack
+	<br/>   10 x field dressing
+	<br/>   10 x elastic bandage
+	<br/>   10 x packing bandage
+	<br/>   10 x quickclot
+	<br/>   5 x tourniquet
+	<br/>   5 x epinephrine
+	<br/>   5 x morphine
+	<br/>   5 x atropine
+	<br/>   1 x saline bag, 500ml
+	<br/>   2 x saline bag, 250ml
 	<br/>
-	<br/>2 x HMMWV M2 (GHOST 5,7):
-	<br/> 2 x M136 HEAT
-	<br/> 1 x M240B
-	<br/> 1 x ELCAN sight
-	<br/> 20 x 30rnd 5.56 magazine
-	<br/> 15 x 100rnd 7.62 belt
-	<br/> 5 x 100rnd 7.62 belt, tracer
-	<br/> 2 x smoke grenade, green
-	<br/> 2 x smoke grenade, red
-	<br/> 2 x smoke grenade, purple
-	<br/> 2 x smoke grenade, yellow
-	<br/> 10 x smoke grenade, white
-	<br/> 1 x AN/PRC-148
-	<br/> 2 x backpack
+	<br/><font size=18>2 x HMMWV M2 (GHOST 5,7):</font>
+	<br/>   2 x M136 HEAT
+	<br/>   1 x M240B
+	<br/>   1 x ELCAN sight
+	<br/>   20 x 30rnd 5.56 magazine
+	<br/>   15 x 100rnd 7.62 belt
+	<br/>   5 x 100rnd 7.62 belt, tracer
+	<br/>   2 x smoke grenade, green
+	<br/>   2 x smoke grenade, red
+	<br/>   2 x smoke grenade, purple
+	<br/>   2 x smoke grenade, yellow
+	<br/>   10 x smoke grenade, white
+	<br/>   1 x AN/PRC-148
+	<br/>   2 x backpack
 	<br/>
-	<br/>2 x HMMWV Mk19 (GHOST 6,8):
-	<br/> 2 x M136 HEAT
-	<br/> 1 x Javelin CLU
-	<br/> 1 x Javelin tube
-	<br/> 20 x 30rnd 5.56 magazine
-	<br/> 2 x smoke grenade, green
-	<br/> 2 x smoke grenade, red
-	<br/> 2 x smoke grenade, purple
-	<br/> 2 x smoke grenade, yellow
-	<br/> 10 x smoke grenade, white
-	<br/> 1 x AN/PRC-148
-	<br/> 2 x backpack
+	<br/><font size=18>2 x HMMWV Mk19 (GHOST 6,8):</font>
+	<br/>   2 x M136 HEAT
+	<br/>   1 x Javelin CLU
+	<br/>   1 x Javelin tube
+	<br/>   20 x 30rnd 5.56 magazine
+	<br/>   2 x smoke grenade, green
+	<br/>   2 x smoke grenade, red
+	<br/>   2 x smoke grenade, purple
+	<br/>   2 x smoke grenade, yellow
+	<br/>   10 x smoke grenade, white
+	<br/>   1 x AN/PRC-148
+	<br/>   2 x backpack
 	<br/>
-	<br/>1 x HMMWV, open top (IRON DOME 1,2,3):
-	<br/> 3 x FIM-92 Stinger launcher
-	<br/> 6 x FIM-92 missle
-	<br/> 6 x backpack
+	<br/><font size=18>1 x HMMWV, open top (IRON DOME 1,2,3):</font>
+	<br/>   3 x FIM-92 Stinger launcher
+	<br/>   6 x FIM-92 missle
+	<br/>   6 x backpack
 	<br/>
-	<br/>1 x HMMWV, open top (PUNISHER 6):
-	<br/> 2 x M6 60mm mortar
-	<br/> 10 x HE round (plus 40 in crates)
-	<br/> 5 x smoke round (plus 20 in crates)
-	<br/> 6 x map tools
+	<br/><font size=18>1 x HMMWV, open top (PUNISHER 6):</font>
+	<br/>   2 x M6 60mm mortar
+	<br/>   10 x HE round (plus 40 in crates)
+	<br/>   5 x smoke round (plus 20 in crates)
+	<br/>   6 x map tools
 	<br/>
-	<br/>1 x M113 Medevac (BANDAID 1):
-	<br/> 30 x field dressing
-	<br/> 30 x elastic bandage
-	<br/> 30 x packing bandage
-	<br/> 30 x quickclot
-	<br/> 10 x tourniquet
-	<br/> 10 x epinephrine
-	<br/> 20 x morphine
-	<br/> 10 x atropine
-	<br/> 1 x saline bag, 1000ml
-	<br/> 6 x saline bag, 500ml
-	<br/> 10 x saline bag, 250ml
-	<br/> 4 x bloody bag, 500ml
-	<br/> 8 x plasma bag, 500ml
-	<br/> 20 x bodybag
+	<br/><font size=18>1 x M113 Medevac (BANDAID 1):</font>
+	<br/>   30 x field dressing
+	<br/>   30 x elastic bandage
+	<br/>   30 x packing bandage
+	<br/>   30 x quickclot
+	<br/>   10 x tourniquet
+	<br/>   10 x epinephrine
+	<br/>   20 x morphine
+	<br/>   10 x atropine
+	<br/>   1 x saline bag, 1000ml
+	<br/>   6 x saline bag, 500ml
+	<br/>   10 x saline bag, 250ml
+	<br/>   4 x bloody bag, 500ml
+	<br/>   8 x plasma bag, 500ml
+	<br/>   20 x bodybag
 ENDTAB;

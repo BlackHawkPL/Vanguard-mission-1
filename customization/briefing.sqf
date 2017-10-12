@@ -26,32 +26,38 @@ NEWTAB("BAF M6 Mortar system")
 ENDTAB;
 
 NEWTAB("MISSION NOTES:")
-There will be a 5 minute set up timer, no elements may move more than 100m from their starting locations until A GM calls the mission to be live.
+There will be a 5 minute set up time, no elements may move more than 100m from their starting locations until A GM calls the mission to be live.
+<br/>Air assets can take off 15 minutes after setup time expires.
 <br/>
-<br/>ACE Medical is enabled. Medics have surgical kits to stitch up wounds completely.
+<br/>Tank tracks can be repaired by anyone with a repair kit. IMPORTANT: Track spare parts have to be unloaded from vehicle’s inventory first!
+<br/>AH-6 pilots might need to “center head move“ (Left Ctrl + 5[NUM] by default) in order to line up aiming reticle with where guns are pointing. Despite that, rounds might still hit too high (use top of drawn circle as aim point).
 <br/>
 <br/>Mission will be called by a GM if objective is achieved.
 <br/>
-<br/>Time limit is 120 Minutes.
+<br/>Time limit is 120 Minutes (enforced by a GM).
 <br/>
 <br/>Jip enabled, with teleport.
 <br/>
 <br/><font color='#FFA500'>TECHNICAL ASPECTS</font>
-<br/> View Distance:
-<br/>AI: 4000m.
-<br/>Player: 5000m.
+<br/>View Distance: 5000m.
 <br/>FOG: 0 percent.
-<br/>Mission start is approximately 20 minutes before sunrise.
+<br/>
 <br/>All radios are preset on mission start.
 <br/>ACRE scramble is turned on.
-<br/>ACRE BABEL is turned off.
+<br/>ACRE BABEL is turned on.
 <br/>ACRE Signal loss is turned off.
 <br/>ACRE Occlussion is turned off.
 <br/>ACRE radio interference is turned off.
 <br/>ACRE AI hear players is turned off
 <br/>
+<br/>
+<br/>ACE Medical is enabled.
+<br/>Medics can stitch stable patients anywhere. Surgical kit not consumed.
+<br/>Medics can fully heal by using PAK at a medical vehicle. PAK is consumed.
+<br/>
+<br/>
 <br/><font color='#FFA500'>CREDITS</font>
-<br/>Everyone envolved in the event planing.
+<br/>Everyone involved in the event planing.
 <br/>Briefing by Max.
 <br/>
 <br/>  <font color='#FFA500'>Mission started by TinfoilHate and finished by BlackHawk</font>
@@ -59,7 +65,7 @@ There will be a 5 minute set up timer, no elements may move more than 100m from 
 ENDTAB;
 
 NEWTAB("Game Mastering")
-This mission is designed to be started and ended by a logged-in admin via ACE self-interaction menu.
+This mission is designed to be ended by a logged-in admin via ACE self-interaction menu.
 ENDTAB;
 
 DISPLAYBRIEFING();

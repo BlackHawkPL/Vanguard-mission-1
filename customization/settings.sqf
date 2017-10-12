@@ -39,9 +39,15 @@ if (!isDedicated) then {
     _NatoMarkers pushBack ([getpos b12, WEST, ["rotary", "recon"], -1, 1, WEST, "Reaper 1"] call vk_fnc_addMarker);
     _NatoMarkers pushBack ([getpos b13, WEST, ["rotary", "recon"], -1, 1, WEST, "Reaper 2"] call vk_fnc_addMarker);
     
+    if (side player == east) then {
+    _NatoMarkers pushBack ([getpos bm1, WEST, ["recon"], 3, 1.5, [WEST, EAST], "1-18"] call vk_fnc_addMarker);
+    } else {
+    _NatoMarkers pushBack ([getpos bm2, EAST, ["inf", "armor"], 3, 1.5, [WEST, EAST], "101 MIBN"] call vk_fnc_addMarker);
+    };
+    
     [{time > 0},
     {
-        {_x call vk_fnc_deleteMarker} foreach _this;
+        //{_x call vk_fnc_deleteMarker} foreach _this;
     }, [_NatoMarkers]] call CBA_fnc_WaitUntilAndExecute;
     
     [{!isNull (findDisplay 46)},

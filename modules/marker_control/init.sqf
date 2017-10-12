@@ -26,6 +26,6 @@ if (!isDedicated) then {
     
     [{time > 0},
     {
-        {deleteMarker (_x select 1)} forEach _this;
-    }, _markers] call CBA_fnc_WaitUntilAndExecute;
+        {deleteMarker _x} forEach _this;
+    }, ["rm1","rm2","rm3","rm4","rm5","rm6","rm7","rm8","rm9","rm10","rm11"]] call CBA_fnc_WaitUntilAndExecute;
 };

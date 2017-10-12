@@ -5,25 +5,25 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=513;
+	toggles=1674;
 	class ItemIDProvider
 	{
-		nextID=989;
+		nextID=1058;
 	};
 	class MarkerIDProvider
 	{
-		nextID=34;
+		nextID=65;
 	};
 	class LayerIndexProvider
 	{
-		nextID=129;
+		nextID=134;
 	};
 	class Camera
 	{
 		pos[]={18507.053,113.74656,11800.982};
-		dir[]={-0.48165241,-0.74418724,-0.46289006};
-		up[]={-0.53658915,0.66792059,-0.5156858};
-		aside[]={-0.69294882,5.2782707e-007,0.72103894};
+		dir[]={-0.59139264,-0.6411556,-0.48912707};
+		up[]={-0.49410135,0.76735818,-0.40865913};
+		aside[]={-0.63735735,2.0180596e-007,0.77061766};
 	};
 };
 binarizationWanted=0;
@@ -279,14 +279,14 @@ class Mission
 	};
 	class Entities
 	{
-		items=36;
+		items=63;
 		class Item0
 		{
 			dataType="Layer";
 			name="Markers";
 			class Entities
 			{
-				items=15;
+				items=24;
 				class Item0
 				{
 					dataType="Marker";
@@ -402,7 +402,7 @@ class Mission
 					name="TAC_OBJ_SHOTGUN_TXT_1";
 					text="K1";
 					type="Select";
-					colorName="ColorBlack";
+					colorName="ColorCIV";
 					a=0;
 					id=13;
 					atlOffset=-86.270767;
@@ -434,76 +434,209 @@ class Mission
 				class Item10
 				{
 					dataType="Marker";
-					position[]={18566.498,114.33722,10420.616};
-					name="TAC_OBJ_SHOTGUN_TXT";
+					position[]={18566.498,0,10420.616};
+					name="ab3";
 					text="OBJ SHOTGUN";
 					type="Select";
 					colorName="ColorBlack";
 					a=0;
 					id=8;
+					atlOffset=-114.33722;
 				};
 				class Item11
 				{
 					dataType="Marker";
-					position[]={20264.141,0,9710.1289};
-					name="marker_3";
+					position[]={19892.414,0,10791.784};
+					name="a4";
 					markerType="RECTANGLE";
 					type="Select";
 					colorName="ColorBlack";
 					fillName="SolidFull";
 					a=20;
-					b=2474.2439;
+					b=1330.496;
 					angle=341.03394;
 					id=9;
-					atlOffset=-51.958744;
+					atlOffset=-36.256256;
 				};
 				class Item12
 				{
 					dataType="Marker";
-					position[]={18734.338,17.361572,8066.5967};
-					name="marker_4";
+					position[]={17828.748,0,8823.2236};
+					name="a1";
 					markerType="RECTANGLE";
 					type="Select";
 					colorName="ColorBlack";
 					fillName="SolidFull";
 					a=20;
-					b=1502.7256;
-					angle=309.87909;
+					b=322.65076;
+					angle=309.87888;
 					id=10;
-					atlOffset=-3.4667835;
+					atlOffset=-7.0389333;
 				};
 				class Item13
 				{
 					dataType="Marker";
-					position[]={16992.623,43.854248,9081.2891};
-					name="marker_5";
+					position[]={16992.623,0,9081.2891};
+					name="a2";
 					markerType="RECTANGLE";
 					type="Select";
 					colorName="ColorBlack";
 					fillName="SolidFull";
 					a=20;
-					b=603.48157;
-					angle=275.36511;
+					b=603.48199;
+					angle=275.36487;
 					id=11;
-					atlOffset=-16.541168;
+					atlOffset=-60.395416;
 				};
 				class Item14
 				{
 					dataType="Marker";
-					position[]={16409.209,-36.458008,9959.4609};
-					name="marker_6";
+					position[]={16409.211,0,9959.4609};
+					name="a3";
 					markerType="RECTANGLE";
 					type="Select";
 					colorName="ColorBlack";
 					fillName="SolidFull";
 					a=20;
-					b=839.65436;
+					b=839.65399;
 					id=12;
-					atlOffset=-48.701744;
+					atlOffset=-12.243608;
+				};
+				class Item15
+				{
+					dataType="Marker";
+					position[]={19194.125,0,9093.292};
+					name="ar1";
+					markerType="RECTANGLE";
+					type="Select";
+					colorName="ColorBlack";
+					fillName="SolidFull";
+					a=20;
+					b=1219.275;
+					angle=247.745;
+					id=1041;
+					atlOffset=-76.611847;
+				};
+				class Item16
+				{
+					dataType="Marker";
+					position[]={20673.818,0,8519.4922};
+					name="ab2";
+					markerType="RECTANGLE";
+					type="Select";
+					colorName="ColorBlack";
+					fillName="SolidFull";
+					a=20;
+					b=1114.819;
+					angle=341.03394;
+					id=1042;
+					atlOffset=-23.924446;
+				};
+				class Item17
+				{
+					dataType="Marker";
+					position[]={17295.107,0,11254.54};
+					name="ar2";
+					markerType="RECTANGLE";
+					type="Select";
+					colorName="ColorBlack";
+					fillName="SolidFull";
+					a=20;
+					b=1015.281;
+					angle=62.181999;
+					id=1043;
+					atlOffset=-33.263462;
+				};
+				class Item18
+				{
+					dataType="Marker";
+					position[]={18955.375,0,7881.98};
+					name="ab1";
+					markerType="RECTANGLE";
+					type="Select";
+					colorName="ColorBlack";
+					fillName="SolidFull";
+					a=20;
+					b=1148.3459;
+					angle=309.87888;
+					id=1044;
+					atlOffset=-42.56934;
+				};
+				class Item19
+				{
+					dataType="Marker";
+					position[]={18266.527,0,10447.17};
+					name="ar3";
+					text="OBJ BORIS";
+					type="Select";
+					colorName="ColorBlack";
+					a=0;
+					id=1045;
+					atlOffset=-82.44223;
+				};
+				class Item20
+				{
+					dataType="Marker";
+					position[]={17185.1,0,11806.884};
+					name="ar2_1";
+					markerType="RECTANGLE";
+					type="Select";
+					colorName="ColorRed";
+					fillName="SolidFull";
+					a=5.1680002;
+					b=612.3739;
+					angle=274.26764;
+					id=1046;
+					atlOffset=-39.794563;
+				};
+				class Item21
+				{
+					dataType="Marker";
+					position[]={17178.627,67.947731,11652.254};
+					name="ar2_2";
+					markerType="RECTANGLE";
+					type="Select";
+					colorName="ColorRed";
+					fillName="SolidFull";
+					a=5.1680002;
+					b=612.3739;
+					angle=274.26764;
+					id=1047;
+					atlOffset=9.8358498;
+				};
+				class Item22
+				{
+					dataType="Marker";
+					position[]={16572.357,0,11769.992};
+					name="ar2_3";
+					markerType="RECTANGLE";
+					type="Select";
+					colorName="ColorRed";
+					fillName="SolidFull";
+					a=5.1680002;
+					b=77.540482;
+					angle=184.99727;
+					id=1048;
+					atlOffset=-0.96764159;
+				};
+				class Item23
+				{
+					dataType="Marker";
+					position[]={17791.297,86.204842,11689.202};
+					name="ar2_4";
+					markerType="RECTANGLE";
+					type="Select";
+					colorName="ColorRed";
+					fillName="SolidFull";
+					a=5.1680002;
+					b=77.348526;
+					angle=184.99727;
+					id=1050;
+					atlOffset=5.1965332;
 				};
 			};
 			id=35;
-			atlOffset=-78.823364;
+			atlOffset=-12.310154;
 		};
 		class Item1
 		{
@@ -9806,8 +9939,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -9819,7 +9952,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -9863,8 +9996,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -9876,7 +10009,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -10025,8 +10158,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -10038,7 +10171,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -10082,8 +10215,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -10095,7 +10228,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -10199,8 +10332,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -10212,7 +10345,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -10256,8 +10389,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -10269,7 +10402,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -10318,8 +10451,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -10331,7 +10464,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -10375,8 +10508,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -10388,7 +10521,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -10436,8 +10569,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -10449,7 +10582,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -10493,8 +10626,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -10506,7 +10639,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -10555,8 +10688,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -10568,7 +10701,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -10612,8 +10745,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -10625,7 +10758,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -10673,8 +10806,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -10686,7 +10819,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -10730,8 +10863,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -10743,7 +10876,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -10791,8 +10924,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -10804,7 +10937,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -10848,8 +10981,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -10861,7 +10994,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -10909,8 +11042,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -10922,7 +11055,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -10966,8 +11099,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -10979,7 +11112,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -11182,8 +11315,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -11195,7 +11328,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -11239,8 +11372,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -11252,7 +11385,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -11301,8 +11434,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -11314,7 +11447,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -11358,8 +11491,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -11371,7 +11504,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -11420,8 +11553,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -11433,7 +11566,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -11477,8 +11610,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -11490,7 +11623,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -11539,8 +11672,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -11552,7 +11685,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -11596,8 +11729,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -11609,7 +11742,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -11657,8 +11790,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -11670,7 +11803,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -11714,8 +11847,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -11727,7 +11860,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -11874,8 +12007,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -11887,7 +12020,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -11931,8 +12064,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -11944,7 +12077,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -11992,8 +12125,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -12005,7 +12138,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -12049,8 +12182,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -12062,7 +12195,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -12166,8 +12299,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -12179,7 +12312,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -12223,8 +12356,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -12236,7 +12369,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -12285,8 +12418,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -12298,7 +12431,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -12342,8 +12475,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -12355,7 +12488,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -12403,8 +12536,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -12416,7 +12549,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -12460,8 +12593,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -12473,7 +12606,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -12522,8 +12655,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -12535,7 +12668,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -12579,8 +12712,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -12592,7 +12725,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -12640,8 +12773,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -12653,7 +12786,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -12697,8 +12830,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -12710,7 +12843,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -12857,8 +12990,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -12870,7 +13003,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -12914,8 +13047,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -12927,7 +13060,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -13130,8 +13263,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -13143,7 +13276,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -13187,8 +13320,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -13200,7 +13333,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -13249,8 +13382,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -13262,7 +13395,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -13306,8 +13439,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -13319,7 +13452,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -13524,8 +13657,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -13537,7 +13670,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -13581,8 +13714,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -13594,7 +13727,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -13643,8 +13776,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -13656,7 +13789,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -13700,8 +13833,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -13713,7 +13846,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -13762,8 +13895,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -13775,7 +13908,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -13819,8 +13952,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -13832,7 +13965,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -13938,8 +14071,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -13951,7 +14084,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -13995,8 +14128,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -14008,7 +14141,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -14057,8 +14190,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -14070,7 +14203,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -14114,8 +14247,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -14127,7 +14260,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -14176,8 +14309,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -14189,7 +14322,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -14233,8 +14366,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -14246,7 +14379,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -14294,8 +14427,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -14307,7 +14440,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -14351,8 +14484,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -14364,7 +14497,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -14413,8 +14546,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -14426,7 +14559,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -14470,8 +14603,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -14483,7 +14616,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -14531,8 +14664,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -14544,7 +14677,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -14588,8 +14721,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -14601,7 +14734,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -14706,8 +14839,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -14719,7 +14852,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -14763,8 +14896,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -14776,7 +14909,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -14826,8 +14959,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -14839,7 +14972,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -14883,8 +15016,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -14896,7 +15029,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -14944,8 +15077,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -14957,7 +15090,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -15001,8 +15134,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -15014,7 +15147,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -15064,8 +15197,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -15077,7 +15210,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -15121,8 +15254,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -15134,7 +15267,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -15182,8 +15315,8 @@ class Mission
 								};
 								class Attribute1
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -15195,7 +15328,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -15239,8 +15372,8 @@ class Mission
 								};
 								class Attribute4
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -15252,7 +15385,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -16100,8 +16233,8 @@ class Mission
 								};
 								class Attribute2
 								{
-									property="face";
-									expression="_this setface _value;";
+									property="uo_unitDescription";
+									expression="_this setVariable ['uo_unitDescription', _value];";
 									class Value
 									{
 										class data
@@ -16113,7 +16246,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="";
+											value="true";
 										};
 									};
 								};
@@ -16157,8 +16290,8 @@ class Mission
 								};
 								class Attribute5
 								{
-									property="uo_unitDescription";
-									expression="_this setVariable ['uo_unitDescription', _value];";
+									property="face";
+									expression="_this setface _value;";
 									class Value
 									{
 										class data
@@ -16170,7 +16303,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="true";
+											value="";
 										};
 									};
 								};
@@ -25876,6 +26009,389 @@ class Mission
 				};
 				nAttributes=1;
 			};
+		};
+		class Item36
+		{
+			dataType="Marker";
+			position[]={17301.195,0,8886.2676};
+			name="a5";
+			markerType="ELLIPSE";
+			type="ellipse";
+			fillName="SolidFull";
+			a=50;
+			b=50;
+			angle=340.15396;
+			id=1003;
+			atlOffset=2.8406153;
+		};
+		class Item37
+		{
+			dataType="Marker";
+			position[]={17456.264,0,8839.4092};
+			name="a6";
+			markerType="ELLIPSE";
+			type="ellipse";
+			fillName="SolidFull";
+			a=50;
+			b=50;
+			angle=340.15396;
+			id=1004;
+			atlOffset=3.088501;
+		};
+		class Item38
+		{
+			dataType="Marker";
+			position[]={17610.916,0,8789.0303};
+			name="a7";
+			markerType="ELLIPSE";
+			type="ellipse";
+			fillName="SolidFull";
+			a=50;
+			b=50;
+			angle=340.15396;
+			id=1005;
+			atlOffset=2.8416603;
+		};
+		class Item39
+		{
+			dataType="Marker";
+			position[]={16899.014,-0.81445313,11752.803};
+			name="marker_43";
+			markerType="ELLIPSE";
+			type="ellipse";
+			colorName="ColorRed";
+			fillName="SolidFull";
+			a=50;
+			b=50;
+			id=1011;
+			atlOffset=-25.579208;
+		};
+		class Item40
+		{
+			dataType="Marker";
+			position[]={17178.602,19.664909,11731.578};
+			name="marker_44";
+			markerType="ELLIPSE";
+			type="ellipse";
+			colorName="ColorRed";
+			fillName="SolidFull";
+			a=50;
+			b=50;
+			id=1012;
+			atlOffset=-25.489029;
+		};
+		class Item41
+		{
+			dataType="Marker";
+			position[]={17457.096,56.47876,11708.879};
+			name="marker_45";
+			markerType="ELLIPSE";
+			type="ellipse";
+			colorName="ColorRed";
+			fillName="SolidFull";
+			a=50;
+			b=50;
+			id=1013;
+			atlOffset=-25.676758;
+		};
+		class Item42
+		{
+			dataType="Marker";
+			position[]={18195.117,80.497856,11345.265};
+			name="marker_46";
+			markerType="RECTANGLE";
+			type="rectangle";
+			colorName="ColorRed";
+			fillName="SolidFull";
+			a=4.7456589;
+			b=262.66891;
+			angle=13.016051;
+			id=1014;
+		};
+		class Item43
+		{
+			dataType="Marker";
+			position[]={18386.523,80.878418,11297.873};
+			name="marker_47";
+			markerType="RECTANGLE";
+			type="rectangle";
+			colorName="ColorRed";
+			fillName="SolidFull";
+			a=4.7456589;
+			b=262.66891;
+			angle=13.016051;
+			id=1015;
+			atlOffset=-2.1169891;
+		};
+		class Item44
+		{
+			dataType="Marker";
+			position[]={18349.637,87.11499,11573.535};
+			name="marker_48";
+			markerType="RECTANGLE";
+			type="rectangle";
+			colorName="ColorRed";
+			fillName="SolidFull";
+			a=4.7456589;
+			b=104.30134;
+			angle=283.67499;
+			id=1016;
+			atlOffset=7.1520538;
+		};
+		class Item45
+		{
+			dataType="Marker";
+			position[]={18359.658,93.462646,11039.442};
+			name="marker_49";
+			markerType="RECTANGLE";
+			type="rectangle";
+			colorName="ColorRed";
+			fillName="SolidFull";
+			a=4.7456589;
+			b=36.473289;
+			angle=282.50479;
+			id=1017;
+			atlOffset=-1.1007767;
+		};
+		class Item46
+		{
+			dataType="Marker";
+			position[]={18106.453,56.72998,11099.153};
+			name="marker_50";
+			markerType="RECTANGLE";
+			type="rectangle";
+			colorName="ColorRed";
+			fillName="SolidFull";
+			a=4.7456589;
+			b=36.473289;
+			angle=282.50479;
+			id=1018;
+			atlOffset=-1.0128899;
+		};
+		class Item47
+		{
+			dataType="Marker";
+			position[]={18132.729,76.904564,11009.401};
+			name="marker_51";
+			markerType="RECTANGLE";
+			type="rectangle";
+			colorName="ColorRed";
+			fillName="SolidFull";
+			a=4.7456589;
+			b=113.74049;
+			angle=328.50803;
+			id=1019;
+			atlOffset=0.81721497;
+		};
+		class Item48
+		{
+			dataType="Marker";
+			position[]={18291.553,84.151611,10975.125};
+			name="marker_52";
+			markerType="RECTANGLE";
+			type="rectangle";
+			colorName="ColorRed";
+			fillName="SolidFull";
+			a=4.7456589;
+			b=113.89686;
+			angle=240.34023;
+			id=1020;
+			atlOffset=-2.697998;
+		};
+		class Item49
+		{
+			dataType="Marker";
+			position[]={19962.17,0,8427.7598};
+			name="marker_53";
+			markerType="RECTANGLE";
+			type="rectangle";
+			colorName="ColorBlack";
+			fillName="SolidFull";
+			a=4.7459998;
+			b=510.0372;
+			angle=147.00899;
+			id=1021;
+			atlOffset=-51.826412;
+		};
+		class Item50
+		{
+			dataType="Marker";
+			position[]={19652.686,0,8229.3428};
+			name="marker_54";
+			markerType="RECTANGLE";
+			type="rectangle";
+			colorName="ColorBlack";
+			fillName="SolidFull";
+			a=4.7459998;
+			b=510.0372;
+			angle=147.00899;
+			id=1022;
+			atlOffset=-49.63773;
+		};
+		class Item51
+		{
+			dataType="Marker";
+			position[]={20082.83,56.812695,7905.1924};
+			name="marker_55";
+			markerType="RECTANGLE";
+			type="rectangle";
+			colorName="ColorBlack";
+			fillName="SolidFull";
+			a=4.7459998;
+			b=188.26967;
+			angle=237.50693;
+			id=1028;
+			atlOffset=11.758125;
+		};
+		class Item52
+		{
+			dataType="Marker";
+			position[]={19746.725,63.481201,8900.3545};
+			name="marker_56";
+			markerType="RECTANGLE";
+			type="rectangle";
+			colorName="ColorBlack";
+			fillName="SolidFull";
+			a=4.7459998;
+			b=81.243347;
+			angle=57.462112;
+			id=1029;
+			atlOffset=-6.0884628;
+		};
+		class Item53
+		{
+			dataType="Marker";
+			position[]={19308.484,37.325684,8620.1055};
+			name="marker_57";
+			markerType="RECTANGLE";
+			type="rectangle";
+			colorName="ColorBlack";
+			fillName="SolidFull";
+			a=4.7459998;
+			b=81.243347;
+			angle=57.462112;
+			id=1030;
+			atlOffset=-3.2378311;
+		};
+		class Item54
+		{
+			dataType="Marker";
+			position[]={19291.529,0,8813.665};
+			name="marker_58";
+			markerType="RECTANGLE";
+			type="rectangle";
+			colorName="ColorBlack";
+			fillName="SolidFull";
+			a=4.7459998;
+			b=239.41425;
+			angle=12;
+			id=1031;
+			atlOffset=-51.18811;
+		};
+		class Item55
+		{
+			dataType="Marker";
+			position[]={19573.881,0,8993.6064};
+			name="marker_59";
+			markerType="RECTANGLE";
+			type="rectangle";
+			colorName="ColorBlack";
+			fillName="SolidFull";
+			a=4.7459998;
+			b=243.32782;
+			angle=101.99994;
+			id=1032;
+			atlOffset=-76.909927;
+		};
+		class Item56
+		{
+			dataType="Marker";
+			position[]={20163.703,0,10460.307};
+			name="a8";
+			markerType="ELLIPSE";
+			type="ellipse";
+			fillName="SolidFull";
+			a=50;
+			b=50;
+			angle=36.040001;
+			id=1033;
+			atlOffset=-28.832304;
+		};
+		class Item57
+		{
+			dataType="Marker";
+			position[]={20211.877,0,10305.642};
+			name="a10";
+			markerType="ELLIPSE";
+			type="ellipse";
+			fillName="SolidFull";
+			a=50;
+			b=50;
+			angle=36.040001;
+			id=1034;
+			atlOffset=-30.906576;
+		};
+		class Item58
+		{
+			dataType="Marker";
+			position[]={20256.902,0,10149.347};
+			name="a12";
+			markerType="ELLIPSE";
+			type="ellipse";
+			fillName="SolidFull";
+			a=50;
+			b=50;
+			angle=36.040001;
+			id=1035;
+			atlOffset=-45.680275;
+		};
+		class Item59
+		{
+			dataType="Marker";
+			position[]={17178.979,12.900635,11727.711};
+			name="marker_38";
+			markerType="RECTANGLE";
+			type="rectangle";
+			colorName="ColorRed";
+			fillName="Border";
+			a=75.401878;
+			b=611.65399;
+			angle=274.345;
+			drawBorder=1;
+			id=1006;
+			atlOffset=-32.631207;
+		};
+		class Item60
+		{
+			dataType="Marker";
+			position[]={21982.354,12.671357,6835.3965};
+			name="marker_62";
+			type="dk_zn_obhod_2";
+			id=1053;
+		};
+		class Item61
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={20354.102,41.717529,7570.2813};
+			};
+			name="bm1";
+			id=1056;
+			type="Logic";
+			atlOffset=11.103153;
+		};
+		class Item62
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={18603.285,110.00562,11952.422};
+			};
+			name="bm2";
+			id=1057;
+			type="Logic";
+			atlOffset=-1.6866302;
 		};
 	};
 };
