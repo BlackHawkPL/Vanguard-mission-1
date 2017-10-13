@@ -4,7 +4,7 @@ NEWTAB("1. SITUATION: CIVILIAN")
 ENDTAB;
 
 NEWTAB("1. SITUATION: ENEMY")
-	1.b.) Enemy Overview: The 101st Mechanized Infantry Battalion is currently maintaining a defensive posture to the north of the international boundary. Their forces are currently occupying defensive positions on OBJ RIFLES (AR CO), OBJ Pistol (IN PLT). They have an armor recon PLT (+) advancing towards Key Terrain 1, 2, & 3 on OBJ Shotgun. This enemy force on OBJ Shotgun is the focus for the remainder of this OPORD.
+	1.b.) Enemy Overview: The 101st Mechanized Infantry Battalion is currently maintaining a defensive posture to the north of the international boundary. Their forces are currently occupying defensive positions on OBJ RIFLES (AR CO), OBJ Pistol (IN PLT). They have an armor recon PLT (+) advancing towards Key Terrain 1, 2 and 3 on OBJ Shotgun. This enemy force on OBJ Shotgun is the focus for the remainder of this OPORD.
 	<br/>
 	<br/>1.b.1.) Composition: Enemy forces on OBJ Shotgun consist of armored recon platoon (+) with Soviet style small arms and equipment (AK-47, RPG-7, PKM, NVG). They also have the following combat equipment:
 	<br/>

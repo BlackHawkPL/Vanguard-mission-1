@@ -4,7 +4,7 @@ NEWTAB("1.a. SITUATION: CIVILIAN")
 	<br/>
 ENDTAB;
 NEWTAB("1.b. SITUATION: ENEMY")
-	1.b. Enemy Overview: The enemy Combined Arms Battalion Battalion (CAB) is currently maintaining a defensive posture to the South of the international boundary. Their forces are currently occupying defensive positions around their main Forward Operating Base. They have an armor recon PLT (+) advancing towards Key Terrain 1, 2 & 3 on OBJ Boris. This enemy force on OBJ Boris is the focus for the remainder of this OPORD.
+	1.b. Enemy Overview: The enemy Combined Arms Battalion Battalion (CAB) is currently maintaining a defensive posture to the South of the international boundary. Their forces are currently occupying defensive positions around their main Forward Operating Base. They have an armor recon PLT (+) advancing towards Key Terrain 1, 2 and 3 on OBJ Boris. This enemy force on OBJ Boris is the focus for the remainder of this OPORD.
 	<br/>
 	<br/>1.b.1. Composition: Enemy forces advancing towards OBJ Boris consist of armored recon platoon (+) with American style small arms and equipment (M-4, M249, M240, NVG). They also have the following combat equipment:
 	<br/>3 x M3A3

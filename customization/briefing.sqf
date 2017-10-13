@@ -61,7 +61,6 @@ There will be a 5 minute set up time, no elements may move more than 100m from t
 <br/>Briefing by Max.
 <br/>
 <br/>  <font color='#FFA500'>Mission started by TinfoilHate and finished by BlackHawk</font>
-<br/>	This tab shamlessly stolen from Perfk.
 ENDTAB;
 
 NEWTAB("Game Mastering")

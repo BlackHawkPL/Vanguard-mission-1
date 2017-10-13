@@ -101,6 +101,7 @@ switch (_type) do {
         
 		["rhs_rpg7_PG7VL_mag", 5] call FNC_AddItemVehicle;
 		["rhs_VOG25", 10] call FNC_AddItemVehicle;
+		["ACRE_PRC148"] call FNC_AddItemVehicle;
 
 		["ToolKit",1] call FNC_AddItemVehicle;
 
