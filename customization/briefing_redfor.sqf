@@ -119,7 +119,7 @@ NEWTAB("APPENDIX A - VEHICLE LOADOUT")
 	<br/>   1 x saline bag, 1000ml
 	<br/>   6 x saline bag, 500ml
 	<br/>   10 x saline bag, 250ml
-	<br/>   4 x bloodbag, 500ml
+	<br/>   4 x blood bag, 500ml
 	<br/>   8 x plasma bag, 500ml
 	<br/>   20 x bodybag
 ENDTAB;
