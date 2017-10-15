@@ -501,7 +501,8 @@ case "RU_MEDIC": {
 case "RU_BMPG": {
 
     ["rhs_uniform_msv_emr"] call FNC_AddItem;
-    ["rhs_6b23_digi_engineer"] call FNC_AddItem;
+    //["rhs_6b23_digi_engineer"] call FNC_AddItem;
+    ["rhs_6sh46"] call FNC_AddItem;
 
     ["rhs_tsh4"] call FNC_AddItem;
 
@@ -521,19 +522,19 @@ case "RU_BMPG": {
     ["ACE_EarPlugs",1,"uniform"] call FNC_AddItem;
     ["ACE_packingBandage",3,"uniform"] call FNC_AddItem;
     ["ACE_tourniquet",1,"uniform"] call FNC_AddItem;
-    ["rhs_mag_rgd5",1,"vest"] call FNC_AddItem;
     ["rhs_mag_rdg2_white",1,"vest"] call FNC_AddItem;
-    ["rhs_30Rnd_545x39_7N10_AK",6,"vest"] call FNC_AddItem;
+    ["rhs_30Rnd_545x39_7N10_AK",2,"vest"] call FNC_AddItem;
 
-    ["rhs_weap_ak74m_folded"] call FNC_AddItem;
-    _unit addPrimaryWeaponItem "rhs_acc_dtk";
+    ["rhs_weap_aks74u"] call FNC_AddItem;
+    _unit addPrimaryWeaponItem "rhs_acc_pgs64_74u";
 
 };
 
 case "RU_BMPD": {
 
     ["rhs_uniform_msv_emr"] call FNC_AddItem;
-    ["rhs_6b23_digi_engineer"] call FNC_AddItem;
+    //["rhs_6b23_digi_engineer"] call FNC_AddItem;
+    ["rhs_6sh46"] call FNC_AddItem;
 
     ["rhs_tsh4"] call FNC_AddItem;
 
@@ -552,19 +553,19 @@ case "RU_BMPD": {
     ["ACE_EarPlugs",1,"uniform"] call FNC_AddItem;
     ["ACE_packingBandage",3,"uniform"] call FNC_AddItem;
     ["ACE_tourniquet",1,"uniform"] call FNC_AddItem;
-    ["rhs_mag_rgd5",1,"vest"] call FNC_AddItem;
     ["rhs_mag_rdg2_white",1,"vest"] call FNC_AddItem;
-    ["rhs_30Rnd_545x39_7N10_AK",6,"vest"] call FNC_AddItem;
+    ["rhs_30Rnd_545x39_7N10_AK",3,"vest"] call FNC_AddItem;
 
-    ["rhs_weap_ak74m_folded"] call FNC_AddItem;
-    _unit addPrimaryWeaponItem "rhs_acc_dtk";
+    ["rhs_weap_aks74u"] call FNC_AddItem;
+    _unit addPrimaryWeaponItem "rhs_acc_pgs64_74u";
 
 };
 
 case "RU_TC": {
 
     ["rhs_uniform_msv_emr"] call FNC_AddItem;
-    ["rhs_6b23_digi_engineer"] call FNC_AddItem;
+    //["rhs_6b23_digi_engineer"] call FNC_AddItem;
+    ["rhs_6sh46"] call FNC_AddItem;
 
     ["rhs_tsh4", "rhs_tsh4_ess", "rhs_tsh4_ess_bala"] call FNC_AddItemRandom;
 
@@ -583,19 +584,19 @@ case "RU_TC": {
     ["ACE_EarPlugs",1,"uniform"] call FNC_AddItem;
     ["ACE_packingBandage",3,"uniform"] call FNC_AddItem;
     ["ACE_tourniquet",1,"uniform"] call FNC_AddItem;
-    ["rhs_mag_rgd5",1,"vest"] call FNC_AddItem;
     ["rhs_mag_rdg2_white",1,"vest"] call FNC_AddItem;
-    ["rhs_30Rnd_545x39_7N10_AK",6,"vest"] call FNC_AddItem;
+    ["rhs_30Rnd_545x39_7N10_AK",3,"vest"] call FNC_AddItem;
 
-    ["rhs_weap_ak74m_folded"] call FNC_AddItem;
-    _unit addPrimaryWeaponItem "rhs_acc_dtk";
+    ["rhs_weap_aks74u"] call FNC_AddItem;
+    _unit addPrimaryWeaponItem "rhs_acc_pgs64_74u";
 
 };
 
 case "RU_GNR": {
 
     ["rhs_uniform_msv_emr"] call FNC_AddItem;
-    ["rhs_6b23_digi_engineer"] call FNC_AddItem;
+    //["rhs_6b23_digi_engineer"] call FNC_AddItem;
+    ["rhs_6sh46"] call FNC_AddItem;
 
     ["rhs_tsh4", "rhs_tsh4_ess", "rhs_tsh4_ess_bala"] call FNC_AddItemRandom;
 
@@ -613,19 +614,19 @@ case "RU_GNR": {
     ["ACE_EarPlugs",1,"uniform"] call FNC_AddItem;
     ["ACE_packingBandage",3,"uniform"] call FNC_AddItem;
     ["ACE_tourniquet",1,"uniform"] call FNC_AddItem;
-    ["rhs_mag_rgd5",1,"vest"] call FNC_AddItem;
     ["rhs_mag_rdg2_white",1,"vest"] call FNC_AddItem;
-    ["rhs_30Rnd_545x39_7N10_AK",6,"vest"] call FNC_AddItem;
+    ["rhs_30Rnd_545x39_7N10_AK",3,"vest"] call FNC_AddItem;
 
-    ["rhs_weap_ak74m_folded"] call FNC_AddItem;
-    _unit addPrimaryWeaponItem "rhs_acc_dtk";
+    ["rhs_weap_aks74u"] call FNC_AddItem;
+    _unit addPrimaryWeaponItem "rhs_acc_pgs64_74u";
 
 };
 
 case "RU_DRV": {
 
     ["rhs_uniform_msv_emr"] call FNC_AddItem;
-    ["rhs_6b23_digi_engineer"] call FNC_AddItem;
+    //["rhs_6b23_digi_engineer"] call FNC_AddItem;
+    ["rhs_6sh46"] call FNC_AddItem;
 
     ["rhs_tsh4", "rhs_tsh4_ess", "rhs_tsh4_ess_bala"] call FNC_AddItemRandom;
     
@@ -643,12 +644,11 @@ case "RU_DRV": {
     ["ACE_EarPlugs",1,"uniform"] call FNC_AddItem;
     ["ACE_packingBandage",3,"uniform"] call FNC_AddItem;
     ["ACE_tourniquet",1,"uniform"] call FNC_AddItem;
-    ["rhs_mag_rgd5",1,"vest"] call FNC_AddItem;
     ["rhs_mag_rdg2_white",1,"vest"] call FNC_AddItem;
-    ["rhs_30Rnd_545x39_7N10_AK",6,"vest"] call FNC_AddItem;
+    ["rhs_30Rnd_545x39_7N10_AK",3,"vest"] call FNC_AddItem;
 
-    ["rhs_weap_ak74m_folded"] call FNC_AddItem;
-    _unit addPrimaryWeaponItem "rhs_acc_dtk";
+    ["rhs_weap_aks74u"] call FNC_AddItem;
+    _unit addPrimaryWeaponItem "rhs_acc_pgs64_74u";
 
 };
 
