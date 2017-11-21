@@ -9,7 +9,7 @@
 	respawnButton = 1; //Disables the respawn button
 	respawnDialog = 0; //Disables the score screen while respawning
     respawnTemplates[] = {"Base"}; //Disables respawn countdown
-    enableDebugConsole = 0; //Off
+    enableDebugConsole = 1; //On for logged-in admin
 
 	class Extended_PreInit_EventHandlers {
 		
