@@ -24,7 +24,7 @@ if (_isRefueling) then {
     
     private _i = 0;
     while {_target getVariable ["fuelLeft", 0] > 0} do {
-        sleep _speed * 75;
+        sleep (_speed * 75);
         if (_heli distance _target > 50) exitWith {
             systemChat "Helicopter no longer present on pad, aborting";
         };
@@ -45,9 +45,9 @@ else {
     private _aborted = false;
     
     if (_target getVariable ["ammoLeft", 0] == 2 && !_aborted) then {
-        sleep _speed * 15;
+        sleep (_speed * 15);
         systemChat "Rearming GAU-19 .50cal";
-        sleep _speed * 135;
+        sleep (_speed * 135);
         if (_heli distance _target > 50) exitWith {
             systemChat "Helicopter no longer present on pad, aborting";
             _aborted = true;
@@ -58,9 +58,9 @@ else {
     };
     
     if (_target getVariable ["ammoLeft", 0] == 1 && !_aborted) then {
-        sleep _speed * 15;
+        sleep (_speed * 15);
         systemChat "Rearming missiles";
-        sleep _speed * 135;
+        sleep (_speed * 135);
         if (_heli distance _target > 50) exitWith {
             systemChat "Helicopter no longer present on pad, aborting";
             _aborted = true;
