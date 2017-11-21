@@ -28,3 +28,7 @@ ADDMARKER(east, "ar3");
 ADDMARKER(west, "ab1");
 ADDMARKER(west, "ab2");
 ADDMARKER(west, "ab3");
+ADDMARKER(west, "ab4");
+ADDMARKER(west, "ab5");
+ADDMARKER(west, "ab6");
+ADDMARKER(west, "ab7");
