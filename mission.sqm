@@ -5,7 +5,7 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=1546;
+	toggles=1674;
 	class ItemIDProvider
 	{
 		nextID=1060;
@@ -315,7 +315,7 @@ class Mission
 					fillName="Border";
 					a=465;
 					b=292;
-					angle=339.29395;
+					angle=339.29388;
 					drawBorder=1;
 					id=1;
 					atlOffset=-30.874775;
@@ -331,7 +331,7 @@ class Mission
 					fillName="Border";
 					a=463;
 					b=290;
-					angle=339.29395;
+					angle=339.29388;
 					drawBorder=1;
 					id=5;
 					atlOffset=-30.874775;
@@ -347,7 +347,7 @@ class Mission
 					fillName="Border";
 					a=461;
 					b=288;
-					angle=339.29395;
+					angle=339.29388;
 					drawBorder=1;
 					id=6;
 					atlOffset=-30.874775;
@@ -407,7 +407,7 @@ class Mission
 					name="TAC_OBJ_SHOTGUN_TXT_1";
 					text="K1";
 					type="Select";
-					colorName="ColorBlack";
+					colorName="ColorRed";
 					a=0;
 					id=13;
 					atlOffset=-86.270767;
@@ -419,7 +419,7 @@ class Mission
 					name="TAC_OBJ_SHOTGUN_TXT_2";
 					text="K2";
 					type="Select";
-					colorName="ColorBlack";
+					colorName="ColorRed";
 					a=0;
 					id=14;
 					atlOffset=-165.0616;
@@ -427,14 +427,14 @@ class Mission
 				class Item9
 				{
 					dataType="Marker";
-					position[]={18869.607,2.3745117,10224.249};
+					position[]={18869.607,0,10224.249};
 					name="TAC_OBJ_SHOTGUN_TXT_3";
 					text="K3";
 					type="Select";
-					colorName="ColorBlack";
+					colorName="ColorRed";
 					a=0;
 					id=15;
-					atlOffset=-212.21608;
+					atlOffset=-214.59059;
 				};
 				class Item10
 				{
@@ -641,7 +641,7 @@ class Mission
 				};
 			};
 			id=35;
-			atlOffset=-12.310154;
+			atlOffset=-12.310226;
 		};
 		class Item1
 		{
@@ -8074,7 +8074,7 @@ class Mission
 				};
 			};
 			id=51;
-			atlOffset=198.02528;
+			atlOffset=-1.2986832;
 		};
 		class Item2
 		{
@@ -16491,7 +16491,7 @@ class Mission
 				};
 			};
 			id=53;
-			atlOffset=211.18811;
+			atlOffset=50.082676;
 		};
 		class Item3
 		{
@@ -17472,6 +17472,7 @@ class Mission
 			text="Bagrets 5";
 			type="dk_zn_minomet_maly";
 			colorName="ColorRed";
+			alpha=0.60166037;
 			id=961;
 			atlOffset=-100.00988;
 		};
@@ -17483,6 +17484,7 @@ class Mission
 			text="Serpent";
 			type="dk_zn_pzrk_def";
 			colorName="ColorRed";
+			alpha=0.59742439;
 			id=962;
 			atlOffset=-99.907364;
 		};

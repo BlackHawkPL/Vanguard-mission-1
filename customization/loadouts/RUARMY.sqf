@@ -31,7 +31,6 @@ case "RU_PL": {
     _unit addPrimaryWeaponItem "rhs_acc_1pn93_1";
     _unit addPrimaryWeaponItem "rhs_acc_perst1ik";
 
-    ["rhs_weap_pya"] call FNC_AddItem;
 };
 
 case "RU_PSGT": {
