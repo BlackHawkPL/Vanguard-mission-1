@@ -43,17 +43,17 @@ FW_enable_channel_names = false;
 
 FW_ChannelNames = [
     [//WEST - USE SIDE SETTINGS ONLY IF SCRAMBLE IS ON
-        ["1", "label", "PLTNET 1"],
-        ["2", "label", "PLTNET 2"],
-        ["3", "label", "PLTNET 3"],
+        ["1", "label", "GHOST 1-3"],
+        ["2", "label", "GHOST 4-8"],
+        ["3", "label", "AIR NET"],
         ["4", "label", "PLTNET 4"],
         ["5", "label", "COY"],
         ["6", "label", "CAS"],
         ["7", "label", "FIRES"]
     ],
     [//EAST
-        ["1", "label", "PLTNET 1"],
-        ["2", "label", "PLTNET 2"],
+        ["1", "label", "AKATSIYA"],
+        ["2", "label", "AIR NET"],
         ["3", "label", "PLTNET 3"],
         ["4", "label", "PLTNET 4"],
         ["5", "label", "COY"],
