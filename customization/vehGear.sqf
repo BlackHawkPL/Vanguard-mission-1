@@ -31,6 +31,7 @@ switch (_type) do {
 		["ToolKit",1] call FNC_AddItemVehicle;
 		["ACE_wirecutter",1] call FNC_AddItemVehicle;
 
+        ["ACRE_PRC148", 1] call FNC_AddItemVehicle;
 
 	};
 

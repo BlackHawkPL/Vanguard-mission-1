@@ -56,27 +56,27 @@ NEWTAB("5. COMMAND & SIGNAL:")
 	<br/>
 	<br/>------ Scout Platoon - 'Ghost' ------
 	<br/>
-	<br/>HQ - Ghost 1 - LR 1 / SR 1
-	<br/>HQ - Ghost 4 - LR 1 / SR 1
+	<br/>HQ - Ghost 1 - LR 1 / SR 6
+	<br/>HQ - Ghost 4 - LR 1, 2 / SR 1
 	<br/>
 	<br/>M2A3 Team 2 - Ghost 2 - LR 1 / SR 2
 	<br/>M2A3 Team 3 - Ghost 3 - LR 1 / SR 2
 	<br/>
-	<br/>A SEC Team 1 - Ghost 5 - LR 1 / SR 3
-	<br/>A SEC Team 2 - Ghost 6 - LR 1 / SR 3
+	<br/>A SEC Team 1 - Ghost 5 - LR 2 / SR 3
+	<br/>A SEC Team 2 - Ghost 6 - LR 2 / SR 3
 	<br/>
-	<br/>B SEC Team 1 - Ghost 7 - LR 1 / SR 4
-	<br/>B SEC Team 2 - Ghost 8 - LR 1 / SR 4
+	<br/>B SEC Team 1 - Ghost 7 - LR 2 / SR 4
+	<br/>B SEC Team 2 - Ghost 8 - LR 2 / SR 4
 	<br/>
 	<br/>------ ADA Section - 'Iron Dome' ------
 	<br/>
-	<br/>1 SEC Team 1- Iron Dome 1 - LR 1 / SR 9
-	<br/>2 SEC Team 2 - Iron Dome 2 - LR 1 / SR 9
-	<br/>3 SEC Team 3 - Iron Dome 3 - LR 1 / SR 9
+	<br/>1 SEC Team 1- Iron Dome 1 - LR 2 / SR 9
+	<br/>2 SEC Team 2 - Iron Dome 2 - SR 9
+	<br/>3 SEC Team 3 - Iron Dome 3 - SR 9
 	<br/>
 	<br/>------ Mortar Section - 'Punisher' ------
 	<br/>
-	<br/>1 SEC - Punisher 6 - LR 1 / SR 12
+	<br/>1 SEC - Punisher 6 - LR 2 / SR 12
 	<br/>
 	<br/>------ Medical Team - 'Bandaid' ------
 	<br/>
@@ -84,8 +84,8 @@ NEWTAB("5. COMMAND & SIGNAL:")
 	<br/>
 	<br/>------ AH-6 Recon Section - 'Reaper' ------
 	<br/>
-	<br/>AH-6 1 - Reaper 1 - LR 2
-	<br/>AH-6 2 - Reaper 2 - LR 2
+	<br/>AH-6 1 - Reaper 1 - LR 3
+	<br/>AH-6 2 - Reaper 2 - LR 3
 ENDTAB;
 
 NEWTAB("APPENDIX A - VEHICLE LOADOUT")
@@ -98,6 +98,7 @@ NEWTAB("APPENDIX A - VEHICLE LOADOUT")
 	<br/>   2 x backpack
 	<br/>   1 x toolkit
 	<br/>   1 x wirecutters
+	<br/>   1 x AN/PRC-148
 	<br/>
 	<br/><font size=18>1 x HMMWV M2 (GHOST 4):</font>
 	<br/>   2 x M136 HEAT
