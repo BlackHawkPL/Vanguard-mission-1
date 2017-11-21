@@ -1,3 +1,3 @@
 
 //array containing vehicles that will have option to spawn AI driver in them
-#define VEHS [veh1, veh2]
+#define VEHS [TANK_RECCE_2, TANK_RECCE_1]

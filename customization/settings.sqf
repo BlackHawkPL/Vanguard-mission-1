@@ -1,6 +1,9 @@
 ace_cookoff_enable = false;
 ace_cookoff_ammoCookoffDuration = 0;
 ace_hearing_enableCombatDeafness = false;
+ACE_weather_syncWind = false;
+ACE_wind = [0,0,0];
+setWind [0,0, true];
 
 if (isServer) then {
 
@@ -45,6 +48,12 @@ if (!isDedicated) then {
     _NatoMarkers pushBack ([getpos bm2, EAST, ["inf", "armor"], 3, 1.5, [WEST, EAST], "101 MIBN"] call vk_fnc_addMarker);
     };
     
+    FW_terrainGridPFH_handle = [{
+        if (time > 0 && {getTerrainGrid != 2}) then {
+            setTerrainGrid 2;
+        };
+    }, 1] call CBA_fnc_addPerFrameHandler;
+
     [{time > 0},
     {
         //{_x call vk_fnc_deleteMarker} foreach _this;

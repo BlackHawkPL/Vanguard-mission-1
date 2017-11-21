@@ -523,7 +523,7 @@ case "RU_BMPG": {
     ["ACE_packingBandage",3,"uniform"] call FNC_AddItem;
     ["ACE_tourniquet",1,"uniform"] call FNC_AddItem;
     ["rhs_mag_rdg2_white",1,"vest"] call FNC_AddItem;
-    ["rhs_30Rnd_545x39_7N10_AK",2,"vest"] call FNC_AddItem;
+    ["rhs_30Rnd_545x39_7N10_AK",3,"vest"] call FNC_AddItem;
 
     ["rhs_weap_aks74u"] call FNC_AddItem;
     _unit addPrimaryWeaponItem "rhs_acc_pgs64_74u";

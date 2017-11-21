@@ -5,7 +5,7 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=1674;
+	toggles=1546;
 	class ItemIDProvider
 	{
 		nextID=1060;
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=154;
+		nextID=174;
 	};
 	class Camera
 	{
-		pos[]={18492.91,106.82678,11811.939};
-		dir[]={-0.70471781,-0.46313646,-0.53766596};
-		up[]={-0.36828253,0.88620448,-0.28098205};
-		aside[]={-0.60662705,-1.0776566e-006,0.79511964};
+		pos[]={18470.445,112.94403,11770.742};
+		dir[]={-0.022301469,-0.56064707,0.8278985};
+		up[]={-0.015103455,0.8279317,0.56052488};
+		aside[]={0.99976301,-3.3716242e-006,0.026929798};
 	};
 };
 binarizationWanted=0;
@@ -45,8 +45,8 @@ addons[]=
 	"rhs_c_troops",
 	"rhs_c_trucks",
 	"A3_Structures_F_Mil_Helipads",
-	"CUP_WarfareBuildings",
-	"CUP_StandaloneTerrains_Core_Faction",
+	"A3_Structures_F_Ind_Cargo",
+	"ace_cargo",
 	"rhs_c_weapons",
 	"A3_Weapons_F_Ammoboxes",
 	"A3_Modules_F_Effects",
@@ -168,13 +168,17 @@ class AddonsMetaData
 		};
 		class Item16
 		{
-			className="CUP_WarfareBuildings";
-			name="CUP_WarfareBuildings";
+			className="A3_Structures_F_Ind";
+			name="Arma 3 - Industrial Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
 		};
 		class Item17
 		{
-			className="CUP_StandaloneTerrains_Core_Faction";
-			name="CUP_StandaloneTerrains_Core_Faction";
+			className="ace_cargo";
+			name="ACE3 - Cargo";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
 		};
 		class Item18
 		{
@@ -256,12 +260,11 @@ class Mission
 		resistanceWest=0;
 		timeOfChanges=1800.0002;
 		startWeather=0;
-		startWind=0.1;
+		startWind=0;
 		startWaves=0.1;
 		forecastWeather=0;
-		forecastWind=0.1;
+		forecastWind=0;
 		forecastWaves=0.1;
-		forecastLightnings=0.1;
 		rainForced=1;
 		lightningsForced=1;
 		wavesForced=1;
@@ -8063,7 +8066,7 @@ class Mission
 				};
 			};
 			id=51;
-			atlOffset=-1.2986832;
+			atlOffset=198.02528;
 		};
 		class Item2
 		{
@@ -16480,7 +16483,7 @@ class Mission
 				};
 			};
 			id=53;
-			atlOffset=50.082676;
+			atlOffset=211.18811;
 		};
 		class Item3
 		{
@@ -16619,14 +16622,14 @@ class Mission
 				angles[]={0,3.9170947,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				init="call{this addAction [""refuel"", ""customization\scripts\rearmRU.sqf"", true]; this addAction [""rearm"", ""customization\scripts\rearmRU.sqf"", false]; if (isServer) then {this setVariable [""fuelLeft"", 0.08, true]; this setVariable [""ammoLeft"", 4, true];}}";
 				name="RU_FARP1";
 			};
 			id=481;
-			type="RU_WarfareBVehicleServicePoint";
+			type="Land_Cargo20_military_green_F";
+			atlOffset=0.32027435;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -16660,14 +16663,14 @@ class Mission
 				angles[]={0,3.9170947,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				init="call{this addAction [""refuel"", ""customization\scripts\rearmRU.sqf"", true]; this addAction [""rearm"", ""customization\scripts\rearmRU.sqf"", false]; if (isServer) then {this setVariable [""fuelLeft"", 0.08, true]; this setVariable [""ammoLeft"", 4, true];}}";
 				name="RU_FARP2";
 			};
 			id=482;
-			type="RU_WarfareBVehicleServicePoint";
+			type="Land_Cargo20_military_green_F";
+			atlOffset=0.32027435;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -16707,8 +16710,8 @@ class Mission
 				init="call{this addAction [""refuel"", ""customization\scripts\rearmUS.sqf"", true]; this addAction [""rearm"", ""customization\scripts\rearmUS.sqf"", false]; if (isServer) then {this setVariable [""fuelLeft"", 0.18, true]; this setVariable [""ammoLeft"", 2, true];}}";
 			};
 			id=485;
-			type="USMC_WarfareBVehicleServicePoint";
-			atlOffset=-1.9073486e-006;
+			type="Land_Cargo20_military_green_F";
+			atlOffset=0.079885483;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -16748,7 +16751,8 @@ class Mission
 				init="call{this addAction [""refuel"", ""customization\scripts\rearmUS.sqf"", true]; this addAction [""rearm"", ""customization\scripts\rearmUS.sqf"", false]; if (isServer) then {this setVariable [""fuelLeft"", 0.18, true]; this setVariable [""ammoLeft"", 2, true];}}";
 			};
 			id=486;
-			type="USMC_WarfareBVehicleServicePoint";
+			type="Land_Cargo20_military_green_F";
+			atlOffset=0.07988739;
 			class CustomAttributes
 			{
 				class Attribute0
