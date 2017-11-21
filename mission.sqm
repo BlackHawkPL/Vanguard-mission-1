@@ -5,7 +5,7 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=1674;
+	toggles=1546;
 	class ItemIDProvider
 	{
 		nextID=1060;
@@ -218,7 +218,6 @@ class ScenarioData
 	author="BlackHawk";
 	overviewText="Mission 1 of Operation Road Warrior";
 	onLoadMission="Mission 1 of Operation Road Warrior";
-	loadScreen="core\uoLogo.jpg";
 	disabledAI=1;
 	class Header
 	{
@@ -296,27 +295,27 @@ class Mission
 				class Item0
 				{
 					dataType="Marker";
-					position[]={20409.049,-1.1916504,7779.8643};
-					name="TAC_AA_GHOST_TXT";
+					position[]={20409.049,0,7779.8638};
+					name="ab4";
 					text="AA GHOST";
 					type="Select";
 					colorName="ColorBlack";
 					a=0;
 					id=7;
-					atlOffset=-27.323339;
+					atlOffset=-26.13175;
 				};
 				class Item1
 				{
 					dataType="Marker";
 					position[]={20352.975,0,7539.1929};
-					name="TAC_AA_GHOST";
+					name="ab5";
 					markerType="ELLIPSE";
 					type="Select";
 					colorName="ColorBlack";
 					fillName="Border";
 					a=465;
 					b=292;
-					angle=339.29382;
+					angle=339.29395;
 					drawBorder=1;
 					id=1;
 					atlOffset=-30.874775;
@@ -325,14 +324,14 @@ class Mission
 				{
 					dataType="Marker";
 					position[]={20352.975,0,7539.1929};
-					name="TAC_AA_GHOST_1";
+					name="ab6";
 					markerType="ELLIPSE";
 					type="Select";
 					colorName="ColorBlack";
 					fillName="Border";
 					a=463;
 					b=290;
-					angle=339.29382;
+					angle=339.29395;
 					drawBorder=1;
 					id=5;
 					atlOffset=-30.874775;
@@ -341,14 +340,14 @@ class Mission
 				{
 					dataType="Marker";
 					position[]={20352.975,0,7539.1929};
-					name="TAC_AA_GHOST_2";
+					name="ab7";
 					markerType="ELLIPSE";
 					type="Select";
 					colorName="ColorBlack";
 					fillName="Border";
 					a=461;
 					b=288;
-					angle=339.29382;
+					angle=339.29395;
 					drawBorder=1;
 					id=6;
 					atlOffset=-30.874775;
@@ -8075,7 +8074,7 @@ class Mission
 				};
 			};
 			id=51;
-			atlOffset=-1.2986832;
+			atlOffset=198.02528;
 		};
 		class Item2
 		{
@@ -8096,7 +8095,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="call{[this, ""TANK""] call FNC_VehicleGearScript; [this, ""T-90A"", ""MSV""] call FNC_TrackAsset; if (isServer) then {this  setVariable [""RHS_randomNumber"", 114, true]; this setObjectTextureGlobal [9, ""rhsafrf\addons\rhs_decals\data\numbers\default\1_ca.paa""]; this setObjectTextureGlobal [10, ""rhsafrf\addons\rhs_decals\data\numbers\default\1_ca.paa""]; this setObjectTextureGlobal [11, ""rhsafrf\addons\rhs_decals\data\numbers\default\4_ca.paa""]; this disableTIEquipment true;};}";
+						init="call{[this, ""TANK""] call FNC_VehicleGearScript; [this, ""T-90A"", ""MSV""] call FNC_TrackAsset; if (isServer) then {this  setVariable [""RHS_randomNumber"", 114, true]; this setObjectTextureGlobal [9, ""rhsafrf\addons\rhs_decals\data\numbers\default\1_ca.paa""]; this setObjectTextureGlobal [10, ""rhsafrf\addons\rhs_decals\data\numbers\default\1_ca.paa""]; this setObjectTextureGlobal [11, ""rhsafrf\addons\rhs_decals\data\numbers\default\4_ca.paa""];};}";
 						name="TANK_RECCE_1";
 					};
 					id=54;
@@ -8333,7 +8332,7 @@ class Mission
 					};
 					id=55;
 					type="rhs_t90a_tv";
-					atlOffset=0.0079956055;
+					atlOffset=0.0080032349;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -16492,7 +16491,7 @@ class Mission
 				};
 			};
 			id=53;
-			atlOffset=50.082676;
+			atlOffset=211.18811;
 		};
 		class Item3
 		{
