@@ -50,6 +50,7 @@ There will be a 5 minute set up time, no elements may move more than 100m from t
 <br/>ACRE radio interference is turned off.
 <br/>ACRE AI hear players is turned off
 <br/>
+<br/>IFVs and helicopters have TI equipment disabled.
 <br/>
 <br/>ACE Medical is enabled.
 <br/>Medics can stitch stable patients anywhere. Surgical kit not consumed.
@@ -58,9 +59,10 @@ There will be a 5 minute set up time, no elements may move more than 100m from t
 <br/>
 <br/><font color='#FFA500'>CREDITS</font>
 <br/>Everyone involved in the event planing.
-<br/>Briefing by Max.
+<br/>Briefing by Max and Delta38.
+<br/>Special thanks to Blue.
 <br/>
-<br/>  <font color='#FFA500'>Mission started by TinfoilHate and finished by BlackHawk</font>
+<br/>  <font color='#FFA500'>Mission by BlackHawk</font>
 ENDTAB;
 
 NEWTAB("Game Mastering")
