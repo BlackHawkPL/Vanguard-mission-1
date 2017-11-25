@@ -72,41 +72,6 @@ case "RU_PSGT": {
 
 };
 
-case "RU_RTO": {
-    ["rhs_uniform_msv_emr"] call FNC_AddItem;
-    ["rhs_6b23_digi_rifleman"] call FNC_AddItem;
-    ["rhs_assault_umbts"] call FNC_AddItem;
-
-    ["rhs_6b7_1m_emr_ess"] call FNC_AddItem;
-    
-    ["NVGoggles"] call FNC_AddItem;
-
-    ["ItemMap"] call FNC_AddItem;
-    ["ItemCompass"] call FNC_AddItem;
-    ["ItemWatch"] call FNC_AddItem;
-    ["ACE_Flashlight_KSF1",1,"vest"] call FNC_AddItem;
-
-
-    ["ACE_fieldDressing",3,"uniform"] call FNC_AddItem;
-    ["ACE_morphine",1,"uniform"] call FNC_AddItem;
-    ["ACRE_PRC343",1,"uniform"] call FNC_AddItem;
-    ["ACE_elasticBandage",3,"uniform"] call FNC_AddItem;
-    ["ACE_quikclot",3,"uniform"] call FNC_AddItem;
-    ["ACE_EarPlugs",1,"uniform"] call FNC_AddItem;
-    ["ACE_packingBandage",3,"uniform"] call FNC_AddItem;
-    ["ACE_tourniquet",1,"uniform"] call FNC_AddItem;
-    ["ACE_DAGR",1,"vest"] call FNC_AddItem;
-    ["rhs_mag_rgn",1,"uniform"] call FNC_AddItem;
-    ["rhs_30Rnd_545x39_7N10_AK",7,"vest"] call FNC_AddItem;
-    ["rhs_mag_rdg2_white",1,"vest"] call FNC_AddItem;
-    ["ACRE_PRC77",1,"backpack"] call FNC_AddItem;
-    ["ACRE_PRC117F",1,"backpack"] call FNC_AddItem;
-
-    ["rhs_weap_ak74m"] call FNC_AddItem;
-    _unit addPrimaryWeaponItem "rhs_acc_dtk";
-    _unit addPrimaryWeaponItem "rhs_acc_perst1ik";
-};
-
 case "RU_SL": {
     ["rhs_uniform_msv_emr"] call FNC_AddItem;
     ["rhs_6b23_digi_6sh92_headset_mapcase"] call FNC_AddItem;
