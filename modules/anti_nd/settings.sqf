@@ -6,7 +6,7 @@
 
 // Distance:
 // Distance is recommended for regular assault missions.
-#define ANTI_ND_DIST 50 // in meters.
+#define ANTI_ND_DIST 100 // in meters.
 
 
 // If you want to disable a setting, set it to 0.
