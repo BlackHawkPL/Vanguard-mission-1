@@ -135,7 +135,7 @@ case "RU_MKS": {
     ["rhs_mag_9x19_17",2,"vest"] call FNC_AddItem;
 
     ["rhs_weap_svdp"] call FNC_AddItem;
-    _unit addPrimaryWeaponItem "rhs_acc_1pn93_1";
+    _unit addPrimaryWeaponItem "rhs_acc_pso1m2";
 
     ["rhs_weap_pya"] call FNC_AddItem;
 };
@@ -551,6 +551,8 @@ case "RU_TC": {
     ["rhs_mag_rdg2_white",1,"vest"] call FNC_AddItem;
     ["rhs_30Rnd_545x39_7N10_AK",3,"vest"] call FNC_AddItem;
 
+    ["ACRE_PRC343"] call FNC_AddItem;
+
     ["rhs_weap_aks74u"] call FNC_AddItem;
     _unit addPrimaryWeaponItem "rhs_acc_pgs64_74u";
 
@@ -581,6 +583,8 @@ case "RU_GNR": {
     ["rhs_mag_rdg2_white",1,"vest"] call FNC_AddItem;
     ["rhs_30Rnd_545x39_7N10_AK",3,"vest"] call FNC_AddItem;
 
+    ["ACRE_PRC343"] call FNC_AddItem;
+
     ["rhs_weap_aks74u"] call FNC_AddItem;
     _unit addPrimaryWeaponItem "rhs_acc_pgs64_74u";
 
@@ -610,6 +614,8 @@ case "RU_DRV": {
     ["ACE_tourniquet",1,"uniform"] call FNC_AddItem;
     ["rhs_mag_rdg2_white",1,"vest"] call FNC_AddItem;
     ["rhs_30Rnd_545x39_7N10_AK",3,"vest"] call FNC_AddItem;
+
+    ["ACRE_PRC343"] call FNC_AddItem;
 
     ["rhs_weap_aks74u"] call FNC_AddItem;
     _unit addPrimaryWeaponItem "rhs_acc_pgs64_74u";
@@ -663,9 +669,9 @@ case "RU_AA": {
     ["ItemMap"] call FNC_AddItem;
     ["ItemCompass"] call FNC_AddItem;
     ["ItemWatch"] call FNC_AddItem;
-    ["Binocular"] call FNC_AddItem;
+    //["Binocular"] call FNC_AddItem;
     ["ACE_Flashlight_KSF1",1,"vest"] call FNC_AddItem;
-    ["ACRE_PRC148",1,"vest"] call FNC_AddItem;
+    //["ACRE_PRC148",1,"vest"] call FNC_AddItem;
 
     ["ACRE_PRC343",1,"uniform"] call FNC_AddItem;
     ["ACE_fieldDressing",3,"uniform"] call FNC_AddItem;
@@ -677,7 +683,7 @@ case "RU_AA": {
     ["ACE_tourniquet",1,"uniform"] call FNC_AddItem;
     ["rhs_mag_rgn",1,"uniform"] call FNC_AddItem;
     ["rhs_mag_rdg2_white",1,"uniform"] call FNC_AddItem;
-    ["ACE_MapTools",1,"vest"] call FNC_AddItem;
+    //["ACE_MapTools",1,"vest"] call FNC_AddItem;
     ["rhs_30Rnd_545x39_AK",7,"vest"] call FNC_AddItem;
 
     ["rhs_weap_ak74m"] call FNC_AddItem;
