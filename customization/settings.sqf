@@ -18,7 +18,7 @@ if (isServer) then {
 
 if (!isDedicated) then {
 
-    FW_DebugMessagesEnabled = true;
+    FW_DebugMessagesEnabled = false;
 
     setViewDistance 5000;
     
@@ -54,10 +54,10 @@ if (!isDedicated) then {
         };
     }, 1] call CBA_fnc_addPerFrameHandler;
 
-    [{time > 0},
+    [{time > 1},
     {
-        //{_x call vk_fnc_deleteMarker} foreach _this;
-    }, [_NatoMarkers]] call CBA_fnc_WaitUntilAndExecute;
+        {_x call vk_fnc_deleteMarker} foreach _this;
+    }, _NatoMarkers] call CBA_fnc_WaitUntilAndExecute;
     
     [{!isNull (findDisplay 46)},
     {
