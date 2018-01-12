@@ -36,7 +36,7 @@ FW_enable_scramble = true;
 //CHANNEL NAMES
 /////////////
 
-FW_enable_channel_names = false;
+FW_enable_channel_names = true;
 
 //define custom radio channel names in following array
 //don't change "label" value!
