@@ -38,7 +38,7 @@ ENDTAB;
 NEWTAB("4. SUSTAINMENT")
 	Helicopters are under a 15 setup timer in order to simulate them currently performing operations in support of other maneuver units in the brigade AO.
 	<br/>Operating Area. The enemy has several air defense artillery (ADA) assets around their main FOB. Stay within the Air Operating Area so as to not risk the loss of your platform. We also have ADA around our FOB that will prevent enemy air from operating North of the DMZ.
-Fuel
+<br/>
 	<br/>Each helicopter starts with approx. 15-20 min. of fuel.
 There is resupply available at the Forward Aerial Resupply Point (FARP). Resupply consists of an additional 15-20 minutes of fuel and additional ammo (see below). Resupply actions take approx. 10 min.
 ENDTAB;
@@ -58,8 +58,8 @@ NEWTAB("5. COMMAND & SIGNAL:")
 	<br/>------ ADA Section - 'Serpent' ------
 	<br/>
 	<br/>1 SEC Team 1- Serpent 1 - LR 1 / SR 7
-	<br/>2 SEC Team 2 - Serpent 2 - LR 1 / SR 7
-	<br/>3 SEC Team 3 - Serpent 3 - LR 1 / SR 7
+	<br/>2 SEC Team 2 - Serpent 2 - SR 7
+	<br/>3 SEC Team 3 - Serpent 3 - SR 7
 	<br/>
 	<br/>------ Mortar Section - 'Bagrets' ------
 	<br/>

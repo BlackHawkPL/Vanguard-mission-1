@@ -26,15 +26,15 @@ NEWTAB("BAF M6 Mortar system")
 ENDTAB;
 
 NEWTAB("MISSION NOTES:")
-There will be a 5 minute set up time, no elements may move more than 100m from their starting locations until A GM calls the mission to be live.
+There will be a 5 minute set up time, no elements may move more than 100m from their starting locations until a GM calls the mission to be live.
 <br/>Air assets can take off 15 minutes after setup time expires.
 <br/>
-<br/>Tank tracks can be repaired by anyone with a repair kit. IMPORTANT: Track spare parts have to be unloaded from vehicle’s inventory first!
+<br/>Tank tracks can be repaired by anyone with a repair kit. IMPORTANT: Track spare parts have to be unloaded from vehicle’s inventory first.
 <br/>AH-6 pilots might need to “center head move“ (Left Ctrl + 5[NUM] by default) in order to line up aiming reticle with where guns are pointing. Despite that, rounds might still hit too high (use top of drawn circle as aim point).
 <br/>
 <br/>Mission will be called by a GM if objective is achieved.
 <br/>
-<br/>Time limit is 120 Minutes (enforced by a GM).
+<br/>Time limit is 120 minutes counting from announced mission start. (enforced by a GM).
 <br/>
 <br/>Jip enabled, with teleport.
 <br/>
