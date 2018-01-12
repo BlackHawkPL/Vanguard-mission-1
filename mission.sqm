@@ -5,7 +5,7 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=1545;
+	toggles=1546;
 	class ItemIDProvider
 	{
 		nextID=1060;
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=184;
+		nextID=194;
 	};
 	class Camera
 	{
-		pos[]={18517.414,110.7366,11819.425};
-		dir[]={-0.85157251,-0.36218765,-0.37924051};
-		up[]={-0.33088672,0.93209255,-0.14735827};
-		aside[]={-0.40686402,9.0221874e-007,0.91360509};
+		pos[]={18452.498,124.94766,11774.335};
+		dir[]={0.7852174,-0.5048309,0.35859239};
+		up[]={0.4592129,0.86321622,0.20971258};
+		aside[]={0.41541207,-5.219772e-008,-0.90963769};
 	};
 };
 binarizationWanted=0;
@@ -9576,7 +9576,7 @@ class Mission
 					{
 						lock="UNLOCKED";
 						fuel=0.077153683;
-						init="call{[this, ""RU_HELI""] call FNC_VehicleGearScript; if (local this) then {this call compile preprocessFileLineNumbers ""customization\scripts\RUheli.sqf""; this disableTIEquipment true;}; [this, ""Ka-52"", ""MSV""] call FNC_TrackAsset;}";
+						init="call{[this, ""RU_HELI""] call FNC_VehicleGearScript; if (local this) then {this call compile preprocessFileLineNumbers ""customization\scripts\RUheli.sqf""; this disableTIEquipment true;}; [this, ""Ka-52"", ""MSV""] call FNC_TrackAsset; if (local this) then {{this enableVehicleSensor [_x select 0, false]} forEach listVehicleSensors this};}";
 						name="r10";
 						pylons="rhs_mag_ub32_ka52_s5m1;rhs_mag_ub32_ka52_s5k1;rhs_mag_apu6_9m127m_ka52[0];rhs_mag_apu6_9m127m_ka52[0];";
 					};
@@ -9813,7 +9813,7 @@ class Mission
 					{
 						lock="UNLOCKED";
 						fuel=0.077153683;
-						init="call{[this, ""RU_HELI""] call FNC_VehicleGearScript; if (local this) then {this call compile preprocessFileLineNumbers ""customization\scripts\RUheli.sqf""; this disableTIEquipment true;}; [this, ""Ka-52"", ""MSV""] call FNC_TrackAsset;}";
+						init="call{[this, ""RU_HELI""] call FNC_VehicleGearScript; if (local this) then {this call compile preprocessFileLineNumbers ""customization\scripts\RUheli.sqf""; this disableTIEquipment true;}; [this, ""Ka-52"", ""MSV""] call FNC_TrackAsset; if (local this) then {{this enableVehicleSensor [_x select 0, false]} forEach listVehicleSensors this};}";
 						name="r9";
 						pylons="rhs_mag_ub32_ka52_s5m1;rhs_mag_ub32_ka52_s5k1;rhs_mag_apu6_9m127m_ka52[0];rhs_mag_apu6_9m127m_ka52[0];";
 					};
@@ -13418,20 +13418,19 @@ class Mission
 							class PositionInfo
 							{
 								position[]={18512.311,100.71738,11797.667};
-								angles[]={0.015998369,4.3689256,0.046631888};
+								angles[]={0.016004669,4.3689256,0.046635196};
 							};
 							side="East";
 							flags=6;
 							class Attributes
 							{
 								rank="SERGEANT";
-								init="call{[this, ""RU_TC"", ""AKATSIYA 4""] call FNC_GearScript; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
+								init="call{[this, ""RU_TC"", ""AKATSIYA 4""] call FNC_GearScript; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio; [this, ""ACRE_PRC343"", 5, ""LEFT""] call FNC_SetRadio;}";
 								description="Tank Commander @AKATSIYA 4 | T-90A";
 								isPlayable=1;
 							};
 							id=447;
 							type="rhs_msv_emr_crew_commander";
-							atlOffset=-7.6293945e-006;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -13538,14 +13537,14 @@ class Mission
 							class PositionInfo
 							{
 								position[]={18513.59,100.7803,11797.063};
-								angles[]={0.0026744273,4.3689256,0.046631888};
+								angles[]={0.0026703537,4.3689256,0.046635196};
 							};
 							side="East";
 							flags=4;
 							class Attributes
 							{
 								rank="CORPORAL";
-								init="call{[this, ""RU_GNR"", ""AKATSIYA 4""] call FNC_GearScript;}";
+								init="call{[this, ""RU_GNR"", ""AKATSIYA 4""] call FNC_GearScript; [this, ""ACRE_PRC343"", 5, ""LEFT""] call FNC_SetRadio;}";
 								description="Tank Gunner";
 								isPlayable=1;
 							};
@@ -13657,14 +13656,14 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={18512.916,100.72523,11798.945};
-								angles[]={0.015998369,4.3689256,0.046631888};
+								position[]={18512.916,100.72521,11798.946};
+								angles[]={0.016004669,4.3689256,0.046635196};
 							};
 							side="East";
 							flags=4;
 							class Attributes
 							{
-								init="call{[this, ""RU_DRV"", ""AKATSIYA 4""] call FNC_GearScript;}";
+								init="call{[this, ""RU_DRV"", ""AKATSIYA 4""] call FNC_GearScript; [this, ""ACRE_PRC343"", 5, ""LEFT""] call FNC_SetRadio;}";
 								description="Tank Driver";
 								isPlayable=1;
 							};
@@ -13756,7 +13755,6 @@ class Mission
 					{
 					};
 					id=242;
-					atlOffset=-7.6293945e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -13813,14 +13811,14 @@ class Mission
 							class PositionInfo
 							{
 								position[]={18507.934,100.43536,11809.908};
-								angles[]={6.2618566,4.3689256,0.077179953};
+								angles[]={6.2618575,4.3689256,0.077178456};
 							};
 							side="East";
 							flags=6;
 							class Attributes
 							{
 								rank="SERGEANT";
-								init="call{[this, ""RU_TC"", ""AKATSIYA 5""] call FNC_GearScript; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio;}";
+								init="call{[this, ""RU_TC"", ""AKATSIYA 5""] call FNC_GearScript; [this, ""ACRE_PRC148"", 1, ""RIGHT""] call FNC_SetRadio; [this, ""ACRE_PRC343"", 5, ""LEFT""] call FNC_SetRadio;}";
 								description="Tank Commander @AKATSIYA 5 | T-90A";
 								isPlayer=1;
 								isPlayable=1;
@@ -13933,14 +13931,14 @@ class Mission
 							class PositionInfo
 							{
 								position[]={18509.211,100.52132,11809.304};
-								angles[]={6.2618566,4.3689256,0.077179953};
+								angles[]={6.2618575,4.3689256,0.077178456};
 							};
 							side="East";
 							flags=4;
 							class Attributes
 							{
 								rank="CORPORAL";
-								init="call{[this, ""RU_GNR"", ""AKATSIYA 5""] call FNC_GearScript;}";
+								init="call{[this, ""RU_GNR"", ""AKATSIYA 5""] call FNC_GearScript; [this, ""ACRE_PRC343"", 5, ""LEFT""] call FNC_SetRadio;}";
 								description="Tank Gunner";
 								isPlayable=1;
 							};
@@ -14052,19 +14050,18 @@ class Mission
 							class PositionInfo
 							{
 								position[]={18508.537,100.50938,11811.187};
-								angles[]={6.2618566,4.3689256,0.077179953};
+								angles[]={6.2618575,4.3689256,0.077178456};
 							};
 							side="East";
 							flags=4;
 							class Attributes
 							{
-								init="call{[this, ""RU_DRV"", ""AKATSIYA 5""] call FNC_GearScript;}";
+								init="call{[this, ""RU_DRV"", ""AKATSIYA 5""] call FNC_GearScript; [this, ""ACRE_PRC343"", 5, ""LEFT""] call FNC_SetRadio;}";
 								description="Tank Driver";
 								isPlayable=1;
 							};
 							id=445;
 							type="rhs_msv_emr_crew";
-							atlOffset=-7.6293945e-006;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -17609,24 +17606,24 @@ class Mission
 		class Item25
 		{
 			dataType="Marker";
-			position[]={18487.691,0.74853516,11782.826};
+			position[]={18456.875,0.74853516,11787.688};
 			name="rm2";
 			text="Akatsiya 1";
 			type="dk_zn_bmp_def";
 			angle=338.69681;
 			id=946;
-			atlOffset=-98.315849;
+			atlOffset=-95.480049;
 		};
 		class Item26
 		{
 			dataType="Marker";
-			position[]={18457.129,0.054199219,11787.769};
+			position[]={18488.023,0.054199219,11782.627};
 			name="rm3";
 			text="Akatsiya 2";
 			type="dk_zn_bmp_def";
 			angle=338.69681;
 			id=947;
-			atlOffset=-96.19503;
+			atlOffset=-99.042091;
 		};
 		class Item27
 		{
@@ -17737,7 +17734,26 @@ class Mission
 						};
 					};
 				};
-				nAttributes=1;
+				class Attribute1
+				{
+					property="#hideLocally";
+					expression="_this setVariable [""#hideLocally"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=2;
 			};
 		};
 		class Item35
@@ -17773,7 +17789,26 @@ class Mission
 						};
 					};
 				};
-				nAttributes=1;
+				class Attribute1
+				{
+					property="#hideLocally";
+					expression="_this setVariable [""#hideLocally"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=2;
 			};
 		};
 		class Item36
