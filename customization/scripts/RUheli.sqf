@@ -11,7 +11,7 @@ _this removeMagazineTurret ["rhs_mag_apu6_9m127m_ka52", [0]];
 
 _this removeMagazineTurret ["rhs_mag_apu6_9m127m_ka52", [0]];
 _this addMagazineTurret ["rhs_mag_apu6_9m127m_ka52", [0], 1];
-if (_this == REDFOR_HELI_1) then {
+if (_this == r9) then {
     _this addMagazineTurret ["rhs_mag_ub32_ka52_s5m1", [-1], 8];
 }
 else {
