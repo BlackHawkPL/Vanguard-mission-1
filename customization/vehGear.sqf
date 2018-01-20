@@ -75,7 +75,7 @@ switch (_type) do {
 		_vehicle call FNC_RemoveAllVehicleGear;
 
 		["UK3CB_BAF_1Rnd_60mm_Mo_Shells", 10] call FNC_AddItemVehicle;
-		["UK3CB_BAF_1Rnd_60mm_Mo_Smoke_White", 5] call FNC_AddItemVehicle;
+		["UK3CB_BAF_1Rnd_60mm_Mo_WPSmoke_White", 5] call FNC_AddItemVehicle;
         ["ACE_MapTools",6] call FNC_AddItemVehicle;
         
         ["UK3CB_BAF_M6", 2] call FNC_AddItemVehicle;
@@ -86,7 +86,7 @@ switch (_type) do {
 		_vehicle call FNC_RemoveAllVehicleGear;
 
 		["UK3CB_BAF_1Rnd_60mm_Mo_Shells", 10] call FNC_AddItemVehicle;
-		["UK3CB_BAF_1Rnd_60mm_Mo_Smoke_White", 5] call FNC_AddItemVehicle;
+		["UK3CB_BAF_1Rnd_60mm_Mo_WPSmoke_White", 5] call FNC_AddItemVehicle;
 	};
 
 	case "BMP-3": {
