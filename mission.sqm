@@ -5,7 +5,7 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=1545;
+	toggles=1546;
 	class ItemIDProvider
 	{
 		nextID=1060;
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=209;
+		nextID=229;
 	};
 	class Camera
 	{
 		pos[]={18548.4,113.52644,11809.294};
-		dir[]={-0.73866338,-0.63192564,-0.23472457};
-		up[]={-0.60226774,0.77501655,-0.19138102};
-		aside[]={-0.30285281,-6.40488e-007,0.95306182};
+		dir[]={-0.93125325,-0.1947255,-0.30810729};
+		up[]={-0.18489851,0.98085332,-0.061172757};
+		aside[]={-0.31411794,-1.44355e-007,0.94942576};
 	};
 };
 binarizationWanted=0;
@@ -216,7 +216,7 @@ randomSeed=13989647;
 class ScenarioData
 {
 	author="BlackHawk";
-	overviewText="Mission 1 of Operation Road Warrior";
+	overviewText="Mission 1 of Operation Road Warrior Event";
 	onLoadMission="Mission 1 of Operation Road Warrior";
 	disabledAI=1;
 	class Header
@@ -276,9 +276,9 @@ class Mission
 		wavesForced=1;
 		windForced=1;
 		year=2017;
-		month=8;
-		day=8;
-		hour=3;
+		month=6;
+		day=30;
+		hour=4;
 		minute=0;
 		startFogBase=-1000;
 		forecastFogBase=-1000;
