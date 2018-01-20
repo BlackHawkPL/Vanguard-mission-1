@@ -10,7 +10,7 @@ switch (side player) do {
 	};
 };
 
-NEWTAB("BAF M6 Mortar system")
+NEWTAB("BAF M6 MORTAR SYSTEM")
 <br/><font color='#FFA500'>M6 mortar</font>
 <br/>Due to the M6 Mortar being a little differnt than the normal Ace Mortar, is here a short crash course. Taken from BAFs own guide.
 <br/>
@@ -25,18 +25,18 @@ NEWTAB("BAF M6 Mortar system")
 <br/>9. Once the correct charge, traversal and elevation are set, then fire …
 ENDTAB;
 
-NEWTAB("MISSION NOTES:")
-There will be a 5 minute set up time, no elements may move more than 100m from their starting locations until a GM calls the mission to be live.
+NEWTAB("MISSION NOTES")
+There will be a 5 minute set up time, no elements may move more than 100m from their starting locations until A GM calls the mission to be live.
 <br/>Air assets can take off 15 minutes after setup time expires.
 <br/>
-<br/>Tank tracks can be repaired by anyone with a repair kit. IMPORTANT: Track spare parts have to be unloaded from vehicle’s inventory first.
+<br/>Tank tracks can be repaired by anyone with a repair kit. IMPORTANT: Track spare parts have to be unloaded from vehicle’s inventory first!
 <br/>AH-6 pilots might need to “center head move“ (Left Ctrl + 5[NUM] by default) in order to line up aiming reticle with where guns are pointing. Despite that, rounds might still hit too high (use top of drawn circle as aim point).
 <br/>
-<br/>Mission will be called by a GM if objective is achieved.
+<br/>Mission will be called by a GM if objective is achieved (see game mastering tab).
 <br/>
-<br/>Time limit is 120 minutes counting from announced mission start. (enforced by a GM).
+<br/>Time limit is 120 Minutes (enforced by a GM).
 <br/>
-<br/>Jip enabled, with teleport.
+<br/>JIP enabled, with teleport.
 <br/>
 <br/><font color='#FFA500'>TECHNICAL ASPECTS</font>
 <br/>View Distance: 5000m.
@@ -65,7 +65,7 @@ There will be a 5 minute set up time, no elements may move more than 100m from t
 <br/>  <font color='#FFA500'>Mission by BlackHawk</font>
 ENDTAB;
 
-NEWTAB("Game Mastering")
+NEWTAB("GAME MASTERING")
 This mission is designed to be ended by a logged-in admin via ACE self-interaction menu.
 ENDTAB;
 
